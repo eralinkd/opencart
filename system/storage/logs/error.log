@@ -1,0 +1,2 @@
+2025-11-26 20:15:21 - Access denied for user 'mobius'@'localhost' (using password: YES) in D:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 106
+2025-11-26 20:17:48 - Error: Table 'opencart.oc_store' doesn't exist<br/>Error No: 1146<br/>SELECT * FROM `oc_store` WHERE REPLACE(`url`, 'www.', '') = 'http://localhost:8080/opencart/' in D:\xampp\htdocs\opencart\system\library\db\mysqli.php on line 180

@@ -107,6 +107,6 @@ class ColumnRight extends \Opencart\System\Engine\Controller {
 			}
 		}
 
-        return $this->load->view('common/column_right', $data);
+		return $this->load->view('common/column_right', $data);
 	}
 }

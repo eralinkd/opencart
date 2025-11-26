@@ -3,7 +3,7 @@
 define('APPLICATION', 'Catalog');
 
 // HTTP
-define('HTTP_SERVER', 'http://opencart.local/');
+define('HTTP_SERVER', 'http://localhost:8080/opencart/');
 
 // DIR
 define('DIR_OPENCART', 'D:/xampp/htdocs/opencart/');

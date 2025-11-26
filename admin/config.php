@@ -3,8 +3,8 @@
 define('APPLICATION', 'Admin');
 
 // HTTP
-define('HTTP_SERVER', 'http://opencart.local/admin/');
-define('HTTP_CATALOG', 'http://opencart.local/');
+define('HTTP_SERVER', 'http://localhost:8080/opencart/admin/');
+define('HTTP_CATALOG', 'http://localhost:8080/opencart/');
 
 // DIR
 define('DIR_OPENCART', 'D:/xampp/htdocs/opencart/');
@@ -31,6 +31,7 @@ define('DB_PASSWORD', 'mobius');
 define('DB_DATABASE', 'opencart');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
+
 define('DB_SSL_KEY', '');
 define('DB_SSL_CERT', '');
 define('DB_SSL_CA', '');

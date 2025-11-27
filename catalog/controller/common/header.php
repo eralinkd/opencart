@@ -20,6 +20,7 @@ class Header extends \Opencart\System\Engine\Controller {
 		$data['index'] = 'catalog/view/stylesheet/index.css';
 		$data['app_header'] = 'catalog/view/stylesheet/app_header.css';
 		$data['page_home'] = 'catalog/view/stylesheet/home.css';
+		$data['app_footer'] = 'catalog/view/stylesheet/app_footer.css';
 		// Компонент кнопки (Web Component)
 		$this->document->addScript('catalog/view/javascript/button-component.js');
 		$this->document->addScript('catalog/view/javascript/button-secondary.js');

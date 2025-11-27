@@ -1,0 +1,159 @@
+{#
+  Компоненты с изолированными стилями
+  
+  Использование:
+  {% import 'common/components.twig' as components %}
+  {{ components.button('Добавить', add, 'primary') }}
+#}
+
+{# Компонент кнопки #}
+{% macro button(text, href = null, type = 'primary', icon = null, tooltip = null, onclick = null, form = null, formaction = null, disabled = false) %}
+  {% set buttonId = 'oc-btn-' ~ random() %}
+  <span class="oc-button-wrapper" id="{{ buttonId }}">
+    {% if href %}
+      <a href="{{ href }}" 
+         class="oc-button oc-button-{{ type }}"
+          {% if tooltip %} 
+         title="{{ tooltip }}" 
+         {% endif %}
+         {% if onclick %}onclick="{{ onclick }}"{% endif %}
+         {% if disabled %}aria-disabled="true"{% endif %}>
+        {% if icon %}<i class="fa-solid fa-{{ icon }}"></i>{% endif %}
+        {% if icon and text %} {% endif %}
+        {{ text }}
+      </a>
+    {% else %}
+      <button type="{% if formaction %}submit{% else %}button{% endif %}"
+              {% if form %}form="{{ form }}"{% endif %}
+              {% if formaction %}formaction="{{ formaction }}"{% endif %}
+              class="oc-button oc-button-{{ type }}"
+              {% if tooltip %}title="{{ tooltip }}"{% endif %}
+              {% if onclick %}onclick="{{ onclick }}"{% endif %}
+              {% if disabled %}disabled="disabled"{% endif %}>
+        {% if icon %}<i class="fa-solid fa-{{ icon }}"></i>{% endif %}
+        {% if icon and text %} {% endif %}
+        {{ text }}
+      </button>
+    {% endif %}
+  </span>
+  
+  {# Scoped стили для этого компонента #}
+  <style>
+    #{{ buttonId }} .oc-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.625rem 1.25rem;
+      border-radius: 0.375rem;
+      font-weight: 600;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      white-space: nowrap;
+    }
+    
+    #{{ buttonId }} .oc-button:focus {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+    }
+    
+    #{{ buttonId }} .oc-button-primary {
+      background-color: #2563eb;
+      color: #ffffff;
+    }
+    
+    #{{ buttonId }} .oc-button-primary:hover:not([aria-disabled="true"]):not(:disabled) {
+      background-color: #1d4ed8;
+    }
+    
+    #{{ buttonId }} .oc-button-danger {
+      background-color: #dc2626;
+      color: #ffffff;
+    }
+    
+    #{{ buttonId }} .oc-button-danger:hover:not([aria-disabled="true"]):not(:disabled) {
+      background-color: #b91c1c;
+    }
+    
+    #{{ buttonId }} .oc-button-success {
+      background-color: #16a34a;
+      color: #ffffff;
+    }
+    
+    #{{ buttonId }} .oc-button-success:hover:not([aria-disabled="true"]):not(:disabled) {
+      background-color: #15803d;
+    }
+    
+    #{{ buttonId }} .oc-button-secondary {
+      background-color: #6b7280;
+      color: #ffffff;
+    }
+    
+    #{{ buttonId }} .oc-button-secondary:hover:not([aria-disabled="true"]):not(:disabled) {
+      background-color: #4b5563;
+    }
+    
+    #{{ buttonId }} .oc-button[aria-disabled="true"],
+    #{{ buttonId }} .oc-button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  </style>
+{% endmacro %}
+
+{# Иконка-кнопка #}
+{% macro iconButton(href = null, type = 'primary', icon = 'circle', tooltip = null, onclick = null) %}
+  {% set buttonId = 'oc-icon-btn-' ~ random() %}
+  <span class="oc-icon-button-wrapper" id="{{ buttonId }}">
+    {% if href %}
+      <a href="{{ href }}" 
+         class="oc-icon-button oc-icon-button-{{ type }}"
+         {% if tooltip %}title="{{ tooltip }}"{% endif %}
+         {% if onclick %}onclick="{{ onclick }}"{% endif %}>
+        <i class="fa-solid fa-{{ icon }}"></i>
+      </a>
+    {% else %}
+      <button type="button"
+              class="oc-icon-button oc-icon-button-{{ type }}"
+              {% if tooltip %}title="{{ tooltip }}"{% endif %}
+              {% if onclick %}onclick="{{ onclick }}"{% endif %}>
+        <i class="fa-solid fa-{{ icon }}"></i>
+      </button>
+    {% endif %}
+  </span>
+  
+  <style>
+    #{{ buttonId }} .oc-icon-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 0.375rem;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+    
+    #{{ buttonId }} .oc-icon-button-primary {
+      color: #2563eb;
+    }
+    
+    #{{ buttonId }} .oc-icon-button-primary:hover {
+      background-color: #eff6ff;
+    }
+    
+    #{{ buttonId }} .oc-icon-button-danger {
+      color: #dc2626;
+    }
+    
+    #{{ buttonId }} .oc-icon-button-danger:hover {
+      background-color: #fef2f2;
+    }
+  </style>
+{% endmacro %}
+

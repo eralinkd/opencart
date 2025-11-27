@@ -1,0 +1,88 @@
+{#
+  Компоненты с использованием SCSS стилей
+  
+  Использование:
+  {% import 'common/components_scss.twig' as components %}
+  {{ components.button('Добавить', add, 'primary') }}
+  
+  Стили находятся в admin/view/stylesheet/components.scss
+  и компилируются автоматически в components.css
+#}
+
+{# Компонент кнопки #}
+{% macro button(text, href = null, type = 'primary', icon = null, tooltip = null, onclick = null, form = null, formaction = null, disabled = false) %}
+  <span class="oc-button-wrapper">
+    {% if href %}
+      <a href="{{ href }}" 
+         class="oc-button oc-button-{{ type }}"
+         {% if tooltip %}title="{{ tooltip }}"{% endif %}
+         {% if onclick %}onclick="{{ onclick }}"{% endif %}
+         {% if disabled %}aria-disabled="true"{% endif %}>
+        {% if icon %}<i class="fa-solid fa-{{ icon }}"></i>{% endif %}
+        {% if icon and text %} {% endif %}
+        {{ text }}
+      </a>
+    {% else %}
+      <button type="{% if formaction %}submit{% else %}button{% endif %}"
+              {% if form %}form="{{ form }}"{% endif %}
+              {% if formaction %}formaction="{{ formaction }}"{% endif %}
+              class="oc-button oc-button-{{ type }}"
+              {% if tooltip %}title="{{ tooltip }}"{% endif %}
+              {% if onclick %}onclick="{{ onclick }}"{% endif %}
+              {% if disabled %}disabled="disabled"{% endif %}>
+        {% if icon %}<i class="fa-solid fa-{{ icon }}"></i>{% endif %}
+        {% if icon and text %} {% endif %}
+        {{ text }}
+      </button>
+    {% endif %}
+  </span>
+{% endmacro %}
+
+{# Иконка-кнопка #}
+{% macro iconButton(href = null, type = 'primary', icon = 'circle', tooltip = null, onclick = null) %}
+  <span class="oc-icon-button-wrapper">
+    {% if href %}
+      <a href="{{ href }}" 
+         class="oc-icon-button oc-icon-button-{{ type }}"
+         {% if tooltip %}title="{{ tooltip }}"{% endif %}
+         {% if onclick %}onclick="{{ onclick }}"{% endif %}>
+        <i class="fa-solid fa-{{ icon }}"></i>
+      </a>
+    {% else %}
+      <button type="button"
+              class="oc-icon-button oc-icon-button-{{ type }}"
+              {% if tooltip %}title="{{ tooltip }}"{% endif %}
+              {% if onclick %}onclick="{{ onclick }}"{% endif %}>
+        <i class="fa-solid fa-{{ icon }}"></i>
+      </button>
+    {% endif %}
+  </span>
+{% endmacro %}
+
+{# Карточка #}
+{% macro card(content, title = null) %}
+  <div class="oc-card">
+    {% if title %}
+      <div class="oc-card-header">{{ title }}</div>
+    {% endif %}
+    <div class="oc-card-body">
+      {{ content }}
+    </div>
+  </div>
+{% endmacro %}
+
+{# Информационная карточка #}
+{% macro infoCard(label, value) %}
+  <div class="oc-info-card">
+    <span class="oc-info-card-label">{{ label }}</span>
+    <div class="oc-info-card-value">
+      {% if value %}
+        {{ value }}
+      {% else %}
+        &nbsp;
+      {% endif %}
+    </div>
+  </div>
+{% endmacro %}
+
+

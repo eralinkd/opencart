@@ -63,3 +63,9 @@ $_['action_event']      = [
 		1 => 'event/translation'
 	]
 ];
+
+// Action Default
+$_['action_default'] = 'common/home';
+
+// Action Error
+$_['action_error'] = 'error/not_found';

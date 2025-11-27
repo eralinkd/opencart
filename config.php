@@ -32,3 +32,4 @@ define('DB_PREFIX', 'oc_');
 define('DB_SSL_KEY', '');
 define('DB_SSL_CERT', '');
 define('DB_SSL_CA', '');
+

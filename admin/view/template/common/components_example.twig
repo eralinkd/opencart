@@ -1,0 +1,56 @@
+{#
+  Пример использования компонентов
+  
+  Этот файл демонстрирует использование компонентов с SCSS стилями
+#}
+
+{% import 'common/components_scss.twig' as components %}
+
+<div style="padding: 2rem;">
+  <h2>Примеры компонентов</h2>
+  
+  <div style="margin-bottom: 2rem;">
+    <h3>Кнопки</h3>
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      {{ components.button('Primary', null, 'primary') }}
+      {{ components.button('Danger', null, 'danger') }}
+      {{ components.button('Success', null, 'success') }}
+      {{ components.button('Secondary', null, 'secondary') }}
+    </div>
+  </div>
+  
+  <div style="margin-bottom: 2rem;">
+    <h3>Кнопки с иконками</h3>
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      {{ components.button('Добавить', '#', 'primary', 'plus', 'Добавить новый элемент') }}
+      {{ components.button('Редактировать', '#', 'primary', 'pencil', 'Редактировать') }}
+      {{ components.button('Удалить', '#', 'danger', 'trash-can', 'Удалить') }}
+      {{ components.button('Сохранить', '#', 'success', 'save', 'Сохранить') }}
+    </div>
+  </div>
+  
+  <div style="margin-bottom: 2rem;">
+    <h3>Иконка-кнопки</h3>
+    <div style="display: flex; gap: 0.5rem;">
+      {{ components.iconButton('#', 'primary', 'pencil', 'Редактировать') }}
+      {{ components.iconButton('#', 'danger', 'trash-can', 'Удалить') }}
+      {{ components.iconButton('#', 'success', 'check', 'Подтвердить') }}
+    </div>
+  </div>
+  
+  <div style="margin-bottom: 2rem;">
+    <h3>Карточка</h3>
+    {{ components.card('Это содержимое карточки. Здесь может быть любой контент.', 'Заголовок карточки') }}
+  </div>
+  
+  <div style="margin-bottom: 2rem;">
+    <h3>Информационные карточки</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+      {{ components.infoCard('Номер заказа', '12345') }}
+      {{ components.infoCard('Дата', '2024-01-15') }}
+      {{ components.infoCard('Статус', 'Обработан') }}
+    </div>
+  </div>
+</div>
+
+

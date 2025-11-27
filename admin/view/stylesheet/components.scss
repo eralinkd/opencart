@@ -1,0 +1,153 @@
+// Компоненты с изолированными стилями через SCSS
+// Этот файл компилируется автоматически через startup/sass.php
+
+// Переменные
+$primary-color: #2563eb;
+$danger-color: #dc2626;
+$success-color: #16a34a;
+$secondary-color: #6b7280;
+
+// Базовые стили для кнопок
+.oc-button-wrapper {
+  display: inline-block;
+  
+  .oc-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.375rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    white-space: nowrap;
+    
+    &:focus {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+    }
+    
+    &[aria-disabled="true"],
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    
+    // Типы кнопок
+    &.oc-button-primary {
+      background-color: $primary-color;
+      color: #ffffff;
+      
+      &:hover:not([aria-disabled="true"]):not(:disabled) {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+    
+    &.oc-button-danger {
+      background-color: $danger-color;
+      color: #ffffff;
+      
+      &:hover:not([aria-disabled="true"]):not(:disabled) {
+        background-color: darken($danger-color, 10%);
+      }
+    }
+    
+    &.oc-button-success {
+      background-color: $success-color;
+      color: #ffffff;
+      
+      &:hover:not([aria-disabled="true"]):not(:disabled) {
+        background-color: darken($success-color, 10%);
+      }
+    }
+    
+    &.oc-button-secondary {
+      background-color: $secondary-color;
+      color: #ffffff;
+      
+      &:hover:not([aria-disabled="true"]):not(:disabled) {
+        background-color: darken($secondary-color, 10%);
+      }
+    }
+  }
+}
+
+// Иконка-кнопка
+.oc-icon-button-wrapper {
+  display: inline-block;
+  
+  .oc-icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.375rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+    &.oc-icon-button-primary {
+      color: $primary-color;
+      
+      &:hover {
+        background-color: rgba($primary-color, 0.1);
+      }
+    }
+    
+    &.oc-icon-button-danger {
+      color: $danger-color;
+      
+      &:hover {
+        background-color: rgba($danger-color, 0.1);
+      }
+    }
+  }
+}
+
+// Карточка
+.oc-card {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  
+  &-header {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  &-body {
+    // Контент карточки
+  }
+}
+
+// Информационная карточка
+.oc-info-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  
+  &-label {
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  &-value {
+    color: #6b7280;
+  }
+}
+
+

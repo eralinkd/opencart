@@ -40,294 +40,205 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
         $macros = $this->macros;
         // line 1
         yield "<!DOCTYPE html>
-<html dir=\"";
-        // line 2
-        yield ($context["direction"] ?? null);
-        yield "\" lang=\"";
-        yield ($context["lang"] ?? null);
-        yield "\">
-<head>
-  <meta charset=\"UTF-8\"/>
-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-  <title>";
+<html lang=\"en\">
+\t<head>
+\t\t<meta charset=\"UTF-8\"/>
+\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
+\t\t<title>";
         // line 7
         yield ($context["title"] ?? null);
         yield "</title>
-  <base href=\"";
-        // line 8
-        yield ($context["base"] ?? null);
-        yield "\"/>
-  ";
+
+\t\t";
         // line 9
         if (($context["description"] ?? null)) {
             // line 10
-            yield "    <meta name=\"description\" content=\"";
+            yield "\t\t\t<meta name=\"description\" content=\"";
             yield ($context["description"] ?? null);
             yield "\"/>
-  ";
+\t\t";
         }
         // line 12
-        yield "  ";
+        yield "\t\t";
         if (($context["keywords"] ?? null)) {
             // line 13
-            yield "    <meta name=\"keywords\" content=\"";
+            yield "\t\t\t<meta name=\"keywords\" content=\"";
             yield ($context["keywords"] ?? null);
             yield "\"/>
-  ";
+\t\t";
         }
         // line 15
-        yield "  <script src=\"";
-        yield ($context["jquery"] ?? null);
-        yield "\" type=\"text/javascript\"></script>
-  <link href=\"";
-        // line 16
-        yield ($context["bootstrap"] ?? null);
-        yield "\" type=\"text/css\" rel=\"stylesheet\" media=\"screen\"/>
-  <link href=\"";
-        // line 17
-        yield ($context["icons"] ?? null);
+        yield "
+\t\t";
+        // line 19
+        yield "
+\t\t";
+        // line 21
+        yield "\t\t";
+        // line 22
+        yield "\t\t<link href=\"";
+        yield ($context["reset"] ?? null);
+        yield "\" rel=\"stylesheet\" type=\"text/css\"/> 
+\t\t<link href=\"";
+        // line 23
+        yield ($context["index"] ?? null);
         yield "\" rel=\"stylesheet\" type=\"text/css\"/>
-  <link href=\"";
-        // line 18
-        yield ($context["stylesheet"] ?? null);
-        yield "\" type=\"text/css\" rel=\"stylesheet\"/>
-  <script src=\"catalog/view/javascript/common.js\" type=\"text/javascript\"></script>
-  ";
-        // line 20
+\t\t<link href=\"";
+        // line 24
+        yield ($context["app_header"] ?? null);
+        yield "\" rel=\"stylesheet\" type=\"text/css\"/>
+\t\t<link href=\"";
+        // line 25
+        yield ($context["page_home"] ?? null);
+        yield "\" rel=\"stylesheet\" type=\"text/css\"/>
+\t\t";
+        // line 26
         if (($context["icon"] ?? null)) {
-            // line 21
-            yield "    <link rel=\"icon\" href=\"";
+            // line 27
+            yield "\t\t\t<link rel=\"icon\" href=\"";
             yield ($context["icon"] ?? null);
             yield "\" type=\"image/png\">
-  ";
+\t\t";
         }
-        // line 23
-        yield "  ";
+        // line 29
+        yield "\t\t";
         $context['_parent'] = $context;
         $context['_seq'] = CoreExtension::ensureTraversable(($context["styles"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["style"]) {
-            // line 24
-            yield "    <link href=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "href", [], "any", false, false, false, 24);
+            // line 30
+            yield "\t\t\t<link href=\"";
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "href", [], "any", false, false, false, 30);
             yield "\" type=\"text/css\" rel=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "rel", [], "any", false, false, false, 24);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "rel", [], "any", false, false, false, 30);
             yield "\" media=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "media", [], "any", false, false, false, 24);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "media", [], "any", false, false, false, 30);
             yield "\"/>
-  ";
+\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_key'], $context['style'], $context['_parent']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 26
-        yield "  ";
+        // line 32
+        yield "\t\t";
         $context['_parent'] = $context;
         $context['_seq'] = CoreExtension::ensureTraversable(($context["scripts"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["script"]) {
-            // line 27
-            yield "    <script src=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["script"], "href", [], "any", false, false, false, 27);
+            // line 33
+            yield "\t\t\t<script src=\"";
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["script"], "href", [], "any", false, false, false, 33);
             yield "\" type=\"text/javascript\"></script>
-  ";
+\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_key'], $context['script'], $context['_parent']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 29
-        yield "  ";
-        $context['_parent'] = $context;
-        $context['_seq'] = CoreExtension::ensureTraversable(($context["links"] ?? null));
-        foreach ($context['_seq'] as $context["_key"] => $context["link"]) {
-            // line 30
-            yield "    <link href=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["link"], "href", [], "any", false, false, false, 30);
-            yield "\" rel=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["link"], "rel", [], "any", false, false, false, 30);
-            yield "\"/>
-  ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_key'], $context['link'], $context['_parent']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 32
-        yield "  ";
-        $context['_parent'] = $context;
-        $context['_seq'] = CoreExtension::ensureTraversable(($context["analytics"] ?? null));
-        foreach ($context['_seq'] as $context["_key"] => $context["analytic"]) {
-            // line 33
-            yield "    ";
-            yield $context["analytic"];
-            yield "
-  ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_key'], $context['analytic'], $context['_parent']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
         // line 35
-        yield "</head>
-<body>
-<div id=\"container\">
-  <div id=\"alert\"></div>
-  <nav id=\"top\">
-    <div class=\"container\">
-      <div class=\"row\">
-        <div class=\"col-4\">
-          <ul class=\"list-inline\">
-            <li class=\"list-inline-item me-3\">";
-        // line 44
-        yield ($context["currency"] ?? null);
-        yield "</li>
-            <li class=\"list-inline-item\">";
-        // line 45
-        yield ($context["language"] ?? null);
-        yield "</li>
-          </ul>
-        </div>
-        <div class=\"col text-end\">
-          <ul class=\"list-inline\">
-            <li class=\"list-inline-item\"><a href=\"";
-        // line 50
-        yield ($context["contact"] ?? null);
-        yield "\"><i class=\"fa-solid fa-phone\"></i> <span class=\"d-none d-lg-inline\">";
-        yield ($context["telephone"] ?? null);
-        yield "</span></a></li>
-            <li class=\"list-inline-item\">
-              <div class=\"dropdown\">
-                <a href=\"#\" class=\"dropdown-toggle\" data-bs-toggle=\"dropdown\"><i class=\"fa-solid fa-user\"></i> <span class=\"d-none d-lg-inline\">";
-        // line 53
-        yield ($context["text_account"] ?? null);
-        yield "</span> <i class=\"fa-solid fa-caret-down\"></i></a>
-                <ul class=\"dropdown-menu dropdown-menu-right\">
-                  ";
-        // line 55
-        if ( !($context["logged"] ?? null)) {
-            // line 56
-            yield "                    <li><a href=\"";
-            yield ($context["register"] ?? null);
-            yield "\" class=\"dropdown-item\">";
-            yield ($context["text_register"] ?? null);
-            yield "</a></li>
-                    <li><a href=\"";
-            // line 57
-            yield ($context["login"] ?? null);
-            yield "\" class=\"dropdown-item\">";
-            yield ($context["text_login"] ?? null);
-            yield "</a></li>
-                  ";
-        } else {
-            // line 59
-            yield "                    <li><a href=\"";
-            yield ($context["account"] ?? null);
-            yield "\" class=\"dropdown-item\">";
-            yield ($context["text_account"] ?? null);
-            yield "</a></li>
-                    <li><a href=\"";
-            // line 60
-            yield ($context["order"] ?? null);
-            yield "\" class=\"dropdown-item\">";
-            yield ($context["text_order"] ?? null);
-            yield "</a></li>
-                    <li><a href=\"";
-            // line 61
-            yield ($context["transaction"] ?? null);
-            yield "\" class=\"dropdown-item\">";
-            yield ($context["text_transaction"] ?? null);
-            yield "</a></li>
-                    <li><a href=\"";
-            // line 62
-            yield ($context["download"] ?? null);
-            yield "\" class=\"dropdown-item\">";
-            yield ($context["text_download"] ?? null);
-            yield "</a></li>
-                    <li><a href=\"";
-            // line 63
-            yield ($context["logout"] ?? null);
-            yield "\" class=\"dropdown-item\">";
-            yield ($context["text_logout"] ?? null);
-            yield "</a></li>
-                  ";
-        }
-        // line 65
-        yield "                </ul>
-              </div>
-            </li>
-            <li class=\"list-inline-item\"><a href=\"";
-        // line 68
-        yield ($context["wishlist"] ?? null);
-        yield "\" id=\"wishlist-total\" title=\"";
-        yield ($context["text_wishlist"] ?? null);
-        yield "\"><i class=\"fa-solid fa-heart\"></i> <span class=\"d-none d-lg-inline\">";
-        yield ($context["text_wishlist"] ?? null);
-        yield "</span></a></li>
-            <li class=\"list-inline-item\"><a href=\"";
-        // line 69
-        yield ($context["shopping_cart"] ?? null);
-        yield "\" title=\"";
-        yield ($context["text_shopping_cart"] ?? null);
-        yield "\"><i class=\"fa-solid fa-cart-shopping\"></i> <span class=\"d-none d-lg-inline\">";
-        yield ($context["text_shopping_cart"] ?? null);
-        yield "</span></a></li>
-            <li class=\"list-inline-item\"><a href=\"";
-        // line 70
-        yield ($context["checkout"] ?? null);
-        yield "\" title=\"";
-        yield ($context["text_checkout"] ?? null);
-        yield "\"><i class=\"fa-solid fa-share\"></i> <span class=\"d-none d-lg-inline\">";
-        yield ($context["text_checkout"] ?? null);
-        yield "</span></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <header>
-    <div class=\"container\">
-      <div class=\"row\">
-        <div class=\"col-md-3 col-lg-4\">
-          <div id=\"logo\">
-            ";
-        // line 81
-        if (($context["logo"] ?? null)) {
-            // line 82
-            yield "              <a href=\"";
-            yield ($context["home"] ?? null);
-            yield "\"><img src=\"";
-            yield ($context["logo"] ?? null);
-            yield "\" title=\"";
-            yield ($context["name"] ?? null);
-            yield "\" alt=\"";
-            yield ($context["name"] ?? null);
-            yield "\" class=\"img-fluid\"/></a>
-            ";
-        } else {
-            // line 84
-            yield "              <h1><a href=\"";
-            yield ($context["home"] ?? null);
-            yield "\">";
-            yield ($context["name"] ?? null);
-            yield "</a></h1>
-            ";
-        }
-        // line 86
-        yield "          </div>
-        </div>
-        <div class=\"col-md-5\">";
-        // line 88
-        yield ($context["search"] ?? null);
-        yield "</div>
-        <div id=\"cart\" class=\"col-md-4 col-lg-3 mb-2\">";
-        // line 89
-        yield ($context["cart"] ?? null);
-        yield "</div>
-      </div>
-    </div>
-  </header>
-  <main>
-    ";
-        // line 94
-        yield ($context["menu"] ?? null);
+        yield "\t</head>
+\t<body>
+
+\t\t";
+        // line 38
+        yield ($context["button_component"] ?? null);
         yield "
+\t\t";
+        // line 39
+        yield ($context["button_secondary"] ?? null);
+        yield "
+
+\t\t<header class=\"app-header ";
+        // line 41
+        if (($context["is_main_page"] ?? null)) {
+            yield "is-main-page";
+        }
+        yield "\">
+\t\t\t<div class=\"content\">
+\t\t\t\t<div class=\"left\">
+\t\t\t\t\t<div class=\"logo\">
+\t\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
+\t\t\t\t\t\t\t\t<path d=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\" fill=\"#4075AB\"/>
+\t\t\t\t\t\t\t\t<path d=\"M24.2834 3.5C24.7163 4.69949 24.9494 5.69931 24.9829 6.49947C25.0179 7.33465 24.8353 7.9523 24.4352 8.35242C21.3853 11.4023 16.4589 12.5756 13.409 15.6255C10.049 18.9855 8.56559 24.222 5.20563 27.582C5.11559 27.672 4.99538 27.7319 4.845 27.7615C4.20474 27.888 3.01756 27.4674 1.28345 26.5C0.316008 24.7659 -0.104511 23.5787 0.0218983 22.9384C0.0515881 22.7881 0.111456 22.6679 0.201492 22.5778C3.56145 19.2179 8.79797 17.7344 12.1579 14.3745C15.2078 11.3246 16.3811 6.39816 19.431 3.34827C19.8311 2.94816 20.4488 2.76558 21.284 2.80053C22.0841 2.83402 23.084 3.06717 24.2834 3.5Z\" fill=\"#4075AB\"/>
+\t\t\t\t\t\t\t\t<path d=\"M41.0134 23.3C39.9601 23.3 39.0101 23.1167 38.1634 22.75C37.3234 22.3833 36.6301 21.86 36.0834 21.18C35.5434 20.4933 35.2001 19.68 35.0534 18.74L37.5534 18.36C37.7668 19.2133 38.2034 19.8733 38.8634 20.34C39.5301 20.8067 40.2968 21.04 41.1634 21.04C41.6768 21.04 42.1601 20.96 42.6134 20.8C43.0668 20.64 43.4334 20.4067 43.7134 20.1C44.0001 19.7933 44.1434 19.4167 44.1434 18.97C44.1434 18.77 44.1101 18.5867 44.0434 18.42C43.9768 18.2467 43.8768 18.0933 43.7434 17.96C43.6168 17.8267 43.4501 17.7067 43.2434 17.6C43.0434 17.4867 42.8101 17.39 42.5434 17.31L38.8234 16.21C38.5034 16.1167 38.1568 15.9933 37.7834 15.84C37.4168 15.68 37.0668 15.4633 36.7334 15.19C36.4068 14.91 36.1368 14.5567 35.9234 14.13C35.7168 13.6967 35.6134 13.1633 35.6134 12.53C35.6134 11.6033 35.8468 10.8267 36.3134 10.2C36.7868 9.56667 37.4201 9.09333 38.2134 8.78C39.0134 8.46667 39.9001 8.31333 40.8734 8.32C41.8601 8.32667 42.7401 8.49667 43.5134 8.83C44.2868 9.15667 44.9334 9.63333 45.4534 10.26C45.9734 10.8867 46.3401 11.6433 46.5534 12.53L43.9634 12.98C43.8568 12.4733 43.6501 12.0433 43.3434 11.69C43.0434 11.33 42.6734 11.0567 42.2334 10.87C41.8001 10.6833 41.3368 10.5833 40.8434 10.57C40.3634 10.5633 39.9168 10.6367 39.5034 10.79C39.0968 10.9367 38.7668 11.15 38.5134 11.43C38.2668 11.71 38.1434 12.0367 38.1434 12.41C38.1434 12.7633 38.2501 13.0533 38.4634 13.28C38.6768 13.5 38.9401 13.6767 39.2534 13.81C39.5734 13.9367 39.8968 14.0433 40.2234 14.13L42.8034 14.85C43.1568 14.9433 43.5534 15.07 43.9934 15.23C44.4334 15.39 44.8568 15.6133 45.2634 15.9C45.6701 16.1867 46.0034 16.5633 46.2634 17.03C46.5301 17.4967 46.6634 18.09 46.6634 18.81C46.6634 19.5567 46.5068 20.2133 46.1934 20.78C45.8868 21.34 45.4701 21.8067 44.9434 22.18C44.4168 22.5533 43.8134 22.8333 43.1334 23.02C42.4601 23.2067 41.7534 23.3 41.0134 23.3ZM48.808 23L48.828 8.6H51.268V17.4L55.218 12.2H58.228L54.038 17.6L58.588 23H55.398L51.268 17.8V23H48.808ZM61.0097 27.8L63.0897 22.09L63.1297 23.77L58.4197 12.2H60.9297L64.2697 20.76H63.6297L66.8797 12.2H69.2897L63.2697 27.8H61.0097ZM70.7811 23V8.6H79.4511V11.01H73.1911V14.6H78.2511V17H73.1911V23H70.7811ZM81.4499 10.56V8.35H83.8599V10.56H81.4499ZM81.4499 23V12.2H83.8599V23H81.4499ZM85.6553 23L89.6053 17.54L85.7353 12.2H88.5753L91.0053 15.65L93.3953 12.2H96.2353L92.3653 17.54L96.3353 23H93.4953L91.0053 19.43L88.4953 23H85.6553Z\" fill=\"#2B2B2B\"/>
+\t\t\t\t\t\t\t</svg>
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"logo logo-white\">
+\t\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
+\t\t\t\t\t\t\t\t<path d=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\" fill=\"#4075AB\"/>
+\t\t\t\t\t\t\t\t<path d=\"M24.2834 3.5C24.7163 4.69949 24.9494 5.69931 24.9829 6.49947C25.0179 7.33465 24.8353 7.9523 24.4352 8.35242C21.3853 11.4023 16.4589 12.5756 13.409 15.6255C10.049 18.9855 8.56559 24.222 5.20563 27.582C5.11559 27.672 4.99538 27.7319 4.845 27.7615C4.20474 27.888 3.01756 27.4674 1.28345 26.5C0.316008 24.7659 -0.104511 23.5787 0.0218983 22.9384C0.0515881 22.7881 0.111456 22.6679 0.201492 22.5778C3.56145 19.2179 8.79797 17.7344 12.1579 14.3745C15.2078 11.3246 16.3811 6.39816 19.431 3.34827C19.8311 2.94816 20.4488 2.76558 21.284 2.80053C22.0841 2.83402 23.084 3.06717 24.2834 3.5Z\" fill=\"#4075AB\"/>
+\t\t\t\t\t\t\t\t<path d=\"M41.0134 23.3C39.9601 23.3 39.0101 23.1167 38.1634 22.75C37.3234 22.3833 36.6301 21.86 36.0834 21.18C35.5434 20.4933 35.2001 19.68 35.0534 18.74L37.5534 18.36C37.7668 19.2133 38.2034 19.8733 38.8634 20.34C39.5301 20.8067 40.2968 21.04 41.1634 21.04C41.6768 21.04 42.1601 20.96 42.6134 20.8C43.0668 20.64 43.4334 20.4067 43.7134 20.1C44.0001 19.7933 44.1434 19.4167 44.1434 18.97C44.1434 18.77 44.1101 18.5867 44.0434 18.42C43.9768 18.2467 43.8768 18.0933 43.7434 17.96C43.6168 17.8267 43.4501 17.7067 43.2434 17.6C43.0434 17.4867 42.8101 17.39 42.5434 17.31L38.8234 16.21C38.5034 16.1167 38.1568 15.9933 37.7834 15.84C37.4168 15.68 37.0668 15.4633 36.7334 15.19C36.4068 14.91 36.1368 14.5567 35.9234 14.13C35.7168 13.6967 35.6134 13.1633 35.6134 12.53C35.6134 11.6033 35.8468 10.8267 36.3134 10.2C36.7868 9.56667 37.4201 9.09333 38.2134 8.78C39.0134 8.46667 39.9001 8.31333 40.8734 8.32C41.8601 8.32667 42.7401 8.49667 43.5134 8.83C44.2868 9.15667 44.9334 9.63333 45.4534 10.26C45.9734 10.8867 46.3401 11.6433 46.5534 12.53L43.9634 12.98C43.8568 12.4733 43.6501 12.0433 43.3434 11.69C43.0434 11.33 42.6734 11.0567 42.2334 10.87C41.8001 10.6833 41.3368 10.5833 40.8434 10.57C40.3634 10.5633 39.9168 10.6367 39.5034 10.79C39.0968 10.9367 38.7668 11.15 38.5134 11.43C38.2668 11.71 38.1434 12.0367 38.1434 12.41C38.1434 12.7633 38.2501 13.0533 38.4634 13.28C38.6768 13.5 38.9401 13.6767 39.2534 13.81C39.5734 13.9367 39.8968 14.0433 40.2234 14.13L42.8034 14.85C43.1568 14.9433 43.5534 15.07 43.9934 15.23C44.4334 15.39 44.8568 15.6133 45.2634 15.9C45.6701 16.1867 46.0034 16.5633 46.2634 17.03C46.5301 17.4967 46.6634 18.09 46.6634 18.81C46.6634 19.5567 46.5068 20.2133 46.1934 20.78C45.8868 21.34 45.4701 21.8067 44.9434 22.18C44.4168 22.5533 43.8134 22.8333 43.1334 23.02C42.4601 23.2067 41.7534 23.3 41.0134 23.3ZM48.808 23L48.828 8.6H51.268V17.4L55.218 12.2H58.228L54.038 17.6L58.588 23H55.398L51.268 17.8V23H48.808ZM61.0097 27.8L63.0897 22.09L63.1297 23.77L58.4197 12.2H60.9297L64.2697 20.76H63.6297L66.8797 12.2H69.2897L63.2697 27.8H61.0097ZM70.7811 23V8.6H79.4511V11.01H73.1911V14.6H78.2511V17H73.1911V23H70.7811ZM81.4499 10.56V8.35H83.8599V10.56H81.4499ZM81.4499 23V12.2H83.8599V23H81.4499ZM85.6553 23L89.6053 17.54L85.7353 12.2H88.5753L91.0053 15.65L93.3953 12.2H96.2353L92.3653 17.54L96.3353 23H93.4953L91.0053 19.43L88.4953 23H85.6553Z\" fill=\"#FFFFFF\"/>
+\t\t\t\t\t\t\t</svg>
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t\t<ul class=\"nav text-20 ";
+        // line 62
+        if (($context["is_main_page"] ?? null)) {
+            yield "text-white";
+        } else {
+            yield "text-secondary";
+        }
+        yield "\">
+\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t<a href=\"#\">Batteries</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t<a href=\"#\">Controllers</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t<a href=\"#\">About Us</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t</ul>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"right\">
+\t\t\t\t\t<div class=\"searchbar\">
+\t\t\t\t\t\t<img src=\"";
+        // line 76
+        yield ($context["server"] ?? null);
+        yield "image/searchbar.png\" alt=\"Search\">
+
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"icon\">
+\t\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t\t\t<img src=\"";
+        // line 81
+        yield ($context["server"] ?? null);
+        yield "image/icons/profile.svg\" alt=\"Profile\">
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"icon\">
+\t\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t\t\t<img src=\"";
+        // line 86
+        yield ($context["server"] ?? null);
+        yield "image/icons/bag.svg\" alt=\"Profile\">
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"icon icon-white\">
+\t\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t\t\t<img src=\"";
+        // line 91
+        yield ($context["server"] ?? null);
+        yield "image/icons/profile-white.svg\" alt=\"Profile\">
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"icon icon-white\">
+\t\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t\t\t<img src=\"";
+        // line 96
+        yield ($context["server"] ?? null);
+        yield "image/icons/bag-white.svg\" alt=\"Profile\">
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t\t</header>
+\t\t\t<main class=\"app-main ";
+        // line 101
+        if (($context["is_main_page"] ?? null)) {
+            yield "is-main-page";
+        }
+        yield "\">
 ";
         yield from [];
     }
@@ -353,105 +264,112 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  329 => 94,  321 => 89,  317 => 88,  313 => 86,  305 => 84,  293 => 82,  291 => 81,  273 => 70,  265 => 69,  257 => 68,  252 => 65,  245 => 63,  239 => 62,  233 => 61,  227 => 60,  220 => 59,  213 => 57,  206 => 56,  204 => 55,  199 => 53,  191 => 50,  183 => 45,  179 => 44,  168 => 35,  159 => 33,  154 => 32,  143 => 30,  138 => 29,  129 => 27,  124 => 26,  111 => 24,  106 => 23,  100 => 21,  98 => 20,  93 => 18,  89 => 17,  85 => 16,  80 => 15,  74 => 13,  71 => 12,  65 => 10,  63 => 9,  59 => 8,  55 => 7,  45 => 2,  42 => 1,);
+        return array (  238 => 101,  230 => 96,  222 => 91,  214 => 86,  206 => 81,  198 => 76,  177 => 62,  151 => 41,  146 => 39,  142 => 38,  137 => 35,  128 => 33,  123 => 32,  110 => 30,  105 => 29,  99 => 27,  97 => 26,  93 => 25,  89 => 24,  85 => 23,  80 => 22,  78 => 21,  75 => 19,  72 => 15,  66 => 13,  63 => 12,  57 => 10,  55 => 9,  50 => 7,  42 => 1,);
     }
 
     public function getSourceContext(): Source
     {
         return new Source("<!DOCTYPE html>
-<html dir=\"{{ direction }}\" lang=\"{{ lang }}\">
-<head>
-  <meta charset=\"UTF-8\"/>
-  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
-  <title>{{ title }}</title>
-  <base href=\"{{ base }}\"/>
-  {% if description %}
-    <meta name=\"description\" content=\"{{ description }}\"/>
-  {% endif %}
-  {% if keywords %}
-    <meta name=\"keywords\" content=\"{{ keywords }}\"/>
-  {% endif %}
-  <script src=\"{{ jquery }}\" type=\"text/javascript\"></script>
-  <link href=\"{{ bootstrap }}\" type=\"text/css\" rel=\"stylesheet\" media=\"screen\"/>
-  <link href=\"{{ icons }}\" rel=\"stylesheet\" type=\"text/css\"/>
-  <link href=\"{{ stylesheet }}\" type=\"text/css\" rel=\"stylesheet\"/>
-  <script src=\"catalog/view/javascript/common.js\" type=\"text/javascript\"></script>
-  {% if icon %}
-    <link rel=\"icon\" href=\"{{ icon }}\" type=\"image/png\">
-  {% endif %}
-  {% for style in styles %}
-    <link href=\"{{ style.href }}\" type=\"text/css\" rel=\"{{ style.rel }}\" media=\"{{ style.media }}\"/>
-  {% endfor %}
-  {% for script in scripts %}
-    <script src=\"{{ script.href }}\" type=\"text/javascript\"></script>
-  {% endfor %}
-  {% for link in links %}
-    <link href=\"{{ link.href }}\" rel=\"{{ link.rel }}\"/>
-  {% endfor %}
-  {% for analytic in analytics %}
-    {{ analytic }}
-  {% endfor %}
-</head>
-<body>
-<div id=\"container\">
-  <div id=\"alert\"></div>
-  <nav id=\"top\">
-    <div class=\"container\">
-      <div class=\"row\">
-        <div class=\"col-4\">
-          <ul class=\"list-inline\">
-            <li class=\"list-inline-item me-3\">{{ currency }}</li>
-            <li class=\"list-inline-item\">{{ language }}</li>
-          </ul>
-        </div>
-        <div class=\"col text-end\">
-          <ul class=\"list-inline\">
-            <li class=\"list-inline-item\"><a href=\"{{ contact }}\"><i class=\"fa-solid fa-phone\"></i> <span class=\"d-none d-lg-inline\">{{ telephone }}</span></a></li>
-            <li class=\"list-inline-item\">
-              <div class=\"dropdown\">
-                <a href=\"#\" class=\"dropdown-toggle\" data-bs-toggle=\"dropdown\"><i class=\"fa-solid fa-user\"></i> <span class=\"d-none d-lg-inline\">{{ text_account }}</span> <i class=\"fa-solid fa-caret-down\"></i></a>
-                <ul class=\"dropdown-menu dropdown-menu-right\">
-                  {% if not logged %}
-                    <li><a href=\"{{ register }}\" class=\"dropdown-item\">{{ text_register }}</a></li>
-                    <li><a href=\"{{ login }}\" class=\"dropdown-item\">{{ text_login }}</a></li>
-                  {% else %}
-                    <li><a href=\"{{ account }}\" class=\"dropdown-item\">{{ text_account }}</a></li>
-                    <li><a href=\"{{ order }}\" class=\"dropdown-item\">{{ text_order }}</a></li>
-                    <li><a href=\"{{ transaction }}\" class=\"dropdown-item\">{{ text_transaction }}</a></li>
-                    <li><a href=\"{{ download }}\" class=\"dropdown-item\">{{ text_download }}</a></li>
-                    <li><a href=\"{{ logout }}\" class=\"dropdown-item\">{{ text_logout }}</a></li>
-                  {% endif %}
-                </ul>
-              </div>
-            </li>
-            <li class=\"list-inline-item\"><a href=\"{{ wishlist }}\" id=\"wishlist-total\" title=\"{{ text_wishlist }}\"><i class=\"fa-solid fa-heart\"></i> <span class=\"d-none d-lg-inline\">{{ text_wishlist }}</span></a></li>
-            <li class=\"list-inline-item\"><a href=\"{{ shopping_cart }}\" title=\"{{ text_shopping_cart }}\"><i class=\"fa-solid fa-cart-shopping\"></i> <span class=\"d-none d-lg-inline\">{{ text_shopping_cart }}</span></a></li>
-            <li class=\"list-inline-item\"><a href=\"{{ checkout }}\" title=\"{{ text_checkout }}\"><i class=\"fa-solid fa-share\"></i> <span class=\"d-none d-lg-inline\">{{ text_checkout }}</span></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
-  <header>
-    <div class=\"container\">
-      <div class=\"row\">
-        <div class=\"col-md-3 col-lg-4\">
-          <div id=\"logo\">
-            {% if logo %}
-              <a href=\"{{ home }}\"><img src=\"{{ logo }}\" title=\"{{ name }}\" alt=\"{{ name }}\" class=\"img-fluid\"/></a>
-            {% else %}
-              <h1><a href=\"{{ home }}\">{{ name }}</a></h1>
-            {% endif %}
-          </div>
-        </div>
-        <div class=\"col-md-5\">{{ search }}</div>
-        <div id=\"cart\" class=\"col-md-4 col-lg-3 mb-2\">{{ cart }}</div>
-      </div>
-    </div>
-  </header>
-  <main>
-    {{ menu }}
+<html lang=\"en\">
+\t<head>
+\t\t<meta charset=\"UTF-8\"/>
+\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
+\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">
+\t\t<title>{{ title }}</title>
+
+\t\t{% if description %}
+\t\t\t<meta name=\"description\" content=\"{{ description }}\"/>
+\t\t{% endif %}
+\t\t{% if keywords %}
+\t\t\t<meta name=\"keywords\" content=\"{{ keywords }}\"/>
+\t\t{% endif %}
+
+\t\t{# <link href=\"{{ icons }}\" rel=\"stylesheet\" type=\"text/css\"/>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  <link href=\"{{ stylesheet }}\" type=\"text/css\" rel=\"stylesheet\"/>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  <link href=\"{{ components }}\" rel=\"stylesheet\" type=\"text/css\"/> #}
+
+\t\t{# Порядок подключения важен! #}
+\t\t{# 1. Reset первым - сбрасывает стили браузера #}
+\t\t<link href=\"{{ reset }}\" rel=\"stylesheet\" type=\"text/css\"/> 
+\t\t<link href=\"{{ index }}\" rel=\"stylesheet\" type=\"text/css\"/>
+\t\t<link href=\"{{ app_header }}\" rel=\"stylesheet\" type=\"text/css\"/>
+\t\t<link href=\"{{ page_home }}\" rel=\"stylesheet\" type=\"text/css\"/>
+\t\t{% if icon %}
+\t\t\t<link rel=\"icon\" href=\"{{ icon }}\" type=\"image/png\">
+\t\t{% endif %}
+\t\t{% for style in styles %}
+\t\t\t<link href=\"{{ style.href }}\" type=\"text/css\" rel=\"{{ style.rel }}\" media=\"{{ style.media }}\"/>
+\t\t{% endfor %}
+\t\t{% for script in scripts %}
+\t\t\t<script src=\"{{ script.href }}\" type=\"text/javascript\"></script>
+\t\t{% endfor %}
+\t</head>
+\t<body>
+
+\t\t{{ button_component|raw }}
+\t\t{{ button_secondary|raw }}
+
+\t\t<header class=\"app-header {% if is_main_page %}is-main-page{% endif %}\">
+\t\t\t<div class=\"content\">
+\t\t\t\t<div class=\"left\">
+\t\t\t\t\t<div class=\"logo\">
+\t\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
+\t\t\t\t\t\t\t\t<path d=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\" fill=\"#4075AB\"/>
+\t\t\t\t\t\t\t\t<path d=\"M24.2834 3.5C24.7163 4.69949 24.9494 5.69931 24.9829 6.49947C25.0179 7.33465 24.8353 7.9523 24.4352 8.35242C21.3853 11.4023 16.4589 12.5756 13.409 15.6255C10.049 18.9855 8.56559 24.222 5.20563 27.582C5.11559 27.672 4.99538 27.7319 4.845 27.7615C4.20474 27.888 3.01756 27.4674 1.28345 26.5C0.316008 24.7659 -0.104511 23.5787 0.0218983 22.9384C0.0515881 22.7881 0.111456 22.6679 0.201492 22.5778C3.56145 19.2179 8.79797 17.7344 12.1579 14.3745C15.2078 11.3246 16.3811 6.39816 19.431 3.34827C19.8311 2.94816 20.4488 2.76558 21.284 2.80053C22.0841 2.83402 23.084 3.06717 24.2834 3.5Z\" fill=\"#4075AB\"/>
+\t\t\t\t\t\t\t\t<path d=\"M41.0134 23.3C39.9601 23.3 39.0101 23.1167 38.1634 22.75C37.3234 22.3833 36.6301 21.86 36.0834 21.18C35.5434 20.4933 35.2001 19.68 35.0534 18.74L37.5534 18.36C37.7668 19.2133 38.2034 19.8733 38.8634 20.34C39.5301 20.8067 40.2968 21.04 41.1634 21.04C41.6768 21.04 42.1601 20.96 42.6134 20.8C43.0668 20.64 43.4334 20.4067 43.7134 20.1C44.0001 19.7933 44.1434 19.4167 44.1434 18.97C44.1434 18.77 44.1101 18.5867 44.0434 18.42C43.9768 18.2467 43.8768 18.0933 43.7434 17.96C43.6168 17.8267 43.4501 17.7067 43.2434 17.6C43.0434 17.4867 42.8101 17.39 42.5434 17.31L38.8234 16.21C38.5034 16.1167 38.1568 15.9933 37.7834 15.84C37.4168 15.68 37.0668 15.4633 36.7334 15.19C36.4068 14.91 36.1368 14.5567 35.9234 14.13C35.7168 13.6967 35.6134 13.1633 35.6134 12.53C35.6134 11.6033 35.8468 10.8267 36.3134 10.2C36.7868 9.56667 37.4201 9.09333 38.2134 8.78C39.0134 8.46667 39.9001 8.31333 40.8734 8.32C41.8601 8.32667 42.7401 8.49667 43.5134 8.83C44.2868 9.15667 44.9334 9.63333 45.4534 10.26C45.9734 10.8867 46.3401 11.6433 46.5534 12.53L43.9634 12.98C43.8568 12.4733 43.6501 12.0433 43.3434 11.69C43.0434 11.33 42.6734 11.0567 42.2334 10.87C41.8001 10.6833 41.3368 10.5833 40.8434 10.57C40.3634 10.5633 39.9168 10.6367 39.5034 10.79C39.0968 10.9367 38.7668 11.15 38.5134 11.43C38.2668 11.71 38.1434 12.0367 38.1434 12.41C38.1434 12.7633 38.2501 13.0533 38.4634 13.28C38.6768 13.5 38.9401 13.6767 39.2534 13.81C39.5734 13.9367 39.8968 14.0433 40.2234 14.13L42.8034 14.85C43.1568 14.9433 43.5534 15.07 43.9934 15.23C44.4334 15.39 44.8568 15.6133 45.2634 15.9C45.6701 16.1867 46.0034 16.5633 46.2634 17.03C46.5301 17.4967 46.6634 18.09 46.6634 18.81C46.6634 19.5567 46.5068 20.2133 46.1934 20.78C45.8868 21.34 45.4701 21.8067 44.9434 22.18C44.4168 22.5533 43.8134 22.8333 43.1334 23.02C42.4601 23.2067 41.7534 23.3 41.0134 23.3ZM48.808 23L48.828 8.6H51.268V17.4L55.218 12.2H58.228L54.038 17.6L58.588 23H55.398L51.268 17.8V23H48.808ZM61.0097 27.8L63.0897 22.09L63.1297 23.77L58.4197 12.2H60.9297L64.2697 20.76H63.6297L66.8797 12.2H69.2897L63.2697 27.8H61.0097ZM70.7811 23V8.6H79.4511V11.01H73.1911V14.6H78.2511V17H73.1911V23H70.7811ZM81.4499 10.56V8.35H83.8599V10.56H81.4499ZM81.4499 23V12.2H83.8599V23H81.4499ZM85.6553 23L89.6053 17.54L85.7353 12.2H88.5753L91.0053 15.65L93.3953 12.2H96.2353L92.3653 17.54L96.3353 23H93.4953L91.0053 19.43L88.4953 23H85.6553Z\" fill=\"#2B2B2B\"/>
+\t\t\t\t\t\t\t</svg>
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"logo logo-white\">
+\t\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
+\t\t\t\t\t\t\t\t<path d=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\" fill=\"#4075AB\"/>
+\t\t\t\t\t\t\t\t<path d=\"M24.2834 3.5C24.7163 4.69949 24.9494 5.69931 24.9829 6.49947C25.0179 7.33465 24.8353 7.9523 24.4352 8.35242C21.3853 11.4023 16.4589 12.5756 13.409 15.6255C10.049 18.9855 8.56559 24.222 5.20563 27.582C5.11559 27.672 4.99538 27.7319 4.845 27.7615C4.20474 27.888 3.01756 27.4674 1.28345 26.5C0.316008 24.7659 -0.104511 23.5787 0.0218983 22.9384C0.0515881 22.7881 0.111456 22.6679 0.201492 22.5778C3.56145 19.2179 8.79797 17.7344 12.1579 14.3745C15.2078 11.3246 16.3811 6.39816 19.431 3.34827C19.8311 2.94816 20.4488 2.76558 21.284 2.80053C22.0841 2.83402 23.084 3.06717 24.2834 3.5Z\" fill=\"#4075AB\"/>
+\t\t\t\t\t\t\t\t<path d=\"M41.0134 23.3C39.9601 23.3 39.0101 23.1167 38.1634 22.75C37.3234 22.3833 36.6301 21.86 36.0834 21.18C35.5434 20.4933 35.2001 19.68 35.0534 18.74L37.5534 18.36C37.7668 19.2133 38.2034 19.8733 38.8634 20.34C39.5301 20.8067 40.2968 21.04 41.1634 21.04C41.6768 21.04 42.1601 20.96 42.6134 20.8C43.0668 20.64 43.4334 20.4067 43.7134 20.1C44.0001 19.7933 44.1434 19.4167 44.1434 18.97C44.1434 18.77 44.1101 18.5867 44.0434 18.42C43.9768 18.2467 43.8768 18.0933 43.7434 17.96C43.6168 17.8267 43.4501 17.7067 43.2434 17.6C43.0434 17.4867 42.8101 17.39 42.5434 17.31L38.8234 16.21C38.5034 16.1167 38.1568 15.9933 37.7834 15.84C37.4168 15.68 37.0668 15.4633 36.7334 15.19C36.4068 14.91 36.1368 14.5567 35.9234 14.13C35.7168 13.6967 35.6134 13.1633 35.6134 12.53C35.6134 11.6033 35.8468 10.8267 36.3134 10.2C36.7868 9.56667 37.4201 9.09333 38.2134 8.78C39.0134 8.46667 39.9001 8.31333 40.8734 8.32C41.8601 8.32667 42.7401 8.49667 43.5134 8.83C44.2868 9.15667 44.9334 9.63333 45.4534 10.26C45.9734 10.8867 46.3401 11.6433 46.5534 12.53L43.9634 12.98C43.8568 12.4733 43.6501 12.0433 43.3434 11.69C43.0434 11.33 42.6734 11.0567 42.2334 10.87C41.8001 10.6833 41.3368 10.5833 40.8434 10.57C40.3634 10.5633 39.9168 10.6367 39.5034 10.79C39.0968 10.9367 38.7668 11.15 38.5134 11.43C38.2668 11.71 38.1434 12.0367 38.1434 12.41C38.1434 12.7633 38.2501 13.0533 38.4634 13.28C38.6768 13.5 38.9401 13.6767 39.2534 13.81C39.5734 13.9367 39.8968 14.0433 40.2234 14.13L42.8034 14.85C43.1568 14.9433 43.5534 15.07 43.9934 15.23C44.4334 15.39 44.8568 15.6133 45.2634 15.9C45.6701 16.1867 46.0034 16.5633 46.2634 17.03C46.5301 17.4967 46.6634 18.09 46.6634 18.81C46.6634 19.5567 46.5068 20.2133 46.1934 20.78C45.8868 21.34 45.4701 21.8067 44.9434 22.18C44.4168 22.5533 43.8134 22.8333 43.1334 23.02C42.4601 23.2067 41.7534 23.3 41.0134 23.3ZM48.808 23L48.828 8.6H51.268V17.4L55.218 12.2H58.228L54.038 17.6L58.588 23H55.398L51.268 17.8V23H48.808ZM61.0097 27.8L63.0897 22.09L63.1297 23.77L58.4197 12.2H60.9297L64.2697 20.76H63.6297L66.8797 12.2H69.2897L63.2697 27.8H61.0097ZM70.7811 23V8.6H79.4511V11.01H73.1911V14.6H78.2511V17H73.1911V23H70.7811ZM81.4499 10.56V8.35H83.8599V10.56H81.4499ZM81.4499 23V12.2H83.8599V23H81.4499ZM85.6553 23L89.6053 17.54L85.7353 12.2H88.5753L91.0053 15.65L93.3953 12.2H96.2353L92.3653 17.54L96.3353 23H93.4953L91.0053 19.43L88.4953 23H85.6553Z\" fill=\"#FFFFFF\"/>
+\t\t\t\t\t\t\t</svg>
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t\t<ul class=\"nav text-20 {% if is_main_page %}text-white{% else %}text-secondary{% endif %}\">
+\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t<a href=\"#\">Batteries</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t<a href=\"#\">Controllers</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t\t<li>
+\t\t\t\t\t\t\t<a href=\"#\">About Us</a>
+\t\t\t\t\t\t</li>
+\t\t\t\t\t</ul>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"right\">
+\t\t\t\t\t<div class=\"searchbar\">
+\t\t\t\t\t\t<img src=\"{{ server }}image/searchbar.png\" alt=\"Search\">
+
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"icon\">
+\t\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t\t\t<img src=\"{{ server }}image/icons/profile.svg\" alt=\"Profile\">
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"icon\">
+\t\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t\t\t<img src=\"{{ server }}image/icons/bag.svg\" alt=\"Profile\">
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"icon icon-white\">
+\t\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t\t\t<img src=\"{{ server }}image/icons/profile-white.svg\" alt=\"Profile\">
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t\t<div class=\"icon icon-white\">
+\t\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t\t\t<img src=\"{{ server }}image/icons/bag-white.svg\" alt=\"Profile\">
+\t\t\t\t\t\t</a>
+\t\t\t\t\t</div>
+\t\t\t\t</div>
+\t\t\t</header>
+\t\t\t<main class=\"app-main {% if is_main_page %}is-main-page{% endif %}\">
 ", "catalog/view/template/common/header.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\common\\header.twig");
     }
 }

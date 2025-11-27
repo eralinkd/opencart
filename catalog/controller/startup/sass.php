@@ -18,16 +18,20 @@ class Sass extends \Opencart\System\Engine\Controller {
 
 		if ($files) {
 			foreach ($files as $file) {
-				// Get the filename
 				$filename = basename($file, '.scss');
+				if ($filename === 'variables') {
+					continue;
+				}
 
 				$stylesheet = DIR_APPLICATION . 'view/stylesheet/' . $filename . '.css';
 
 				if (!is_file($stylesheet) || !$this->config->get('developer_sass')) {
+					$scss_content = file_get_contents($file);
+					
 					$scss = new \ScssPhp\ScssPhp\Compiler();
 					$scss->setImportPaths(DIR_APPLICATION . 'view/stylesheet/');
 
-					$output = $scss->compileString('@import "' . $filename . '.scss"')->getCss();
+					$output = $scss->compileString($scss_content)->getCss();
 
 					$handle = fopen($stylesheet, 'w');
 
@@ -45,3 +49,4 @@ class Sass extends \Opencart\System\Engine\Controller {
 		}
 	}
 }
+

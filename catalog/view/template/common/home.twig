@@ -1,7 +1,137 @@
 {{ header }}
-<div id="common-home" class="container">
-  <div class="row">{{ column_left }}
-    <div id="content" class="col">{{ content_top }}{{ content_bottom }}</div>
-    {{ column_right }}</div>
+
+{# Подключаем локальный компонент карточки только для этой страницы #}
+{# {{ card_component|raw }} #}
+
+<div class="container wide hero">
+	<div class="content">
+		<img class="image" src="{{ server }}image/home/banner.png" alt="Hero">
+		<div class="decor"></div>
+		<h1 class="text-white">Drone parts built for any load</h1>
+		<custom-button>
+			<img slot="icon" style="display: block; width: 100%; height: 100%; object-fit: contain;"
+				src="{{ server }}image/icons/arrow-top-right.svg" alt="Arrow Right">
+			<span slot="text">See catalog
+			</span>
+		</custom-button>
+	</div>
 </div>
+
+<div class="container products">
+	<h3 class="products-title">Featured Products</h3>
+	<div class="swiper products-swiper">
+		<div class="swiper-wrapper">
+			{% for i in range(1, 10) %}
+			<div class="swiper-slide">
+				<div class="product-card">
+					<div class="product-image">
+						<img src="{{ server }}image/product1.png" alt="Product">
+					</div>
+					<div class="product-info">
+						<p class="availability text-16">In Stock</p>
+						<h4 class="product-title">Battery FPV 6S3P 12000mAh Li-ion Zeeepower</h4>
+						<p class="text-16">Model: ZEEE12000-10-6S</p>
+						<p class="product-price text-32">$35</p>
+						<button-secondary class="product-button">
+							<span slot="text">Add to Cart</span>
+						</button-secondary>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</div>
+
+<div class="container wide why-us">
+	<h2>Why SkyFix?</h2>
+	<div class="grid">
+		<div class="item">
+			<div class="icon"><img src="{{ server }}image/home/whyus/icon1.svg" alt="Icon"></div>
+			<p class="text-20">Our team of enthusiasts will help you choose the right part
+			</p>
+		</div>
+		<div class="item">
+			<div class="icon"><img src="{{ server }}image/home/whyus/icon2.svg" alt="Icon"></div>
+			<p class="text-20">Verified batteries and controllers for stable flight
+			</p>
+		</div>
+		<div class="item">
+			<div class="icon"><img src="{{ server }}image/home/whyus/icon3.svg" alt="Icon"></div>
+			<p class="text-20">Fast shipping and money-back guarantee
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="container products">
+	<h3 class="products-title">Controllers</h3>
+	<div class="swiper products-swiper">
+		<div class="swiper-wrapper">
+			{% for i in range(1, 10) %}
+			<div class="swiper-slide">
+				<div class="product-card">
+					<div class="product-image">
+						<img src="{{ server }}image/product1.png" alt="Product">
+					</div>
+					<div class="product-info">
+						<p class="availability text-16">In Stock</p>
+						<h4 class="product-title">Battery FPV 6S3P 12000mAh Li-ion Zeeepower</h4>
+						<p class="text-16">Model: ZEEE12000-10-6S</p>
+						<p class="product-price text-32">$35</p>
+						<button-secondary class="product-button">
+							<span slot="text">Add to Cart</span>
+						</button-secondary>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</div>
+
+<script>
+	function initProductsSwiper() {
+		if (typeof Swiper === 'undefined') {
+			setTimeout(initProductsSwiper, 100);
+			return;
+		}
+
+		const productsSwiper = new Swiper('.products-swiper', {
+			slidesPerView: 3.5,
+			spaceBetween: 24,
+			loop: false,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+				renderBullet: function (index, className) {
+					return '<span class="' + className + '"></span>';
+				},
+			},
+			breakpoints: {
+				320: {
+					slidesPerView: 1.2,
+					spaceBetween: 16,
+				},
+				768: {
+					slidesPerView: 2.5,
+					spaceBetween: 20,
+				},
+				1024: {
+					slidesPerView: 3.2,
+					spaceBetween: 24,
+				},
+			},
+		});
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initProductsSwiper);
+	} else {
+		initProductsSwiper();
+	}
+</script>
+
 {{ footer }}

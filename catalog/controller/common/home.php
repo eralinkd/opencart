@@ -3,8 +3,6 @@ namespace Opencart\Catalog\Controller\Common;
 /**
  * Class Home
  *
- * Can be called from $this->load->controller('common/home');
- *
  * @package Opencart\Catalog\Controller\Common
  */
 class Home extends \Opencart\System\Engine\Controller {
@@ -14,22 +12,27 @@ class Home extends \Opencart\System\Engine\Controller {
 	 * @return void
 	 */
 	public function index(): void {
-		$description = $this->config->get('config_description');
-		$language_id = $this->config->get('config_language_id');
+		$this->load->language('common/home');
 
-		if (isset($description[$language_id])) {
-			$this->document->setTitle($description[$language_id]['meta_title']);
-			$this->document->setDescription($description[$language_id]['meta_description']);
-			$this->document->setKeywords($description[$language_id]['meta_keyword']);
-		}
+		$this->document->setTitle($this->language->get('heading_title'));
 
-		$data['column_left'] = $this->load->controller('common/column_left');
-		$data['column_right'] = $this->load->controller('common/column_right');
-		$data['content_top'] = $this->load->controller('common/content_top');
-		$data['content_bottom'] = $this->load->controller('common/content_bottom');
-		$data['footer'] = $this->load->controller('common/footer');
+		$data['heading_title'] = $this->language->get('heading_title');
+		$data['text_welcome'] = $this->language->get('text_welcome');
+
+		// Подключаем локальный компонент карточки только для этой страницы
+		$this->document->addScript('catalog/view/javascript/card-component.js');
+		
+		// Подключаем Swiper для слайдера товаров
+		$this->document->addStyle('https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
+		$this->document->addScript('https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js');
+		
+		// Рендерим компонент карточки и передаем в шаблон
+		$data['card_component'] = $this->load->view('common/card_component', []);
+
 		$data['header'] = $this->load->controller('common/header');
+		$data['footer'] = $this->load->controller('common/footer');
 
 		$this->response->setOutput($this->load->view('common/home', $data));
 	}
 }
+

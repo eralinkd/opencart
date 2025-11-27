@@ -1,16 +1,13 @@
 {{ header }}
-<div id="error-not-found" class="container">
-  <ul class="breadcrumb">
-    {% for breadcrumb in breadcrumbs %}
-    <li class="breadcrumb-item"><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
-    {% endfor %}
-  </ul>
-  <div class="row">{{ column_left }}
-    <div id="content" class="col">{{ content_top }}
-      <h1>{{ heading_title }}</h1>
-      <p>{{ text_error }}</p>
-      <div class="text-end"><a href="{{ continue }}" class="btn btn-primary">{{ button_continue }}</a></div>
-      {{ content_bottom }}</div>
-    {{ column_right }}</div>
+<div style="max-width: 1200px; margin: 0 auto; padding: 4rem 1rem; text-align: center;">
+  <h1 style="font-size: 4rem; font-weight: bold; margin-bottom: 1rem; color: #1f2937;">404</h1>
+  <h2 style="font-size: 2rem; margin-bottom: 1rem; color: #4b5563;">{{ heading_title|default('Страница не найдена') }}</h2>
+  <p style="font-size: 1.125rem; color: #6b7280; margin-bottom: 2rem;">
+    {{ text_error|default('Запрашиваемая страница не существует.') }}
+  </p>
+  <a href="{{ home|default('/') }}" style="display: inline-block; padding: 0.75rem 1.5rem; background: #2563eb; color: white; border-radius: 0.375rem; text-decoration: none; font-weight: 600;">
+    Вернуться на главную
+  </a>
 </div>
 {{ footer }}
+

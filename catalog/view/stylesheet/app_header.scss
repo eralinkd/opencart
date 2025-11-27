@@ -1,0 +1,81 @@
+@import "variables";
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  border-bottom: 1px solid #b5daff;
+  background: $white;
+
+  &.is-main-page {
+    border-bottom: none;
+    background-color: transparent;
+
+    .logo {
+      display: none;
+
+      &.logo-white {
+        display: block !important;
+      }
+    }
+
+    .icon {
+      display: none;
+
+      &.icon-white {
+        display: block !important;
+      }
+    }
+  }
+
+  .content {
+    max-width: 1440px;
+    height: 104px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 100px;
+
+      .logo {
+        &.logo-white {
+          display: none;
+        }
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .searchbar {
+        width: 300px;
+        flex-shrink: 0;
+      }
+
+      .icon {
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+
+        &.icon-white {
+          display: none;
+        }
+      }
+    }
+  }
+}

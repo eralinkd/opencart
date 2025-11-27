@@ -1,0 +1,64 @@
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  border-bottom: 1px solid #b5daff;
+  background: #FFFFFF;
+}
+.app-header.is-main-page {
+  border-bottom: none;
+  background-color: transparent;
+}
+.app-header.is-main-page .logo {
+  display: none;
+}
+.app-header.is-main-page .logo.logo-white {
+  display: block !important;
+}
+.app-header.is-main-page .icon {
+  display: none;
+}
+.app-header.is-main-page .icon.icon-white {
+  display: block !important;
+}
+.app-header .content {
+  max-width: 1440px;
+  height: 104px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.app-header .content .left {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.app-header .content .left .logo.logo-white {
+  display: none;
+}
+.app-header .content .left .nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.app-header .content .right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.app-header .content .right .searchbar {
+  width: 300px;
+  flex-shrink: 0;
+}
+.app-header .content .right .icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.app-header .content .right .icon.icon-white {
+  display: none;
+}

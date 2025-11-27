@@ -29,7 +29,7 @@ body {
 }
 
 a {
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 
   &:hover {
     color: $main;
@@ -39,7 +39,7 @@ a {
 .text-white a,
 a.text-white {
   &:hover {
-    color: #c6c6c6;
+    color: #dddcdc;
   }
 }
 

@@ -22,13 +22,13 @@ body {
   padding: 0;
 }
 a {
-  transition: color 0.3s ease;
+  transition: color 0.2s ease;
 }
 a:hover {
   color: #4075AB;
 }
 .text-white a:hover, a.text-white:hover {
-  color: #c6c6c6;
+  color: #e6e6e6;
 }
 h1 {
   font-size: 50px;

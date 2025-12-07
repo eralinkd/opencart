@@ -187,6 +187,7 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
         yield ($context["server"] ?? null);
         yield "image/cart/trash.svg\" alt=\"delete\"></div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -374,6 +375,7 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
       <div class=\"price\">\$35</div>
       <div class=\"delete\"><img src=\"{{ server }}image/cart/trash.svg\" alt=\"delete\"></div>
     </div>
+  </div>
 </template>
 
 <script>

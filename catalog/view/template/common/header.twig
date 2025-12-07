@@ -23,6 +23,12 @@
 	<link href="{{ index }}" rel="stylesheet" type="text/css" />
 	<link href="{{ app_header }}" rel="stylesheet" type="text/css" />
 	<link href="{{ page_home }}" rel="stylesheet" type="text/css" />
+	{% if is_login_page %}
+	<link href="{{ page_login }}" rel="stylesheet" type="text/css" />
+	{% endif %}
+	{% if is_register_page %}
+	<link href="{{ page_register }}" rel="stylesheet" type="text/css" />
+	{% endif %}
 	{% if is_product_page %}
 	<link href="{{ page_product }}" rel="stylesheet" type="text/css" />
 	{% endif %}
@@ -45,6 +51,7 @@
 
 	{{ UIButton|raw }}
 	{{ UIButtonSecondary|raw }}
+	{{ UIInput|raw }}
 
 	<header class="app-header {% if is_main_page %}is-main-page{% endif %}">
 		<div class="content">

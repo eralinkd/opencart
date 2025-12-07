@@ -1,0 +1,100 @@
+.auth-form {
+  max-width: 500px;
+  margin: 0 auto 90px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  .title {
+    color: #000;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.352px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+
+    .forgot-password {
+      margin-top: -7px;
+      color: #4075ab;
+      font-family: Manrope;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.176px;
+    }
+  }
+
+  .separator {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .text {
+      color: #6d6d6d;
+      font-family: Manrope;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.176px;
+    }
+
+    .divider {
+      width: 100%;
+      height: 1px;
+      background: #d2d2d2;
+    }
+  }
+}
+
+.oauth-button {
+  color: #4075ab;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.22px;
+
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid #4075ab;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background: #4075ab;
+    color: #fff;
+    border: 2px solid #4075ab;
+  }
+}
+
+.signup-link {
+  margin-top: -8px;
+  text-align: center;
+  color: #000;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.176px;
+
+  a {
+    color: #4075AB;
+    text-decoration: none;
+  }
+}

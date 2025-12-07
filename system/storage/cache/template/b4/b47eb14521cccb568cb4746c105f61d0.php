@@ -83,8 +83,17 @@ class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
   </div>
 </div>
 
+<div class=\"input-test\">
+  <ui-input label=\"Promo code\" placeholder=\"PROMO2025\" helper=\"Discount applies automatically\"></ui-input>
+
+  <ui-input placeholder=\"+1 555 123 456\" name=\"customer_phone\">
+    <span slot=\"label\">Phone number</span>
+    <span slot=\"helper\">We will use this number for delivery updates</span>
+  </ui-input>
+</div>
+
 ";
-        // line 41
+        // line 50
         yield ($context["footer"] ?? null);
         yield from [];
     }
@@ -110,7 +119,7 @@ class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  88 => 41,  47 => 3,  42 => 1,);
+        return array (  97 => 50,  47 => 3,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -153,6 +162,15 @@ class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
       <span slot=\"text\">Continue to Checkout</span>
     </ui-button-secondary>
   </div>
+</div>
+
+<div class=\"input-test\">
+  <ui-input label=\"Promo code\" placeholder=\"PROMO2025\" helper=\"Discount applies automatically\"></ui-input>
+
+  <ui-input placeholder=\"+1 555 123 456\" name=\"customer_phone\">
+    <span slot=\"label\">Phone number</span>
+    <span slot=\"helper\">We will use this number for delivery updates</span>
+  </ui-input>
 </div>
 
 {{ footer }}", "catalog/view/template/cart/cart.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\cart\\cart.twig");

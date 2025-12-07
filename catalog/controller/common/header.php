@@ -29,9 +29,13 @@ class Header extends \Opencart\System\Engine\Controller {
 		// cart page styles
 		$data['page_cart'] = 'catalog/view/stylesheet/cart/cart.css';
 
+		// auth page styles
+		$data['page_login'] = 'catalog/view/stylesheet/auth/login.css';
+		$data['page_register'] = 'catalog/view/stylesheet/auth/register.css';
 
 		$this->document->addScript('catalog/view/javascript/components/ui/Button.js');
 		$this->document->addScript('catalog/view/javascript/components/ui/ButtonSecondary.js');
+		$this->document->addScript('catalog/view/javascript/components/ui/Input.js');
 
 		$data['links'] = $this->document->getLinks();
 		$data['styles'] = $this->document->getStyles();
@@ -53,10 +57,13 @@ class Header extends \Opencart\System\Engine\Controller {
 		$data['is_main_page'] = ($route === 'common/home');
 		$data['is_product_page'] = ($route === 'product/product');
 		$data['is_cart_page'] = ($route === 'cart/cart');
+		$data['is_login_page'] = ($route === 'auth/login');
+		$data['is_register_page'] = ($route === 'auth/register');
 		$data['server'] = HTTP_SERVER;
 		
 		$data['UIButton'] = $this->load->view('common/components/ui/Button', []);
 		$data['UIButtonSecondary'] = $this->load->view('common/components/ui/ButtonSecondary', []);
+		$data['UIInput'] = $this->load->view('common/components/ui/Input', []);
 
 		return $this->load->view('common/header', $data);
 	}

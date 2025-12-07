@@ -26,6 +26,10 @@ class Header extends \Opencart\System\Engine\Controller {
 		// product page styles
 		$data['page_product'] = 'catalog/view/stylesheet/product/product.css';
 
+		// cart page styles
+		$data['page_cart'] = 'catalog/view/stylesheet/cart/cart.css';
+
+
 		$this->document->addScript('catalog/view/javascript/components/ui/Button.js');
 		$this->document->addScript('catalog/view/javascript/components/ui/ButtonSecondary.js');
 
@@ -48,7 +52,7 @@ class Header extends \Opencart\System\Engine\Controller {
 		
 		$data['is_main_page'] = ($route === 'common/home');
 		$data['is_product_page'] = ($route === 'product/product');
-		
+		$data['is_cart_page'] = ($route === 'cart/cart');
 		$data['server'] = HTTP_SERVER;
 		
 		$data['UIButton'] = $this->load->view('common/components/ui/Button', []);

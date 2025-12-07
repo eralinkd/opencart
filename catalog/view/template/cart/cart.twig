@@ -1,0 +1,43 @@
+{{ header }}
+
+{{ CartItem|raw }}
+
+<div class="container">
+  <div class="cart-title">
+    <h1 class="title">Cart (1)</h1>
+  </div>
+</div>
+
+<div class="container cart-content">
+
+  <div class="block cart-items">
+    <cart-item></cart-item>
+    <div class="separator"></div>
+    <cart-item></cart-item>
+    <div class="separator"></div>
+    <cart-item></cart-item>
+  </div>
+  <div class="block summary">
+    <p class="text-20 summary-title">Order Summary</p>
+    <div class="subtotal line">
+      <p class="text-16">Subtotal</p>
+      <p class="text-20">$35</p>
+    </div>
+    <div class="discount line">
+      <p class="text-16">Discount</p>
+      <p class="text-20">0</p>
+    </div>
+    <div class="separator"></div>
+    <div class="total line">
+      <p class="text-16">Total</p>
+      <p class="text-20">$35</p>
+    </div>
+    <ui-button-secondary class="button">
+      <span slot="text">Continue to Checkout</span>
+    </ui-button-secondary>
+  </div>
+</div>
+
+<div class="input-test"></div>
+
+{{ footer }}

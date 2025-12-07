@@ -3445,3 +3445,207 @@ Backtrace: 3
 File: D:\xampp\htdocs\opencart\admin\index.php
 Line: 20
 Function: require_once
+2025-12-07 15:18:29 - Error: Unable to find template "catalog/view/template/cart/components/CartItem.twig" (looked into: .).
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: D:\xampp\htdocs\opencart\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: D:\xampp\htdocs\opencart\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: D:\xampp\htdocs\opencart\catalog\controller\cart\cart.php
+Line: 13
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 9
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: D:\xampp\htdocs\opencart\index.php
+Line: 20
+Function: require_once
+2025-12-07 15:21:47 - Error: Unable to find template "catalog/view/template/cart/components/CartItem.twig" (looked into: .).
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: D:\xampp\htdocs\opencart\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: D:\xampp\htdocs\opencart\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: D:\xampp\htdocs\opencart\catalog\controller\cart\cart.php
+Line: 13
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 9
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: D:\xampp\htdocs\opencart\index.php
+Line: 20
+Function: require_once
+2025-12-07 16:08:51 - Error: Unable to find template "catalog/view/template/cart/components/CartItem.twig" (looked into: .).
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: D:\xampp\htdocs\opencart\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: D:\xampp\htdocs\opencart\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: D:\xampp\htdocs\opencart\catalog\controller\cart\cart.php
+Line: 13
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 9
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: D:\xampp\htdocs\opencart\index.php
+Line: 20
+Function: require_once

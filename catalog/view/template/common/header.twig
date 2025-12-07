@@ -26,6 +26,9 @@
 	{% if is_product_page %}
 	<link href="{{ page_product }}" rel="stylesheet" type="text/css" />
 	{% endif %}
+	{% if is_cart_page %}
+	<link href="{{ page_cart }}" rel="stylesheet" type="text/css" />
+	{% endif %}
 	<link href="{{ app_footer }}" rel="stylesheet" type="text/css" />
 	{% if icon %}
 	<link rel="icon" href="{{ icon }}" type="image/png">

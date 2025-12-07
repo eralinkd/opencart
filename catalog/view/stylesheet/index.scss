@@ -5,9 +5,13 @@
 body {
   color: $text;
   font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .app-main {
+  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 104px;

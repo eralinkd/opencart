@@ -3,8 +3,12 @@
 body {
   color: #1F1F1F;
   font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .app-main {
+  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
   margin-top: 104px;

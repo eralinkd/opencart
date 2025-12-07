@@ -22,12 +22,106 @@
 
   <div class="block">
     <h2 class="block-title">Order History</h2>
+
     <div class="orders">
-      <history-order></history-order>
-      <history-order></history-order>
-      <history-order></history-order>
+      {% if orders %}
+        {% for order in orders %}
+          <div class="order-card">
+            <button class="order-summary" type="button">
+              <div class="summary-left">
+                <p class="stamp">{{ order.number }}, {{ order.datetime }}</p>
+              </div>
+              <div class="summary-right">
+                <span class="status {{ order.status_class|default('processing') }}">{{ order.status }}</span>
+                <div class="control" aria-hidden="true">
+                  <img src="{{ server }}image/history/arrow-down.svg" alt="Toggle order">
+                </div>
+              </div>
+            </button>
+
+            <div class="order-details">
+              <div class="order-items">
+                {% for item in order.items %}
+                  <div class="order-item">
+                    <div class="order-item__product">
+                      <div class="thumb">
+                        <img src="{{ item.image }}" alt="{{ item.name }}">
+                      </div>
+                      <div>
+                        <p class="name">{{ item.name }}</p>
+                        <p class="model">Model: {{ item.model }}</p>
+                      </div>
+                    </div>
+                    <div class="order-item__numbers">
+                      <span class="price">{{ item.price }}</span>
+                      <span class="qty">{{ item.qty }}</span>
+                      <span class="amount">{{ item.amount }}</span>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+
+              <div class="order-meta">
+                <div class="left">
+                  <p>Delivery address</p>
+                  <p>{{ order.delivery_address }}</p>
+                  <p>Recipient info</p>
+                  <p>{{ order.recipient_name }}</p>
+                  <p>{{ order.recipient_phone }}</p>
+                </div>
+                <div class="right">
+                  <div class="row">
+                    <p>Payment method</p>
+                    <p>{{ order.payment_method }}</p>
+                  </div>
+                  <div class="row">
+                    <p>Shipping</p>
+                    <p>{{ order.shipping }}</p>
+                  </div>
+                  <div class="row">
+                    <p>Subtotal</p>
+                    <p>{{ order.subtotal }}</p>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="row">
+                    <p>Total</p>
+                    <p>{{ order.total }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      {% else %}
+        <p class="empty-state">You do not have any orders yet.</p>
+      {% endif %}
     </div>
   </div>
-</div>
 
-{{ footer }}
+  <script>
+    (function () {
+      function initHistoryAccordion() {
+        var cards = document.querySelectorAll('.order-card');
+
+        cards.forEach(function (card) {
+          var summary = card.querySelector('.order-summary');
+          if (!summary) {
+            return;
+          }
+
+          summary.addEventListener('click', function () {
+            var isOpen = card.classList.toggle('is-open');
+            summary.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+          });
+        });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initHistoryAccordion);
+      } else {
+        initHistoryAccordion();
+      }
+    })();
+  </script>
+
+  {{ footer }}

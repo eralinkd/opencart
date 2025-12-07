@@ -59,20 +59,205 @@
   line-height: normal;
   letter-spacing: -0.22px;
 }
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 24px;
-  column-gap: 16px;
+.orders {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-.grid .change-password, .grid .change-delivery-info {
-  margin-top: 20px;
-  align-self: center;
-  color: #4075ab;
+.order-card {
+  border-radius: 24px;
+  border: 1px solid #CBCBCB;
+  background: #fff;
+  overflow: hidden;
+}
+.order-card.is-open .control {
+  transform: rotate(180deg);
+}
+.order-card.is-open .order-details {
+  display: flex;
+}
+.order-summary {
+  width: 100%;
+  padding: 18px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+.order-summary .summary-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.order-summary .summary-left .stamp {
+  color: #6d6d6d;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.176px;
+  text-transform: capitalize;
+}
+.order-summary .summary-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.order-summary .summary-right .status {
+  display: inline-flex;
+  padding: 10px 16px;
+  border-radius: 20px;
+  color: #202020;
   font-family: Manrope;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: 0.08px;
+  letter-spacing: -0.176px;
+}
+.order-summary .summary-right .status.processing {
+  background: #fcfcc6;
+}
+.order-summary .summary-right .status.shipped {
+  background: #d8eafb;
+}
+.order-summary .summary-right .status.delivered {
+  background: #daffe2;
+}
+.order-summary .summary-right .control {
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  transition: transform 0.2s ease;
+}
+.order-details {
+  display: none;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 24px 16px 24px;
+}
+.order-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #d2d2d2;
+}
+.order-item__product {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.order-item__product .thumb {
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+  display: grid;
+  place-items: center;
+}
+.order-item__product .thumb img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.order-item__product .name {
+  color: #1f1f1f;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.176px;
+  margin-bottom: 10px;
+}
+.order-item__product .model {
+  color: #6d6d6d;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.154px;
+}
+.order-item__numbers {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  color: #000;
+}
+.order-item__numbers .price, .order-item__numbers .amount {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 24px */
+}
+.order-item__numbers .qty {
+  color: #1f1f1f;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.176px;
+}
+.order-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.order-meta .left {
+  display: grid;
+  grid-template-columns: repeat(2, 162px);
+  row-gap: 16px;
+  column-gap: 32px;
+  color: #6d6d6d;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.154px;
+}
+.order-meta .right {
+  width: 389px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #1f1f1f;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.176px;
+}
+.order-meta .right .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.order-meta .right .divider {
+  height: 1px;
+  background: #d2d2d2;
+  margin-bottom: 8px;
+}
+.empty-state {
+  padding: 32px 0;
+  text-align: center;
+  color: #6d6d6d;
+  font-size: 16px;
 }

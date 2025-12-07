@@ -66,3 +66,238 @@
   line-height: normal;
   letter-spacing: -0.22px;
 }
+
+.orders {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.order-card {
+  border-radius: 24px;
+  border: 1px solid #CBCBCB;
+  background: #fff;
+  overflow: hidden;
+
+  &.is-open {
+    .control {
+      transform: rotate(180deg);
+    }
+
+    .order-details {
+      display: flex;
+    }
+  }
+}
+
+.order-summary {
+  width: 100%;
+  padding: 18px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+
+  .summary-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .stamp {
+      color: #6d6d6d;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: -0.176px;
+      text-transform: capitalize;
+    }
+  }
+
+  .summary-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    .status {
+      display: inline-flex;
+      padding: 10px 16px;
+      border-radius: 20px;
+      color: #202020;
+      font-family: Manrope;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.176px;
+
+      &.processing {
+        background: #fcfcc6;
+      }
+
+      &.shipped {
+        background: #d8eafb;
+      }
+
+      &.delivered {
+        background: #daffe2;
+      }
+    }
+
+    .control {
+      width: 24px;
+      height: 24px;
+      display: grid;
+      place-items: center;
+      transition: transform 0.2s ease;
+    }
+  }
+}
+
+.order-details {
+  display: none;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 24px 16px 24px;
+}
+
+.order-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #d2d2d2;
+
+  &__product {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+    .thumb {
+      width: 50px;
+      height: 50px;
+      padding: 3px;
+      border-radius: 5px;
+      border: 1px solid #d2d2d2;
+      display: grid;
+      place-items: center;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
+    }
+
+    .name {
+      color: #1f1f1f;
+      font-family: Manrope;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.176px;
+      margin-bottom: 10px;
+    }
+
+    .model {
+      color: #6d6d6d;
+      font-family: Manrope;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.154px;
+    }
+  }
+
+  &__numbers {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    color: #000;
+
+    .price,
+    .amount {
+      color: #000;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 24px */
+    }
+
+    .qty {
+      color: #1f1f1f;
+      font-family: Manrope;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.176px;
+    }
+  }
+}
+
+.order-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+
+  .left {
+    display: grid;
+    grid-template-columns: repeat(2, 162px);
+    row-gap: 16px;
+    column-gap: 32px;
+    color: #6d6d6d;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.154px;
+  }
+
+  .right {
+    width: 389px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    color: #1f1f1f;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.176px;
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .divider {
+      height: 1px;
+      background: #d2d2d2;
+      margin-bottom: 8px;
+    }
+  }
+}
+.empty-state {
+  padding: 32px 0;
+  text-align: center;
+  color: #6d6d6d;
+  font-size: 16px;
+}

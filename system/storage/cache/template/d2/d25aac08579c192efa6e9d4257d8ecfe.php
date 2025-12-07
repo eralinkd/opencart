@@ -58,6 +58,7 @@ class __TwigTemplate_458e29649361dfa213e92f1f38ee03f0 extends Template
     }
 
     .ui-input__label {
+      color: #6C757D;
       font-family: Manrope;
       font-size: 12px;
       font-style: normal;
@@ -187,6 +188,7 @@ class __TwigTemplate_458e29649361dfa213e92f1f38ee03f0 extends Template
     }
 
     .ui-input__label {
+      color: #6C757D;
       font-family: Manrope;
       font-size: 12px;
       font-style: normal;

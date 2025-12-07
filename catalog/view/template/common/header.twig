@@ -44,6 +44,12 @@
 	{% if is_new_password_page %}
 	<link href="{{ page_new_password }}" rel="stylesheet" type="text/css" />
 	{% endif %}
+	{% if is_account_general_page %}
+	<link href="{{ page_account_general }}" rel="stylesheet" type="text/css" />
+	{% endif %}
+	{% if is_account_history_page %}
+	<link href="{{ page_account_history }}" rel="stylesheet" type="text/css" />
+	{% endif %}
 	<link href="{{ app_footer }}" rel="stylesheet" type="text/css" />
 	{% if icon %}
 	<link rel="icon" href="{{ icon }}" type="image/png">

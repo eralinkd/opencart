@@ -1,0 +1,88 @@
+.title {
+  margin-top: -70px;
+  color: #1f1f1f;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.352px;
+}
+
+.content {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 207px auto;
+  gap: 22px;
+  margin-bottom: 100px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  li {
+    padding: 10px 16px;
+    color: #6d6d6d;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.176px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    border-radius: 0 10px 10px 0;
+
+    &:hover {
+      background: #eef4fa;
+      color: #4075ab;
+    }
+
+    &.active {
+      border-left: 2px solid #4075ab;
+      background: #eef4fa;
+    }
+  }
+}
+
+.block {
+  border-radius: 10px;
+  border: 1px solid #cbdae8;
+  background: #fff;
+  padding: 32px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.block-title {
+  color: #1f1f1f;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.22px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 24px;
+  column-gap: 16px;
+
+  .change-password,
+  .change-delivery-info {
+    margin-top: 20px;
+    align-self: center;
+    color: #4075ab;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.08px;
+  }
+}

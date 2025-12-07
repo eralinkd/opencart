@@ -3649,3 +3649,41 @@ Backtrace: 10
 File: D:\xampp\htdocs\opencart\index.php
 Line: 20
 Function: require_once
+2025-12-07 20:06:20 - Error: Error: Could not load template account/general!
+File: D:\xampp\htdocs\opencart\system\library\template\twig.php
+Line: 121
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\catalog\controller\account\general.php
+Line: 18
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Account\General
+Function: index
+
+Backtrace: 4
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: D:\xampp\htdocs\opencart\index.php
+Line: 20
+Function: require_once

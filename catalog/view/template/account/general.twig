@@ -1,0 +1,41 @@
+{{ header }}
+
+<div class="container title">
+  <h1>My Profile</h1>
+</div>
+
+<div class="container content">
+  <ul class="navigation">
+    <a href="{{ general_url }}">
+      <li class="active">General</li>
+    </a>
+    <a href="{{ history_url }}">
+      <li>Order History</li>
+    </a>
+    <a href="#">
+      <li>Email Notification</li>
+    </a>
+    <a href="#">
+      <li>Wishlist</li>
+    </a>
+  </ul>
+
+  <div class="block">
+    <h2 class="block-title">Personal Info</h2>
+    <div class="grid">
+      <ui-input label="First Name" placeholder="Enter"></ui-input>
+      <ui-input label="Last Name" placeholder="Enter"></ui-input>
+      <ui-input label="Phone" placeholder="Enter"></ui-input>
+      <ui-input label="Email" placeholder="Enter"></ui-input>
+      <ui-input label="Password" placeholder="********"></ui-input>
+      <a href="{{reset_password_url}}" class="change-password">Change Password</a>
+    </div>
+    <h2 class="block-title">Delivery Info</h2>
+    <div class="grid">
+      <ui-input label="Address" placeholder="Kyiv, Nova Poshta branch № 1234 "></ui-input>
+      <a href="{{change_delivery_info_url}}" class="change-delivery-info">Change Delivery Info</a>
+
+    </div>
+  </div>
+
+  {{ footer }}

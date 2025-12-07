@@ -36,6 +36,10 @@ class Header extends \Opencart\System\Engine\Controller {
 		$data['page_email_sent'] = 'catalog/view/stylesheet/auth/email-sent.css';
 		$data['page_new_password'] = 'catalog/view/stylesheet/auth/new-password.css';
 
+		// account page styles
+		$data['page_account_general'] = 'catalog/view/stylesheet/account/general.css';
+		$data['page_account_history'] = 'catalog/view/stylesheet/account/history.css';
+
 		$this->document->addScript('catalog/view/javascript/components/ui/Button.js');
 		$this->document->addScript('catalog/view/javascript/components/ui/ButtonSecondary.js');
 		$this->document->addScript('catalog/view/javascript/components/ui/Input.js');
@@ -65,11 +69,13 @@ class Header extends \Opencart\System\Engine\Controller {
 		$data['is_forgot_password_page'] = ($route === 'auth/forgot_password');
 		$data['is_email_sent_page'] = ($route === 'auth/email_sent');
 		$data['is_new_password_page'] = ($route === 'auth/new_password');
+		$data['is_account_general_page'] = ($route === 'account/general');
+		$data['is_account_history_page'] = ($route === 'account/history');
 
 		$data['server'] = HTTP_SERVER;
-		$data['profile_url'] = $this->url->link('auth/profile');
+		$data['profile_url'] = $this->url->link('account/general');
 		$data['cart_url'] = $this->url->link('cart/cart');
-		
+
 		
 		$data['UIButton'] = $this->load->view('common/components/ui/Button', []);
 		$data['UIButtonSecondary'] = $this->load->view('common/components/ui/ButtonSecondary', []);

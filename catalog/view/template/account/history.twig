@@ -1,0 +1,33 @@
+{{ header }}
+
+<div class="container title">
+  <h1>My Profile</h1>
+</div>
+
+<div class="container content">
+  <ul class="navigation">
+    <a href="{{ general_url }}">
+      <li>General</li>
+    </a>
+    <a href="{{ history_url }}">
+      <li class="active">Order History</li>
+    </a>
+    <a href="#">
+      <li>Email Notification</li>
+    </a>
+    <a href="#">
+      <li>Wishlist</li>
+    </a>
+  </ul>
+
+  <div class="block">
+    <h2 class="block-title">Order History</h2>
+    <div class="orders">
+      <history-order></history-order>
+      <history-order></history-order>
+      <history-order></history-order>
+    </div>
+  </div>
+</div>
+
+{{ footer }}

@@ -15,6 +15,6 @@ class NewPassword extends \Opencart\System\Engine\Controller {
 		$data['header'] = $this->load->controller('common/header');
 		$data['footer'] = $this->load->controller('common/footer');
 
-		$this->response->setOutput($this->load->view('auth/new-password', $data));
+		$this->response->setOutput($this->load->view('auth/new_password', $data));
 	}
 }

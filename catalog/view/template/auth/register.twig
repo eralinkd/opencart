@@ -1,0 +1,24 @@
+{{ header }}
+
+<div class="auth-form">
+  <h1 class="title">Register</h1>
+  <form class="form">
+    <ui-input label="Email" placeholder="Enter"></ui-input>
+    <ui-input label="Password" placeholder="Enter" type="password"></ui-input>
+    <ui-button-secondary class="button">
+      <span slot="text">Register</span>
+    </ui-button-secondary>
+  </form>
+  <div class="separator">
+    <div class="divider">
+    </div>
+    <div class="text">or</div>
+    <div class="divider">
+    </div>
+  </div>
+  <div class="oauth-button">Continue with Google</div>
+  <div class="signup-link">Already have an account? <a href="{{ login_url }}">Login</a></div>
+
+</div>
+
+{{ footer }}

@@ -16,7 +16,7 @@ class Login extends \Opencart\System\Engine\Controller {
 		$data['footer'] = $this->load->controller('common/footer');
 
 		$data['forgot_password_url'] = $this->url->link('auth/forgot_password');
-		$data['signup_url'] = $this->url->link('auth/signup');
+		$data['register_url'] = $this->url->link('auth/register');
 
 		$this->response->setOutput($this->load->view('auth/login', $data));
 	}

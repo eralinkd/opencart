@@ -14,8 +14,8 @@ use Twig\Source;
 use Twig\Template;
 use Twig\TemplateWrapper;
 
-/* catalog/view/template/auth/login.twig */
-class __TwigTemplate_84f7e7fd5006dcaf53743dfaa6d14b86 extends Template
+/* catalog/view/template/auth/register.twig */
+class __TwigTemplate_9934c9b6b2149e71f8cd2dcbdd6a02ea extends Template
 {
     private Source $source;
     /**
@@ -43,16 +43,12 @@ class __TwigTemplate_84f7e7fd5006dcaf53743dfaa6d14b86 extends Template
         yield "
 
 <div class=\"auth-form\">
-  <h1 class=\"title\">Login</h1>
+  <h1 class=\"title\">Register</h1>
   <form class=\"form\">
     <ui-input label=\"Email\" placeholder=\"Enter\"></ui-input>
     <ui-input label=\"Password\" placeholder=\"Enter\" type=\"password\"></ui-input>
-    <a href=\"";
-        // line 8
-        yield ($context["forgot_password_url"] ?? null);
-        yield "\" class=\"forgot-password\">Forgot password?</a>
     <ui-button-secondary class=\"button\">
-      <span slot=\"text\">Login</span>
+      <span slot=\"text\">Register</span>
     </ui-button-secondary>
   </form>
   <div class=\"separator\">
@@ -63,15 +59,15 @@ class __TwigTemplate_84f7e7fd5006dcaf53743dfaa6d14b86 extends Template
     </div>
   </div>
   <div class=\"oauth-button\">Continue with Google</div>
-  <div class=\"signup-link\">Don't have an account? <a href=\"";
-        // line 21
-        yield ($context["register_url"] ?? null);
-        yield "\">Sign up</a></div>
+  <div class=\"signup-link\">Already have an account? <a href=\"";
+        // line 20
+        yield ($context["login_url"] ?? null);
+        yield "\">Login</a></div>
 
 </div>
 
 ";
-        // line 25
+        // line 24
         yield ($context["footer"] ?? null);
         yield from [];
     }
@@ -81,7 +77,7 @@ class __TwigTemplate_84f7e7fd5006dcaf53743dfaa6d14b86 extends Template
      */
     public function getTemplateName(): string
     {
-        return "catalog/view/template/auth/login.twig";
+        return "catalog/view/template/auth/register.twig";
     }
 
     /**
@@ -97,7 +93,7 @@ class __TwigTemplate_84f7e7fd5006dcaf53743dfaa6d14b86 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  75 => 25,  68 => 21,  52 => 8,  42 => 1,);
+        return array (  71 => 24,  64 => 20,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -105,13 +101,12 @@ class __TwigTemplate_84f7e7fd5006dcaf53743dfaa6d14b86 extends Template
         return new Source("{{ header }}
 
 <div class=\"auth-form\">
-  <h1 class=\"title\">Login</h1>
+  <h1 class=\"title\">Register</h1>
   <form class=\"form\">
     <ui-input label=\"Email\" placeholder=\"Enter\"></ui-input>
     <ui-input label=\"Password\" placeholder=\"Enter\" type=\"password\"></ui-input>
-    <a href=\"{{ forgot_password_url }}\" class=\"forgot-password\">Forgot password?</a>
     <ui-button-secondary class=\"button\">
-      <span slot=\"text\">Login</span>
+      <span slot=\"text\">Register</span>
     </ui-button-secondary>
   </form>
   <div class=\"separator\">
@@ -122,10 +117,10 @@ class __TwigTemplate_84f7e7fd5006dcaf53743dfaa6d14b86 extends Template
     </div>
   </div>
   <div class=\"oauth-button\">Continue with Google</div>
-  <div class=\"signup-link\">Don't have an account? <a href=\"{{ register_url }}\">Sign up</a></div>
+  <div class=\"signup-link\">Already have an account? <a href=\"{{ login_url }}\">Login</a></div>
 
 </div>
 
-{{ footer }}", "catalog/view/template/auth/login.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\auth\\login.twig");
+{{ footer }}", "catalog/view/template/auth/register.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\auth\\register.twig");
     }
 }

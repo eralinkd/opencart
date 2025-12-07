@@ -15,6 +15,8 @@ class Register extends \Opencart\System\Engine\Controller {
 		$data['header'] = $this->load->controller('common/header');
 		$data['footer'] = $this->load->controller('common/footer');
 
+		$data['login_url'] = $this->url->link('auth/login');
+
 		$this->response->setOutput($this->load->view('auth/register', $data));
 	}
 }

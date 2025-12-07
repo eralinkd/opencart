@@ -67,6 +67,9 @@ class Header extends \Opencart\System\Engine\Controller {
 		$data['is_new_password_page'] = ($route === 'auth/new_password');
 
 		$data['server'] = HTTP_SERVER;
+		$data['profile_url'] = $this->url->link('auth/profile');
+		$data['cart_url'] = $this->url->link('cart/cart');
+		
 		
 		$data['UIButton'] = $this->load->view('common/components/ui/Button', []);
 		$data['UIButtonSecondary'] = $this->load->view('common/components/ui/ButtonSecondary', []);

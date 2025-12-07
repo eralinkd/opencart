@@ -225,7 +225,10 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t<div class=\"content\">
 \t\t\t<div class=\"left\">
 \t\t\t\t<div class=\"logo\">
-\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t<a href=\"";
+        // line 69
+        yield ($context["home"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
 \t\t\t\t\t\t\t<path
 \t\t\t\t\t\t\t\td=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\"
@@ -240,7 +243,10 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"logo logo-white\">
-\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t<a href=\"";
+        // line 84
+        yield ($context["home"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
 \t\t\t\t\t\t\t<path
 \t\t\t\t\t\t\t\td=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\"
@@ -282,7 +288,10 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"";
+        // line 116
+        yield ($context["profile_url"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<img src=\"";
         // line 117
         yield ($context["server"] ?? null);
@@ -290,7 +299,10 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"";
+        // line 121
+        yield ($context["cart_url"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<img src=\"";
         // line 122
         yield ($context["server"] ?? null);
@@ -298,7 +310,10 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon icon-white\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"";
+        // line 126
+        yield ($context["profile_url"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<img src=\"";
         // line 127
         yield ($context["server"] ?? null);
@@ -306,7 +321,10 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon icon-white\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"";
+        // line 131
+        yield ($context["cart_url"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<img src=\"";
         // line 132
         yield ($context["server"] ?? null);
@@ -345,7 +363,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  320 => 137,  312 => 132,  304 => 127,  296 => 122,  288 => 117,  280 => 112,  259 => 98,  221 => 65,  216 => 63,  212 => 62,  208 => 61,  202 => 57,  193 => 55,  188 => 54,  175 => 52,  170 => 51,  164 => 49,  162 => 48,  157 => 47,  151 => 45,  148 => 44,  142 => 42,  139 => 41,  133 => 39,  130 => 38,  124 => 36,  121 => 35,  115 => 33,  112 => 32,  106 => 30,  103 => 29,  97 => 27,  95 => 26,  91 => 25,  87 => 24,  83 => 23,  79 => 22,  76 => 21,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  56 => 10,  51 => 8,  42 => 1,);
+        return array (  338 => 137,  330 => 132,  326 => 131,  319 => 127,  315 => 126,  308 => 122,  304 => 121,  297 => 117,  293 => 116,  286 => 112,  265 => 98,  248 => 84,  230 => 69,  221 => 65,  216 => 63,  212 => 62,  208 => 61,  202 => 57,  193 => 55,  188 => 54,  175 => 52,  170 => 51,  164 => 49,  162 => 48,  157 => 47,  151 => 45,  148 => 44,  142 => 42,  139 => 41,  133 => 39,  130 => 38,  124 => 36,  121 => 35,  115 => 33,  112 => 32,  106 => 30,  103 => 29,  97 => 27,  95 => 26,  91 => 25,  87 => 24,  83 => 23,  79 => 22,  76 => 21,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  56 => 10,  51 => 8,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -418,7 +436,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t<div class=\"content\">
 \t\t\t<div class=\"left\">
 \t\t\t\t<div class=\"logo\">
-\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t<a href=\"{{ home }}\">
 \t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
 \t\t\t\t\t\t\t<path
 \t\t\t\t\t\t\t\td=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\"
@@ -433,7 +451,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"logo logo-white\">
-\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t<a href=\"{{ home }}\">
 \t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
 \t\t\t\t\t\t\t<path
 \t\t\t\t\t\t\t\td=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\"
@@ -465,22 +483,22 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"{{profile_url}}\">
 \t\t\t\t\t\t<img src=\"{{ server }}image/icons/profile.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"{{cart_url}}\">
 \t\t\t\t\t\t<img src=\"{{ server }}image/icons/bag.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon icon-white\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"{{profile_url}}\">
 \t\t\t\t\t\t<img src=\"{{ server }}image/icons/profile-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon icon-white\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"{{cart_url}}\">
 \t\t\t\t\t\t<img src=\"{{ server }}image/icons/bag-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>

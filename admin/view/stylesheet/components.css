@@ -1,0 +1,110 @@
+.oc-button-wrapper {
+  display: inline-block;
+}
+.oc-button-wrapper .oc-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+}
+.oc-button-wrapper .oc-button:focus {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+.oc-button-wrapper .oc-button[aria-disabled="true"], .oc-button-wrapper .oc-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.oc-button-wrapper .oc-button.oc-button-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+.oc-button-wrapper .oc-button.oc-button-primary:hover:not([aria-disabled="true"]):not(:disabled) {
+  background-color: #134cca;
+}
+.oc-button-wrapper .oc-button.oc-button-danger {
+  background-color: #dc2626;
+  color: #ffffff;
+}
+.oc-button-wrapper .oc-button.oc-button-danger:hover:not([aria-disabled="true"]):not(:disabled) {
+  background-color: #b21d1d;
+}
+.oc-button-wrapper .oc-button.oc-button-success {
+  background-color: #16a34a;
+  color: #ffffff;
+}
+.oc-button-wrapper .oc-button.oc-button-success:hover:not([aria-disabled="true"]):not(:disabled) {
+  background-color: #107636;
+}
+.oc-button-wrapper .oc-button.oc-button-secondary {
+  background-color: #6b7280;
+  color: #ffffff;
+}
+.oc-button-wrapper .oc-button.oc-button-secondary:hover:not([aria-disabled="true"]):not(:disabled) {
+  background-color: #545964;
+}
+.oc-icon-button-wrapper {
+  display: inline-block;
+}
+.oc-icon-button-wrapper .oc-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.375rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.oc-icon-button-wrapper .oc-icon-button.oc-icon-button-primary {
+  color: #2563eb;
+}
+.oc-icon-button-wrapper .oc-icon-button.oc-icon-button-primary:hover {
+  background-color: rgba(37, 99, 235, 0.1);
+}
+.oc-icon-button-wrapper .oc-icon-button.oc-icon-button-danger {
+  color: #dc2626;
+}
+.oc-icon-button-wrapper .oc-icon-button.oc-icon-button-danger:hover {
+  background-color: rgba(220, 38, 38, 0.1);
+}
+.oc-card {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+.oc-card-header {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+.oc-info-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+.oc-info-card-label {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.oc-info-card-value {
+  color: #6b7280;
+}

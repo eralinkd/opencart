@@ -5,4 +5,3 @@ class Application extends \Opencart\System\Engine\Controller {
 		// Application setup - stub
 	}
 }
-

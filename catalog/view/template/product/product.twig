@@ -1,0 +1,255 @@
+{{ header }}
+
+{% set gallery_images = product_images ?? [] %}
+{% if gallery_images is empty %}
+{% set fallback_image = server ~ 'image/product/product1.jpg' %}
+{% set gallery_images = [] %}
+{% for i in range(1, 5) %}
+{% set gallery_images = gallery_images|merge([fallback_image]) %}
+{% endfor %}
+{% endif %}
+
+<div class="container">
+	<div class="product-title">
+		<h1 class="title">{{ product.name }}</h1>
+	</div>
+</div>
+
+<div class="container product-info">
+	<div class="images">
+		<div class="image block" data-gallery>
+			<div class="button-left" role="button" tabindex="0" aria-label="Previous image">
+				<img src="{{ server }}image/product/arrow-left.svg" alt="arrow left">
+			</div>
+			<img class="main-image" src="{{ gallery_images[0] }}" alt="{{ product.name }} main image" data-index="0">
+			<div class="button-right" role="button" tabindex="0" aria-label="Next image">
+				<img src="{{ server }}image/product/arrow-right.svg" alt="arrow right">
+			</div>
+		</div>
+		<div class="thumbs" role="tablist" aria-label="Product gallery thumbnails">
+			{# {% for image in gallery_images %}
+			<img class="block thumb{% if loop.first %} active{% endif %}" src="{{ image }}"
+				alt="{{ product.name }} thumbnail {{ loop.index }}" data-full-src="{{ image }}" data-index="{{ loop.index0 }}"
+				tabindex="0" role="tab" aria-label="Show image {{ loop.index }}">
+			{% endfor %} #}
+			<img class="block thumb active" src="{{ server }}image/product/product1.jpg" alt="{{ product.name }} thumbnail 1"
+				data-full-src="{{ server }}image/product/product1.jpg" data-index="0" tabindex="0" role="tab"
+				aria-label="Show image 1">
+			<img class="block thumb" src="{{ server }}image/product/product2.jpg" alt="{{ product.name }} thumbnail 2"
+				data-full-src="{{ server }}image/product/product2.jpg" data-index="1" tabindex="0" role="tab"
+				aria-label="Show image 2">
+			<img class="block thumb" src="{{ server }}image/product/product3.png" alt="{{ product.name }} thumbnail 3"
+				data-full-src="{{ server }}image/product/product3.png" data-index="2" tabindex="0" role="tab"
+				aria-label="Show image 3">
+		</div>
+	</div>
+	<div class="info block">
+		<p class="text-20">Key Features</p>
+		<div class="divider"></div>
+		<ul class="list">
+			<li>
+				<span class="key">Brand</span><span class="value">RadioMaster</span>
+			</li>
+			<li>
+				<span class="key">Brand</span><span class="value">RadioMaster</span>
+			</li>
+			<li>
+				<span class="key">Brand</span><span class="value">RadioMaster</span>
+			</li>
+			<li>
+				<span class="key">Brand</span><span class="value">RadioMaster</span>
+			</li>
+		</ul>
+		<p class="text-20">Description</p>
+		<div class="divider"></div>
+		<p class="text-16">
+			{{ product.description }}
+		</p>
+	</div>
+	<div class="payment">
+		<div class="price block">
+			<p class="text-32">{{ product.price_formatted }} uah</p>
+			<p class="text-16 availability">{% if product.stock_text > 0 %}In Stock{% else %}Out of Stock{% endif %}</p>
+			<ui-button class="add-to-cart">
+				<img slot="icon" style="display: block; width: 32px; height: 32px; object-fit: contain"
+					src="{{ server }}image/icons/cart.svg" alt="Cart" />
+				<span slot="text">Add to cart </span>
+			</ui-button>
+		</div>
+		<div class="methods block">
+			<p class="text-20">Payment Methods</p>
+			<div class="list">
+				<img class="item" src="{{ server }}image/product/visa.png" alt="Visa">
+				<img class="item" src="{{ server }}image/product/apple-pay.png" alt="Apple Pay">
+				<img class="item" src="{{ server }}image/product/mastercard.png" alt="Mastercard">
+				<img class="item" src="{{ server }}image/product/google-pay.png" alt="Google Pay">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container products" style="margin-bottom: 50px;">
+	<h3 class="products-title">You may also like</h3>
+	<div class="swiper products-swiper">
+		<div class="swiper-wrapper">
+			{% if battery_products %}
+			{% for product in battery_products %}
+			<div class="swiper-slide">
+				<div class="product-card" data-product-url="{{ product.url_raw }}">
+					<div class="product-image">
+						<img src="{{ product.image }}" alt="{{ product.name }}">
+					</div>
+					<div class="product-info">
+						<p class="availability text-16">{{ product.availability }}</p>
+						<h4 class="product-title">{{ product.name }}</h4>
+					</div>
+					<p class="text-16">Model: {{ product.model }}</p>
+					<p class="product-price text-32">${{ product.price_formatted }}</p>
+					<ui-button-secondary class="product-button">
+						<span slot="text">View product</span>
+					</ui-button-secondary>
+				</div>
+			</div>
+			{% endfor %}
+			{% else %}
+			<div class="swiper-slide">
+				<div class="product-card">
+					<div class="product-info">
+						<p class="text-20">Battery catalog is being prepared. Stay tuned!</p>
+					</div>
+				</div>
+			</div>
+			{% endif %}
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</div>
+
+
+{# <section class="product-hero">
+	<div class="container">
+		<div class="gallery">
+			<img src="{{ product.image }}" alt="{{ product.name }}">
+		</div>
+		<div class="info">
+			<p class="badge">{{ product.category }}</p>
+			<h1>{{ product.name }}</h1>
+			<p class="price">{{ product.price_formatted }}</p>
+			<p class="availability">{{ product.availability }} · {{ product.stock_text }}</p>
+			<div class="highlights">
+				{% for item in product.highlights %}
+				<div class="highlight">
+					<i></i>
+					<span>{{ item }}</span>
+				</div>
+				{% endfor %}
+			</div>
+			<div class="cta">
+				<custom-button>
+					<span slot="text">Add to cart</span>
+				</custom-button>
+				<button-secondary>
+					<span slot="text">Request a quote</span>
+				</button-secondary>
+			</div>
+			<div class="description">
+				<h2>Product overview</h2>
+				<p>{{ product.description }}</p>
+			</div>
+			<div class="specs">
+				<h3>Tech specs</h3>
+				<ul>
+					{% for spec in product.specs %}
+			</div>
+		</div>
+</section>
+
+<section class="product-details">
+	<div class="container split">
+		<div class="description">
+			<h2>Product overview</h2>
+			<p>{{ product.description }}</p>
+		</div>
+		<div class="specs">
+			<h3>Tech specs</h3>
+			<ul>
+				{% for spec in product.specs %}
+				<li>
+					<span>{{ spec.label }}</span>
+					<strong>{{ spec.value }}</strong>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+{% if related_products %}
+<section class="product-related">
+	<div class="container">
+		<h3>Recommended for you</h3>
+		<div class="cards">
+			{% for item in related_products %}
+			<div class="card">
+				<img src="{{ item.image }}" alt="{{ item.name }}">
+				<div>
+					<p class="name">{{ item.name }}</p>
+					<p class="price">{{ item.price }}</p>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+{% endif %} #}
+
+<script>
+	function initProductsSwiper() {
+		if (typeof Swiper === 'undefined') {
+			setTimeout(initProductsSwiper, 100);
+			return;
+		}
+
+		const productsSwiper = new Swiper('.products-swiper', {
+			slidesPerView: 3.5,
+			spaceBetween: 24,
+			loop: false,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+				renderBullet: function (index, className) {
+					return '<span class="' + className + '"></span>';
+				},
+			},
+			breakpoints: {
+				320: {
+					slidesPerView: 1.2,
+					spaceBetween: 16,
+				},
+				768: {
+					slidesPerView: 2.5,
+					spaceBetween: 20,
+				},
+				1024: {
+					slidesPerView: 3.2,
+					spaceBetween: 24,
+				},
+			},
+		});
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initProductsSwiper);
+	} else {
+		initProductsSwiper();
+	}
+
+	document.addEventListener('click', function (event) {
+		const card = event.target.closest('.product-card[data-product-url]');
+		if (card) {
+			window.location.href = card.getAttribute('data-product-url');
+		}
+	});
+</script>
+
+{{ footer }}

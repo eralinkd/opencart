@@ -772,3 +772,2676 @@ Backtrace: 2
 File: D:\xampp\htdocs\opencart\index.php
 Line: 20
 Function: require_once
+2025-11-27 12:07:17 - Error: Error: Could not load model catalog/category!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/install/create_drone_categories.php
+Line: 22
+Class: Opencart\System\Engine\Loader
+Function: model
+2025-11-27 12:15:07 - PHP Warning:  Undefined array key "name" in /var/www/opencart/admin/controller/catalog/product.php on line 834
+2025-11-27 12:20:11 - Error: Error: Could not load model setting/setting!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/startup/setting.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Startup\Setting
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 208
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:20:12 - Error: Error: Could not load model setting/setting!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/startup/setting.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Startup\Setting
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 208
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:22:19 - Error: <b>Notice</b>:  Undefined property: Proxy::addLogin in <b>/var/www/opencart/admin/controller/common/login.php</b> on line <b>108</b>
+File: /var/www/opencart/system/engine/proxy.php
+Line: 91
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/common/login.php
+Line: 108
+Class: Opencart\System\Engine\Proxy
+Function: __call
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Common\Login
+Function: login
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:24:21 - Error: Error: Could not load model sale/order!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/extension/opencart/admin/controller/dashboard/recent.php
+Line: 102
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/loader.php
+Line: 112
+Class: Opencart\Admin\Controller\Extension\Opencart\Dashboard\Recent
+Function: dashboard
+
+Backtrace: 2
+File: /var/www/opencart/admin/controller/common/dashboard.php
+Line: 44
+Class: Opencart\System\Engine\Loader
+Function: controller
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Common\Dashboard
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:25:00 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
+2025-11-27 12:25:00 - Error: <b>Notice</b>:  Undefined property: Proxy::getNotifications in <b>/var/www/opencart/admin/controller/common/header.php</b> on line <b>60</b>
+File: /var/www/opencart/system/engine/proxy.php
+Line: 91
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/common/header.php
+Line: 60
+Class: Opencart\System\Engine\Proxy
+Function: __call
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/loader.php
+Line: 112
+Class: Opencart\Admin\Controller\Common\Header
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/admin/controller/common/dashboard.php
+Line: 42
+Class: Opencart\System\Engine\Loader
+Function: controller
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Common\Dashboard
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:25:02 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
+2025-11-27 12:25:02 - Error: <b>Notice</b>:  Undefined property: Proxy::getNotifications in <b>/var/www/opencart/admin/controller/common/header.php</b> on line <b>60</b>
+File: /var/www/opencart/system/engine/proxy.php
+Line: 91
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/common/header.php
+Line: 60
+Class: Opencart\System\Engine\Proxy
+Function: __call
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/loader.php
+Line: 112
+Class: Opencart\Admin\Controller\Common\Header
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/admin/controller/common/dashboard.php
+Line: 42
+Class: Opencart\System\Engine\Loader
+Function: controller
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Common\Dashboard
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:25:02 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
+2025-11-27 12:25:02 - Error: <b>Notice</b>:  Undefined property: Proxy::getNotifications in <b>/var/www/opencart/admin/controller/common/header.php</b> on line <b>60</b>
+File: /var/www/opencart/system/engine/proxy.php
+Line: 91
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/common/header.php
+Line: 60
+Class: Opencart\System\Engine\Proxy
+Function: __call
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/loader.php
+Line: 112
+Class: Opencart\Admin\Controller\Common\Header
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/admin/controller/common/dashboard.php
+Line: 42
+Class: Opencart\System\Engine\Loader
+Function: controller
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Common\Dashboard
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:25:02 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
+2025-11-27 12:25:02 - Error: <b>Notice</b>:  Undefined property: Proxy::getNotifications in <b>/var/www/opencart/admin/controller/common/header.php</b> on line <b>60</b>
+File: /var/www/opencart/system/engine/proxy.php
+Line: 91
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/common/header.php
+Line: 60
+Class: Opencart\System\Engine\Proxy
+Function: __call
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/loader.php
+Line: 112
+Class: Opencart\Admin\Controller\Common\Header
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/admin/controller/common/dashboard.php
+Line: 42
+Class: Opencart\System\Engine\Loader
+Function: controller
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Common\Dashboard
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:25:18 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
+2025-11-27 12:25:18 - Error: <b>Notice</b>:  Undefined property: Proxy::getNotifications in <b>/var/www/opencart/admin/controller/common/header.php</b> on line <b>60</b>
+File: /var/www/opencart/system/engine/proxy.php
+Line: 91
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/common/header.php
+Line: 60
+Class: Opencart\System\Engine\Proxy
+Function: __call
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/loader.php
+Line: 112
+Class: Opencart\Admin\Controller\Common\Header
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/admin/controller/common/dashboard.php
+Line: 42
+Class: Opencart\System\Engine\Loader
+Function: controller
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Common\Dashboard
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:26:34 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
+2025-11-27 12:26:34 - Error: Error: Could not load model tool/image!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/common/header.php
+Line: 88
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/loader.php
+Line: 112
+Class: Opencart\Admin\Controller\Common\Header
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/admin/controller/common/dashboard.php
+Line: 42
+Class: Opencart\System\Engine\Loader
+Function: controller
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Common\Dashboard
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:26:53 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
+2025-11-27 12:26:53 - Error: Error: Could not load model tool/image!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/common/header.php
+Line: 88
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/loader.php
+Line: 112
+Class: Opencart\Admin\Controller\Common\Header
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/admin/controller/common/dashboard.php
+Line: 42
+Class: Opencart\System\Engine\Loader
+Function: controller
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Common\Dashboard
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:38:02 - Error: Error: Could not load model catalog/filter!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/category.php
+Line: 320
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Category
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:43:03 - Error: Error: Could not load model catalog/filter!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/category.php
+Line: 320
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Category
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:46:38 - Error: Error: Could not load model catalog/option!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 1481
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:46:40 - Error: Error: Could not load model catalog/option!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 1481
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:46:45 - Error: Error: Could not load model catalog/identifier!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 688
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:49:39 - Error: Error: Could not load model catalog/identifier!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 688
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:50:09 - Error: Error: Could not load model catalog/option!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 1481
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:50:14 - Error: Error: Could not load model catalog/option!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 1481
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:50:26 - Error: Error: Could not load model catalog/filter!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/category.php
+Line: 320
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Category
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 12:50:45 - Error: Error: Could not load model catalog/identifier!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 688
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:13:54 - Error: Error: Could not load model catalog/identifier!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 688
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:15:08 - Error: Error: Could not load model localisation/tax_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 709
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:15:09 - Error: Error: Could not load model localisation/tax_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 709
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:15:09 - Error: Error: Could not load model localisation/tax_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 709
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:15:14 - Error: Error: Could not load model localisation/tax_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 709
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:05 - Error: Error: Could not load model localisation/stock_status!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 738
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:06 - Error: Error: Could not load model localisation/stock_status!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 738
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:06 - Error: Error: Could not load model localisation/stock_status!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 738
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:06 - Error: Error: Could not load model localisation/stock_status!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 738
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:06 - Error: Error: Could not load model localisation/stock_status!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 738
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:07 - Error: Error: Could not load model localisation/stock_status!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 738
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:07 - Error: Error: Could not load model localisation/stock_status!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 738
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:54 - Error: Error: Could not load model localisation/length_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 785
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:54 - Error: Error: Could not load model localisation/length_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 785
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:54 - Error: Error: Could not load model localisation/length_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 785
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:55 - Error: Error: Could not load model localisation/length_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 785
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:55 - Error: Error: Could not load model localisation/length_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 785
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:16:55 - Error: Error: Could not load model localisation/length_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 785
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:17:25 - Error: Error: Could not load model localisation/weight_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 802
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:17:25 - Error: Error: Could not load model localisation/weight_class!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 802
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:23:51 - Error: Error: Could not load model catalog/filter!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 727
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:35:32 - Error: Error: Could not load model catalog/download!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 768
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-11-27 13:35:33 - Error: Error: Could not load model catalog/download!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 768
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:20:20 - Error: Error: Could not load model catalog/filter!
+File: /var/www/opencart/system/engine/loader.php
+Line: 148
+
+Backtrace: 0
+File: /var/www/opencart/admin/controller/catalog/category.php
+Line: 320
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Category
+Function: form
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "model" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "location" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "minimum" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "stock_status_id" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "date_available" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "manufacturer_id" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "points" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "weight" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "weight_class_id" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "length" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "width" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "height" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "length_class_id" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "tax_class_id" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "sort_order" in /var/www/opencart/admin/model/catalog/product.php on line 59
+2025-12-01 10:20:41 - PHP Warning:  Undefined array key "tag" in /var/www/opencart/admin/model/catalog/product.php on line 1335
+2025-12-01 10:20:41 - Error: Opencart\System\Library\DB::escape(): Argument #1 ($value) must be of type string, null given, called in /var/www/opencart/admin/model/catalog/product.php on line 1335
+File: /var/www/opencart/system/library/db.php
+Line: 64
+
+Backtrace: 0
+File: /var/www/opencart/admin/model/catalog/product.php
+Line: 1335
+Class: Opencart\System\Library\DB
+Function: escape
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/loader.php
+Line: 343
+Class: Opencart\Admin\Model\Catalog\Product
+Function: addDescription
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/proxy.php
+Line: 87
+Class: Opencart\System\Engine\Loader
+Function: Opencart\System\Engine\{closure}
+
+Backtrace: 3
+File: /var/www/opencart/admin/model/catalog/product.php
+Line: 69
+Class: Opencart\System\Engine\Proxy
+Function: __call
+
+Backtrace: 4
+File: /var/www/opencart/system/engine/loader.php
+Line: 343
+Class: Opencart\Admin\Model\Catalog\Product
+Function: addProduct
+
+Backtrace: 5
+File: /var/www/opencart/system/engine/proxy.php
+Line: 87
+Class: Opencart\System\Engine\Loader
+Function: Opencart\System\Engine\{closure}
+
+Backtrace: 6
+File: /var/www/opencart/admin/controller/catalog/product.php
+Line: 919
+Class: Opencart\System\Engine\Proxy
+Function: __call
+
+Backtrace: 7
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: save
+
+Backtrace: 8
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 9
+File: /var/www/opencart/admin/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:55:48 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 93
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:55:50 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 93
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:55:50 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 93
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:55:50 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 93
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:55:50 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 93
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:55:51 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 93
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:55:51 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 93
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:55:51 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 93
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 10:55:51 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 93
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:00:24 - Error: Error: Could not call registry key session!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 88
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:00:25 - Error: Error: Could not call registry key session!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 88
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:00:25 - Error: Error: Could not call registry key session!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 88
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:00:25 - Error: Error: Could not call registry key session!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 88
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:00:25 - Error: Error: Could not call registry key session!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 88
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:00:26 - Error: Error: Could not call registry key session!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 88
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:00:26 - Error: Error: Could not call registry key session!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 88
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:00:26 - Error: Error: Could not call registry key session!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 88
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:02:01 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 106
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:02:01 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 106
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:02:01 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 106
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:02:01 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 106
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 11:02:02 - Error: Error: Could not call registry key currency!
+File: /var/www/opencart/system/engine/controller.php
+Line: 43
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 106
+Class: Opencart\System\Engine\Controller
+Function: __get
+
+Backtrace: 1
+File: /var/www/opencart/catalog/controller/common/home.php
+Line: 33
+Class: Opencart\Catalog\Controller\Common\Home
+Function: getProductsByCategoryName
+
+Backtrace: 2
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 3
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 4
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 19
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 21
+2025-12-01 13:00:35 - PHP Unknown:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/opencart/catalog/controller/product/product.php on line 21
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 35
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 40
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 41
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 42
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 43
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 44
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 46
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 47
+2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 48
+2025-12-01 13:00:35 - Error: Opencart\Catalog\Controller\Product\Product::buildHighlights(): Argument #1 ($product) must be of type array, null given, called in /var/www/opencart/catalog/controller/product/product.php on line 49
+File: /var/www/opencart/catalog/controller/product/product.php
+Line: 118
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/product/product.php
+Line: 49
+Class: Opencart\Catalog\Controller\Product\Product
+Function: buildHighlights
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Product\Product
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 13:10:27 - Error: Unsupported operand types: int + string
+File: /var/www/opencart/catalog/controller/product/product.php
+Line: 10
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Product\Product
+Function: index
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 13:10:28 - Error: Unsupported operand types: int + string
+File: /var/www/opencart/catalog/controller/product/product.php
+Line: 10
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Product\Product
+Function: index
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 13:49:27 - Error: Incompatible units px and %.: line: 184, column: 5
+File: /var/www/opencart/system/storage/vendor/scssphp/scssphp/src/Compiler.php
+Line: 611
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/startup/sass.php
+Line: 34
+Class: ScssPhp\ScssPhp\Compiler
+Function: compileString
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Startup\Sass
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 208
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 13:49:27 - Error: Incompatible units px and %.: line: 184, column: 5
+File: /var/www/opencart/system/storage/vendor/scssphp/scssphp/src/Compiler.php
+Line: 611
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/startup/sass.php
+Line: 34
+Class: ScssPhp\ScssPhp\Compiler
+Function: compileString
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Startup\Sass
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 208
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 13:49:28 - Error: Incompatible units px and %.: line: 184, column: 5
+File: /var/www/opencart/system/storage/vendor/scssphp/scssphp/src/Compiler.php
+Line: 611
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/startup/sass.php
+Line: 34
+Class: ScssPhp\ScssPhp\Compiler
+Function: compileString
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Startup\Sass
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 208
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-01 13:49:28 - Error: Incompatible units px and %.: line: 184, column: 5
+File: /var/www/opencart/system/storage/vendor/scssphp/scssphp/src/Compiler.php
+Line: 611
+
+Backtrace: 0
+File: /var/www/opencart/catalog/controller/startup/sass.php
+Line: 34
+Class: ScssPhp\ScssPhp\Compiler
+Function: compileString
+
+Backtrace: 1
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Startup\Sass
+Function: index
+
+Backtrace: 2
+File: /var/www/opencart/system/framework.php
+Line: 208
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-02 20:19:58 - Error: Unable to find template "catalog/view/template/common/ui/card.twig" (looked into: .).
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: D:\xampp\htdocs\opencart\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: D:\xampp\htdocs\opencart\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
+Line: 31
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 9
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: D:\xampp\htdocs\opencart\index.php
+Line: 20
+Function: require_once
+2025-12-02 20:22:27 - Error: Unable to find template "catalog/view/template/common/components/productcard.twig" (looked into: .).
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: D:\xampp\htdocs\opencart\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: D:\xampp\htdocs\opencart\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
+Line: 30
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 9
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: D:\xampp\htdocs\opencart\index.php
+Line: 20
+Function: require_once
+2025-12-02 20:23:14 - Error: Unable to find template "catalog/view/template/common/components/productcard.twig" (looked into: .).
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: D:\xampp\htdocs\opencart\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: D:\xampp\htdocs\opencart\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
+Line: 30
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Common\Home
+Function: index
+
+Backtrace: 9
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: D:\xampp\htdocs\opencart\index.php
+Line: 20
+Function: require_once
+2025-12-02 20:47:33 - Error: Undefined constant "Opencart\Catalog\Controller\Startup\DIR_CATALOG"
+File: D:\xampp\htdocs\opencart\catalog\controller\startup\sass.php
+Line: 17
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Startup\Sass
+Function: index
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 208
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\index.php
+Line: 20
+Function: require_once
+2025-12-02 21:30:24 - Error: Error: Could not load model catalog/option!
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 148
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
+Line: 1129
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\admin\index.php
+Line: 20
+Function: require_once
+2025-12-02 21:30:24 - Error: Error: Could not load model catalog/option!
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 148
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
+Line: 1129
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\admin\index.php
+Line: 20
+Function: require_once
+2025-12-02 21:42:24 - Error: Call to undefined method Opencart\Catalog\Controller\Product\Product::getProductsByCategoryName()
+File: D:\xampp\htdocs\opencart\catalog\controller\product\product.php
+Line: 54
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Product\Product
+Function: index
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\index.php
+Line: 20
+Function: require_once
+2025-12-02 21:43:14 - Error: Call to undefined method Opencart\Catalog\Controller\Product\Product::getCategoryIdByName()
+File: D:\xampp\htdocs\opencart\catalog\controller\product\product.php
+Line: 227
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\catalog\controller\product\product.php
+Line: 54
+Class: Opencart\Catalog\Controller\Product\Product
+Function: getProductsByCategoryName
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Product\Product
+Function: index
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\index.php
+Line: 20
+Function: require_once
+2025-12-02 21:52:10 - Error: Error: Could not load model catalog/option!
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 148
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
+Line: 1129
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\admin\index.php
+Line: 20
+Function: require_once
+2025-12-02 21:52:12 - Error: Error: Could not load model catalog/option!
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 148
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
+Line: 1129
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\admin\index.php
+Line: 20
+Function: require_once
+2025-12-02 21:52:12 - Error: Error: Could not load model catalog/option!
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 148
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
+Line: 1129
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\admin\index.php
+Line: 20
+Function: require_once
+2025-12-02 21:52:13 - Error: Error: Could not load model catalog/option!
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 148
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
+Line: 1129
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\admin\index.php
+Line: 20
+Function: require_once

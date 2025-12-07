@@ -25,7 +25,7 @@ class Language extends \Opencart\System\Engine\Controller {
 			$data['languages'][] = [
 				'name'  => $result['name'],
 				'code'  => $result['code'],
-				'image' => $result['image']
+				'image' => $result['image'] ?? ''
 			];
 		}
 

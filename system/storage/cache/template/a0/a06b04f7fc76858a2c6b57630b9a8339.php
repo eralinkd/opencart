@@ -40,50 +40,70 @@ class __TwigTemplate_e16948717a7d51c05ab8dfecb3493046 extends Template
         $macros = $this->macros;
         // line 1
         yield "<template id=\"custom-button-template\">
-\t<style>:host
-\t{
-\t\tdisplay: inline-block;
-\t\twidth: fit-content;
-\t}
-\t.ui-button {
-\t\tpadding: 16px 32px;
-\t\tborder-radius: 10px;
-\t\tbackground: #4075AB;
-\t\tborder: none;
-\t\tcursor: pointer;
-\t\tcolor: white;
-\t\tcolor: #FFF;
-\t\tfont-family: \"Inter\", sans-serif;
-\t\tfont-size: 20px;
-\t\tfont-style: normal;
-\t\tfont-weight: 500;
-\t\tline-height: 24px; /* 120% */
-\t\tletter-spacing: -0.22px;
-\t\tdisplay: flex;
-\t\talign-items: center;
-\t\tgap: 10px;
-\t\ttransition: all 0.2s ease-in-out;
-\t}
+\t<style>
+\t\t:host {
+\t\t\tdisplay: inline-block;
+\t\t\twidth: fit-content;
+\t\t}
 
-\t.ui-button:hover {
-\t\tbackground: #2A5E91;
-\t}
+\t\t:host([is-white]) .ui-button {
+\t\t\tbackground: #FFF;
+\t\t\tcolor: #1F1F1F;
+\t\t}
 
-\t.ui-button-icon-wrapper {
-\t\twidth: 14px;
-\t\theight: 15px;
-\t\tposition: relative;
-\t}
-</style>
+\t\t:host([is-white]) .ui-button:hover {
+\t\t\tbackground: #d8d8d8;
+\t\t}
 
-<button class=\"ui-button\" type=\"button\">
-\t<slot name=\"text\">Button</slot>
-\t<div class=\"ui-button-icon-wrapper\">
-\t\t<slot name=\"icon\"></slot>
-\t</div>
+\t\t.ui-button {
+\t\t\tpadding: 16px 32px;
+\t\t\tborder-radius: 10px;
+\t\t\tbackground: #4075AB;
+\t\t\tborder: none;
+\t\t\tcursor: pointer;
+\t\t\tcolor: white;
+\t\t\tcolor: #FFF;
+\t\t\tfont-family: \"Inter\", sans-serif;
+\t\t\tfont-size: 20px;
+\t\t\tfont-style: normal;
+\t\t\tfont-weight: 500;
+\t\t\tline-height: 24px;
+\t\t\t/* 120% */
+\t\t\tletter-spacing: -0.22px;
+\t\t\tdisplay: flex;
+\t\t\talign-items: center;
+\t\t\tgap: 10px;
+\t\t\ttransition: all 0.2s ease-in-out;
+\t\t}
 
-</button></template>
-";
+\t\t.ui-button.is-white {
+\t\t\tbackground: #FFF;
+\t\t\tcolor: #4075AB;
+\t\t}
+
+\t\t.ui-button.is-white:hover {
+\t\t\tbackground: #F5F5F5;
+\t\t}
+
+\t\t.ui-button:hover {
+\t\t\tbackground: #2A5E91;
+\t\t}
+
+\t\t.ui-button-icon-wrapper {
+\t\t\twidth: 14px;
+\t\t\theight: 15px;
+\t\t\tposition: relative;
+\t\t}
+\t</style>
+
+\t<button class=\"ui-button\" type=\"button\">
+\t\t<slot name=\"text\">Button</slot>
+\t\t<div class=\"ui-button-icon-wrapper\">
+\t\t\t<slot name=\"icon\"></slot>
+\t\t</div>
+
+\t</button>
+</template>";
         yield from [];
     }
 
@@ -106,49 +126,69 @@ class __TwigTemplate_e16948717a7d51c05ab8dfecb3493046 extends Template
     public function getSourceContext(): Source
     {
         return new Source("<template id=\"custom-button-template\">
-\t<style>:host
-\t{
-\t\tdisplay: inline-block;
-\t\twidth: fit-content;
-\t}
-\t.ui-button {
-\t\tpadding: 16px 32px;
-\t\tborder-radius: 10px;
-\t\tbackground: #4075AB;
-\t\tborder: none;
-\t\tcursor: pointer;
-\t\tcolor: white;
-\t\tcolor: #FFF;
-\t\tfont-family: \"Inter\", sans-serif;
-\t\tfont-size: 20px;
-\t\tfont-style: normal;
-\t\tfont-weight: 500;
-\t\tline-height: 24px; /* 120% */
-\t\tletter-spacing: -0.22px;
-\t\tdisplay: flex;
-\t\talign-items: center;
-\t\tgap: 10px;
-\t\ttransition: all 0.2s ease-in-out;
-\t}
+\t<style>
+\t\t:host {
+\t\t\tdisplay: inline-block;
+\t\t\twidth: fit-content;
+\t\t}
 
-\t.ui-button:hover {
-\t\tbackground: #2A5E91;
-\t}
+\t\t:host([is-white]) .ui-button {
+\t\t\tbackground: #FFF;
+\t\t\tcolor: #1F1F1F;
+\t\t}
 
-\t.ui-button-icon-wrapper {
-\t\twidth: 14px;
-\t\theight: 15px;
-\t\tposition: relative;
-\t}
-</style>
+\t\t:host([is-white]) .ui-button:hover {
+\t\t\tbackground: #d8d8d8;
+\t\t}
 
-<button class=\"ui-button\" type=\"button\">
-\t<slot name=\"text\">Button</slot>
-\t<div class=\"ui-button-icon-wrapper\">
-\t\t<slot name=\"icon\"></slot>
-\t</div>
+\t\t.ui-button {
+\t\t\tpadding: 16px 32px;
+\t\t\tborder-radius: 10px;
+\t\t\tbackground: #4075AB;
+\t\t\tborder: none;
+\t\t\tcursor: pointer;
+\t\t\tcolor: white;
+\t\t\tcolor: #FFF;
+\t\t\tfont-family: \"Inter\", sans-serif;
+\t\t\tfont-size: 20px;
+\t\t\tfont-style: normal;
+\t\t\tfont-weight: 500;
+\t\t\tline-height: 24px;
+\t\t\t/* 120% */
+\t\t\tletter-spacing: -0.22px;
+\t\t\tdisplay: flex;
+\t\t\talign-items: center;
+\t\t\tgap: 10px;
+\t\t\ttransition: all 0.2s ease-in-out;
+\t\t}
 
-</button></template>
-", "catalog/view/template/common/button_component.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\common\\button_component.twig");
+\t\t.ui-button.is-white {
+\t\t\tbackground: #FFF;
+\t\t\tcolor: #4075AB;
+\t\t}
+
+\t\t.ui-button.is-white:hover {
+\t\t\tbackground: #F5F5F5;
+\t\t}
+
+\t\t.ui-button:hover {
+\t\t\tbackground: #2A5E91;
+\t\t}
+
+\t\t.ui-button-icon-wrapper {
+\t\t\twidth: 14px;
+\t\t\theight: 15px;
+\t\t\tposition: relative;
+\t\t}
+\t</style>
+
+\t<button class=\"ui-button\" type=\"button\">
+\t\t<slot name=\"text\">Button</slot>
+\t\t<div class=\"ui-button-icon-wrapper\">
+\t\t\t<slot name=\"icon\"></slot>
+\t\t</div>
+
+\t</button>
+</template>", "catalog/view/template/common/button_component.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\common\\button_component.twig");
     }
 }

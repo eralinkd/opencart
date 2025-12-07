@@ -1,0 +1,12 @@
+.product-title {
+  margin-bottom: 24px;
+}
+.product-title .title {
+  color: #1f1f1f;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.352px;
+}

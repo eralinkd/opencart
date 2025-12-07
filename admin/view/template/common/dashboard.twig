@@ -2,11 +2,6 @@
 <div id="content">
   <div class="page-header">
     <div class="container-fluid">
-      {% if developer_status %}
-        <div class="float-end">
-          <button type="button" id="button-setting" data-bs-toggle="tooltip" title="{{ button_developer }}" class="btn btn-info"><i class="fa-solid fa-cog"></i></button>
-        </div>
-      {% endif %}
       <h1>{{ heading_title }}</h1>
       <ol class="breadcrumb">
         {% for breadcrumb in breadcrumbs %}
@@ -16,8 +11,19 @@
     </div>
   </div>
   <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; color: white;">
+          <div class="card-body" style="padding: 40px;">
+            <h5 class="card-title" style="color: white; font-size: 24px; margin-bottom: 16px;">Welcome to SkyFix Admin Panel</h5>
+            <p class="card-text" style="color: rgba(255, 255, 255, 0.9); font-size: 16px; margin-bottom: 24px;">Use the left menu to manage categories and products for your drone parts store.</p>
+            <a href="{{ catalog_url }}" class="btn btn-primary" style="background: white; color: #667eea; font-weight: 600;">Manage Catalog</a>
+          </div>
+        </div>
+      </div>
+    </div>
     {% for row in rows %}
-      <div class="row">
+      <div class="row mt-3">
         {% for dashboard_1 in row %}
           {% set class = 'col-lg-%s %s'|format(dashboard_1.width, 'col-md-3 col-sm-6') %}
           {% for dashboard_2 in row %}
@@ -30,30 +36,5 @@
       </div>
     {% endfor %}
   </div>
-  {{ security }}
 </div>
-<script type="text/javascript"><!--
-$('#button-setting').on('click', function() {
-    $.ajax({
-        url: 'index.php?route=common/developer&user_token={{ user_token }}',
-        dataType: 'html',
-        beforeSend: function() {
-            $('#button-setting').button('loading');
-        },
-        complete: function() {
-            $('#button-setting').button('reset');
-        },
-        success: function(html) {
-            $('#modal-developer').remove();
-
-            $('body').prepend(html);
-
-            $('#modal-developer').modal('show');
-        },
-        error: function(xhr, ajaxOptions, thrownError) {
-            console.log(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
-        }
-    });
-});
-//--></script>
 {{ footer }}

@@ -1,0 +1,68 @@
+<template id="ui-button-template">
+	<style>
+		:host {
+			display: inline-block;
+			width: fit-content;
+		}
+
+		:host([is-white]) .ui-button {
+			background: #FFF;
+			color: #1F1F1F;
+		}
+
+		:host([is-white]) .ui-button:hover {
+			background: #d8d8d8;
+		}
+
+		.ui-button {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 16px 32px;
+			border-radius: 10px;
+			background: #4075AB;
+			border: none;
+			cursor: pointer;
+			color: white;
+			color: #FFF;
+			font-family: "Inter", sans-serif;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 24px;
+			/* 120% */
+			letter-spacing: -0.22px;
+			display: flex;
+			align-items: center;
+			gap: 10px;
+			transition: all 0.2s ease-in-out;
+		}
+
+		.ui-button.is-white {
+			background: #FFF;
+			color: #4075AB;
+		}
+
+		.ui-button.is-white:hover {
+			background: #F5F5F5;
+		}
+
+		.ui-button:hover {
+			background: #2A5E91;
+		}
+
+		.ui-button-icon-wrapper {
+			position: relative;
+			flex-shrink: 0;
+		}
+	</style>
+
+	<button class="ui-button" type="button">
+		<slot name="text">Button</slot>
+		<div class="ui-button-icon-wrapper">
+			<slot name="icon"></slot>
+		</div>
+
+	</button>
+</template>

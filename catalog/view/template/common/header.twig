@@ -23,6 +23,9 @@
 	<link href="{{ index }}" rel="stylesheet" type="text/css" />
 	<link href="{{ app_header }}" rel="stylesheet" type="text/css" />
 	<link href="{{ page_home }}" rel="stylesheet" type="text/css" />
+	{% if is_product_page %}
+	<link href="{{ page_product }}" rel="stylesheet" type="text/css" />
+	{% endif %}
 	<link href="{{ app_footer }}" rel="stylesheet" type="text/css" />
 	{% if icon %}
 	<link rel="icon" href="{{ icon }}" type="image/png">
@@ -37,8 +40,8 @@
 
 <body>
 
-	{{ button_component|raw }}
-	{{ button_secondary|raw }}
+	{{ UIButton|raw }}
+	{{ UIButtonSecondary|raw }}
 
 	<header class="app-header {% if is_main_page %}is-main-page{% endif %}">
 		<div class="content">

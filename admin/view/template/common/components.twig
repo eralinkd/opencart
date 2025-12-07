@@ -1,12 +1,3 @@
-{#
-  Компоненты с изолированными стилями
-  
-  Использование:
-  {% import 'common/components.twig' as components %}
-  {{ components.button('Добавить', add, 'primary') }}
-#}
-
-{# Компонент кнопки #}
 {% macro button(text, href = null, type = 'primary', icon = null, tooltip = null, onclick = null, form = null, formaction = null, disabled = false) %}
   {% set buttonId = 'oc-btn-' ~ random() %}
   <span class="oc-button-wrapper" id="{{ buttonId }}">
@@ -36,8 +27,6 @@
       </button>
     {% endif %}
   </span>
-  
-  {# Scoped стили для этого компонента #}
   <style>
     #{{ buttonId }} .oc-button {
       display: inline-flex;

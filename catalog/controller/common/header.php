@@ -16,14 +16,18 @@ class Header extends \Opencart\System\Engine\Controller {
 		$data['description'] = $this->document->getDescription();
 		$data['keywords'] = $this->document->getKeywords();
 
+		// home page styles
 		$data['reset'] = 'catalog/view/stylesheet/reset.css';
 		$data['index'] = 'catalog/view/stylesheet/index.css';
 		$data['app_header'] = 'catalog/view/stylesheet/app_header.css';
 		$data['page_home'] = 'catalog/view/stylesheet/home.css';
 		$data['app_footer'] = 'catalog/view/stylesheet/app_footer.css';
-		// Компонент кнопки (Web Component)
-		$this->document->addScript('catalog/view/javascript/button-component.js');
-		$this->document->addScript('catalog/view/javascript/button-secondary.js');
+
+		// product page styles
+		$data['page_product'] = 'catalog/view/stylesheet/product/product.css';
+
+		$this->document->addScript('catalog/view/javascript/components/ui/Button.js');
+		$this->document->addScript('catalog/view/javascript/components/ui/ButtonSecondary.js');
 
 		$data['links'] = $this->document->getLinks();
 		$data['styles'] = $this->document->getStyles();
@@ -43,13 +47,13 @@ class Header extends \Opencart\System\Engine\Controller {
 		}
 		
 		$data['is_main_page'] = ($route === 'common/home');
+		$data['is_product_page'] = ($route === 'product/product');
 		
 		$data['server'] = HTTP_SERVER;
 		
-		$data['button_component'] = $this->load->view('common/button_component', []);
-		$data['button_secondary'] = $this->load->view('common/button_secondary', []);
+		$data['UIButton'] = $this->load->view('common/components/ui/Button', []);
+		$data['UIButtonSecondary'] = $this->load->view('common/components/ui/ButtonSecondary', []);
 
 		return $this->load->view('common/header', $data);
 	}
 }
-

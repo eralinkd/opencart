@@ -1,44 +1,53 @@
 {{ header }}
 
-{# Подключаем локальный компонент карточки только для этой страницы #}
-{# {{ card_component|raw }} #}
-
 <div class="container wide hero">
 	<div class="content">
 		<img class="image" src="{{ server }}image/home/banner.png" alt="Hero">
 		<div class="decor"></div>
 		<h1 class="text-white">Drone parts built for any load</h1>
-		<custom-button>
-			<img slot="icon" style="display: block; width: 100%; height: 100%; object-fit: contain;"
-				src="{{ server }}image/icons/arrow-top-right.svg" alt="Arrow Right">
-			<span slot="text">See catalog
-			</span>
-		</custom-button>
+		<a href="{{ catalog_link }}" class="hero-cta" data-oc-router="link">
+			<ui-button>
+				<img slot="icon" style="display: block; width: 100%; height: 100%; object-fit: contain;"
+					src="{{ server }}image/icons/arrow-top-right.svg" alt="Arrow Right">
+				<span slot="text">See catalog
+				</span>
+			</ui-button>
+		</a>
 	</div>
 </div>
 
 <div class="container products">
-	<h3 class="products-title">Featured Products</h3>
+	<h3 class="products-title">Batteries</h3>
 	<div class="swiper products-swiper">
 		<div class="swiper-wrapper">
-			{% for i in range(1, 10) %}
+			{% if battery_products %}
+			{% for product in battery_products %}
 			<div class="swiper-slide">
-				<div class="product-card">
+				<div class="product-card" data-product-url="{{ product.url_raw }}">
 					<div class="product-image">
-						<img src="{{ server }}image/product1.png" alt="Product">
+						<img src="{{ product.image }}" alt="{{ product.name }}">
 					</div>
 					<div class="product-info">
-						<p class="availability text-16">In Stock</p>
-						<h4 class="product-title">Battery FPV 6S3P 12000mAh Li-ion Zeeepower</h4>
-						<p class="text-16">Model: ZEEE12000-10-6S</p>
-						<p class="product-price text-32">$35</p>
-						<button-secondary class="product-button">
-							<span slot="text">Add to Cart</span>
-						</button-secondary>
+						<p class="availability text-16">{{ product.availability }}</p>
+						<h4 class="product-title">{{ product.name }}</h4>
 					</div>
+					<p class="text-16">Model: {{ product.model }}</p>
+					<p class="product-price text-32">${{ product.price_formatted }}</p>
+					<ui-button-secondary class="product-button">
+						<span slot="text">View product</span>
+					</ui-button-secondary>
 				</div>
 			</div>
 			{% endfor %}
+			{% else %}
+			<div class="swiper-slide">
+				<div class="product-card">
+					<div class="product-info">
+						<p class="text-20">Battery catalog is being prepared. Stay tuned!</p>
+					</div>
+				</div>
+			</div>
+			{% endif %}
 		</div>
 		<div class="swiper-pagination"></div>
 	</div>
@@ -69,26 +78,54 @@
 	<h3 class="products-title">Controllers</h3>
 	<div class="swiper products-swiper">
 		<div class="swiper-wrapper">
-			{% for i in range(1, 10) %}
+			{% if controller_products %}
+			{% for product in controller_products %}
 			<div class="swiper-slide">
-				<div class="product-card">
+				<div class="product-card" data-product-url="{{ product.url_raw }}">
 					<div class="product-image">
-						<img src="{{ server }}image/product1.png" alt="Product">
+						<img src="{{ product.image }}" alt="{{ product.name }}">
 					</div>
 					<div class="product-info">
-						<p class="availability text-16">In Stock</p>
-						<h4 class="product-title">Battery FPV 6S3P 12000mAh Li-ion Zeeepower</h4>
-						<p class="text-16">Model: ZEEE12000-10-6S</p>
-						<p class="product-price text-32">$35</p>
-						<button-secondary class="product-button">
-							<span slot="text">Add to Cart</span>
-						</button-secondary>
+						<p class="availability text-16">{{ product.availability }}</p>
+						<h4 class="product-title">{{ product.name }}</h4>
 					</div>
+					<p class="text-16">Model: {{ product.model }}</p>
+					<p class="product-price text-32">${{ product.price_formatted }}</p>
+					<ui-button-secondary class="product-button">
+						<span slot="text">View product</span>
+					</ui-button-secondary>
 				</div>
 			</div>
 			{% endfor %}
+			{% else %}
+			<div class="swiper-slide">
+				<div class="product-card">
+					<div class="product-info">
+						<p class="text-20">Battery catalog is being prepared. Stay tuned!</p>
+					</div>
+				</div>
+			</div>
+			{% endif %}
 		</div>
 		<div class="swiper-pagination"></div>
+	</div>
+</div>
+
+<div class="container wide reliability-drones">
+	<img class="image" src="{{ server }}image/home/reabilitydrones.png" alt="bg">
+	<div class="text">
+		<div class="empty"></div>
+		<div class="block">
+			<p class="text-40">Reliability for Your Drones</p>
+			<p class="text-24">We provide proven solutions for heavy-duty use. Our team of enthusiasts tests every component
+				to ensure your drone always performs reliably.</p>
+			<ui-button is-white>
+				<img slot="icon" style="display: block; width: 100%; height: 100%; object-fit: contain; filter: invert(1);"
+					src="{{ server }}image/icons/arrow-top-right.svg" alt="Arrow Right">
+				<span slot="text">See catalog
+				</span>
+			</ui-button>
+		</div>
 	</div>
 </div>
 
@@ -132,6 +169,13 @@
 	} else {
 		initProductsSwiper();
 	}
+
+	document.addEventListener('click', function (event) {
+		const card = event.target.closest('.product-card[data-product-url]');
+		if (card) {
+			window.location.href = card.getAttribute('data-product-url');
+		}
+	});
 </script>
 
 {{ footer }}

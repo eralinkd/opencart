@@ -38,9 +38,8 @@ class __TwigTemplate_32c9c7831dbf91f5f3a24f52740e618e extends Template
     protected function doDisplay(array $context, array $blocks = []): iterable
     {
         $macros = $this->macros;
-        // line 15
-        yield "
-<template id=\"custom-card-template\">
+        // line 1
+        yield "<template id=\"custom-card-template\">
   <style>
     :host {
       display: block;
@@ -232,27 +231,12 @@ class __TwigTemplate_32c9c7831dbf91f5f3a24f52740e618e extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  42 => 15,);
+        return array (  42 => 1,);
     }
 
     public function getSourceContext(): Source
     {
-        return new Source("{#
-  Локальный компонент карточки с использованием template и slot
-  
-  Использование:
-  {% include 'common/card-component' %}
-  
-  Затем используйте:
-  <custom-card title=\"Заголовок\" image=\"image.jpg\">
-    <div slot=\"content\">Содержимое карточки</div>
-    <div slot=\"footer\">
-      <custom-button type=\"primary\" text=\"Подробнее\"></custom-button>
-    </div>
-  </custom-card>
-#}
-
-<template id=\"custom-card-template\">
+        return new Source("<template id=\"custom-card-template\">
   <style>
     :host {
       display: block;

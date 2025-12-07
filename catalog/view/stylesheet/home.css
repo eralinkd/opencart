@@ -145,3 +145,32 @@
   height: 70px;
   flex-shrink: 0;
 }
+.reliability-drones {
+  padding: 150px 65px;
+  margin-top: 100px;
+  position: relative;
+}
+.reliability-drones * {
+  position: relative;
+  z-index: 2;
+}
+.reliability-drones .image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+.reliability-drones .text {
+  display: grid;
+  grid-template-columns: 9fr 10fr;
+}
+.reliability-drones .text .text-24 {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.reliability-drones .text .empty {
+  width: 100%;
+  height: 100%;
+}

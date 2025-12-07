@@ -14,37 +14,47 @@ class Sass extends \Opencart\System\Engine\Controller {
 	 * @return void
 	 */
 	public function index(): void {
-		$files = glob(DIR_APPLICATION . 'view/stylesheet/*.scss');
+		$base = DIR_APPLICATION . 'view/stylesheet/';
 
-		if ($files) {
-			foreach ($files as $file) {
-				$filename = basename($file, '.scss');
-				if ($filename === 'variables') {
-					continue;
-				}
+		$directory = new \RecursiveDirectoryIterator($base, \FilesystemIterator::SKIP_DOTS);
+		$iterator = new \RecursiveIteratorIterator($directory);
 
-				$stylesheet = DIR_APPLICATION . 'view/stylesheet/' . $filename . '.css';
+		foreach ($iterator as $file_info) {
+			if (!$file_info->isFile() || $file_info->getExtension() !== 'scss') {
+				continue;
+			}
 
-				if (!is_file($stylesheet) || !$this->config->get('developer_sass')) {
-					$scss_content = file_get_contents($file);
-					
-					$scss = new \ScssPhp\ScssPhp\Compiler();
-					$scss->setImportPaths(DIR_APPLICATION . 'view/stylesheet/');
+			$filename = $file_info->getBasename('.scss');
 
-					$output = $scss->compileString($scss_content)->getCss();
+			if ($filename === 'variables') {
+				continue;
+			}
 
-					$handle = fopen($stylesheet, 'w');
+			$file = $file_info->getPathname();
+			$stylesheet = $file_info->getPath() . '/' . $filename . '.css';
 
-					flock($handle, LOCK_EX);
+			if (!is_file($stylesheet) || !$this->config->get('developer_sass')) {
+				$scss_content = file_get_contents($file);
 
-					fwrite($handle, $output);
+				$scss = new \ScssPhp\ScssPhp\Compiler();
+				$scss->setImportPaths([
+					$file_info->getPath() . '/',
+					$base
+				]);
 
-					fflush($handle);
+				$output = $scss->compileString($scss_content)->getCss();
 
-					flock($handle, LOCK_UN);
+				$handle = fopen($stylesheet, 'w');
 
-					fclose($handle);
-				}
+				flock($handle, LOCK_EX);
+
+				fwrite($handle, $output);
+
+				fflush($handle);
+
+				flock($handle, LOCK_UN);
+
+				fclose($handle);
 			}
 		}
 	}

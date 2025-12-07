@@ -163,8 +163,23 @@ $(document).on('submit', 'form', function(e) {
             }
         }
 
+        // Ensure user_token is in the URL if not already present
+        var actionUrl = action.replaceAll('&amp;', '&');
+        if (actionUrl.indexOf('user_token=') === -1) {
+            var user_token = getURLVar('user_token');
+            if (!user_token) {
+                user_token = $('#input-user-token').val();
+            }
+            if (!user_token) {
+                user_token = $('input[name="user_token"]').val();
+            }
+            if (user_token) {
+                actionUrl += (actionUrl.indexOf('?') === -1 ? '?' : '&') + 'user_token=' + user_token;
+            }
+        }
+
         $.ajax({
-            url: action.replaceAll('&amp;', '&'),
+            url: actionUrl,
             type: method,
             data: $(form).serialize(),
             dataType: 'json',
@@ -174,6 +189,13 @@ $(document).on('submit', 'form', function(e) {
             },
             complete: function() {
                 $(button).button('reset');
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                console.log('AJAX Error: ' + thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                if (xhr.status == 302 || xhr.responseText.indexOf('login') !== -1 || xhr.responseText.indexOf('common/login') !== -1) {
+                    alert('Session expired. Please refresh the page and login again.');
+                    location.reload();
+                }
             },
             success: function(json, textStatus) {
                 console.log(json);
@@ -329,8 +351,27 @@ $(document).on('click', '[data-oc-toggle=\'image\']', function(e) {
 
     $('#modal-image').remove();
 
+    // Get user_token from URL, hidden input, or form
+    var user_token = getURLVar('user_token');
+    if (!user_token) {
+        user_token = $('#input-user-token').val();
+    }
+    if (!user_token) {
+        user_token = $('input[name="user_token"]').val();
+    }
+    if (!user_token) {
+        // Try to get from current page URL
+        var urlParams = new URLSearchParams(window.location.search);
+        user_token = urlParams.get('user_token');
+    }
+
+    if (!user_token) {
+        alert('Error: User token not found. Please refresh the page.');
+        return;
+    }
+
     $.ajax({
-        url: 'index.php?route=common/filemanager&user_token=' + getURLVar('user_token') + '&target=' + encodeURIComponent($(element).attr('data-oc-target')) + '&thumb=' + encodeURIComponent($(element).attr('data-oc-thumb')),
+        url: 'index.php?route=common/filemanager&user_token=' + user_token + '&target=' + encodeURIComponent($(element).attr('data-oc-target')) + '&thumb=' + encodeURIComponent($(element).attr('data-oc-thumb')),
         dataType: 'html',
         beforeSend: function() {
             $(element).button('loading');
@@ -342,6 +383,13 @@ $(document).on('click', '[data-oc-toggle=\'image\']', function(e) {
             $('body').append(html);
 
             $('#modal-image').modal('show');
+        },
+        error: function(xhr, ajaxOptions, thrownError) {
+            console.log('Error loading filemanager: ' + thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            if (xhr.status == 302 || xhr.responseText.indexOf('login') !== -1) {
+                alert('Session expired. Please refresh the page and login again.');
+                location.reload();
+            }
         }
     });
 });

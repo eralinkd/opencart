@@ -35,6 +35,15 @@
 	{% if is_cart_page %}
 	<link href="{{ page_cart }}" rel="stylesheet" type="text/css" />
 	{% endif %}
+	{% if is_forgot_password_page %}
+	<link href="{{ page_forgot_password }}" rel="stylesheet" type="text/css" />
+	{% endif %}
+	{% if is_email_sent_page %}
+	<link href="{{ page_email_sent }}" rel="stylesheet" type="text/css" />
+	{% endif %}
+	{% if is_new_password_page %}
+	<link href="{{ page_new_password }}" rel="stylesheet" type="text/css" />
+	{% endif %}
 	<link href="{{ app_footer }}" rel="stylesheet" type="text/css" />
 	{% if icon %}
 	<link rel="icon" href="{{ icon }}" type="image/png">

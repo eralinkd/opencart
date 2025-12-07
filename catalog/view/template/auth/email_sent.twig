@@ -1,0 +1,14 @@
+{{ header }}
+
+<div class="auth-form">
+  <img src="{{ server }}image/icons/email-sent.png" alt="Email sent" class="email-sent-icon">
+  <h1 class="title">The email was sent!</h1>
+  <p>We have sent you an email with instruction to reset your password.</p>
+  <a href="{{ login_url }}" class="login">
+    <ui-button-secondary class="button">
+      <span slot="text">Back to login</span>
+    </ui-button-secondary>
+  </a>
+</div>
+
+{{ footer }}

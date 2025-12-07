@@ -1,0 +1,34 @@
+.auth-form {
+  max-width: 500px;
+  margin: 0 auto 90px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.auth-form .title {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.352px;
+}
+.auth-form p {
+  text-align: center;
+  color: #000;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.176px;
+}
+.auth-form .email-sent-icon {
+  width: 100px;
+  height: 100px;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+}

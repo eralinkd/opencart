@@ -1,10 +1,10 @@
 <?php
 namespace Opencart\Catalog\Controller\Auth;
 
-class Login extends \Opencart\System\Engine\Controller {
+class NewPassword extends \Opencart\System\Engine\Controller {
 	public function index(): void {
 		
-		$this->document->setTitle('Login | SkyFix');
+		$this->document->setTitle('New Password | SkyFix');
 
 		$data = [];
 		$data['server'] = HTTP_SERVER;
@@ -15,9 +15,6 @@ class Login extends \Opencart\System\Engine\Controller {
 		$data['header'] = $this->load->controller('common/header');
 		$data['footer'] = $this->load->controller('common/footer');
 
-		$data['forgot_password_url'] = $this->url->link('auth/forgot_password');
-		$data['signup_url'] = $this->url->link('auth/signup');
-
-		$this->response->setOutput($this->load->view('auth/login', $data));
+		$this->response->setOutput($this->load->view('auth/new-password', $data));
 	}
 }

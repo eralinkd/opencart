@@ -127,70 +127,97 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t";
         }
         // line 38
+        yield "\t";
+        if (($context["is_forgot_password_page"] ?? null)) {
+            // line 39
+            yield "\t<link href=\"";
+            yield ($context["page_forgot_password"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 41
+        yield "\t";
+        if (($context["is_email_sent_page"] ?? null)) {
+            // line 42
+            yield "\t<link href=\"";
+            yield ($context["page_email_sent"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 44
+        yield "\t";
+        if (($context["is_new_password_page"] ?? null)) {
+            // line 45
+            yield "\t<link href=\"";
+            yield ($context["page_new_password"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 47
         yield "\t<link href=\"";
         yield ($context["app_footer"] ?? null);
         yield "\" rel=\"stylesheet\" type=\"text/css\" />
 \t";
-        // line 39
+        // line 48
         if (($context["icon"] ?? null)) {
-            // line 40
+            // line 49
             yield "\t<link rel=\"icon\" href=\"";
             yield ($context["icon"] ?? null);
             yield "\" type=\"image/png\">
 \t";
         }
-        // line 42
+        // line 51
         yield "\t";
         $context['_parent'] = $context;
         $context['_seq'] = CoreExtension::ensureTraversable(($context["styles"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["style"]) {
-            // line 43
+            // line 52
             yield "\t<link href=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "href", [], "any", false, false, false, 43);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "href", [], "any", false, false, false, 52);
             yield "\" type=\"text/css\" rel=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "rel", [], "any", false, false, false, 43);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "rel", [], "any", false, false, false, 52);
             yield "\" media=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "media", [], "any", false, false, false, 43);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "media", [], "any", false, false, false, 52);
             yield "\" />
 \t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_key'], $context['style'], $context['_parent']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 45
+        // line 54
         yield "\t";
         $context['_parent'] = $context;
         $context['_seq'] = CoreExtension::ensureTraversable(($context["scripts"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["script"]) {
-            // line 46
+            // line 55
             yield "\t<script src=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["script"], "href", [], "any", false, false, false, 46);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["script"], "href", [], "any", false, false, false, 55);
             yield "\" type=\"text/javascript\"></script>
 \t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_key'], $context['script'], $context['_parent']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 48
+        // line 57
         yield "</head>
 
 <body>
 
 \t";
-        // line 52
+        // line 61
         yield ($context["UIButton"] ?? null);
         yield "
 \t";
-        // line 53
+        // line 62
         yield ($context["UIButtonSecondary"] ?? null);
         yield "
 \t";
-        // line 54
+        // line 63
         yield ($context["UIInput"] ?? null);
         yield "
 
 \t<header class=\"app-header ";
-        // line 56
+        // line 65
         if (($context["is_main_page"] ?? null)) {
             yield "is-main-page";
         }
@@ -228,7 +255,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<ul class=\"nav text-20 ";
-        // line 89
+        // line 98
         if (($context["is_main_page"] ?? null)) {
             yield "text-white";
         } else {
@@ -249,7 +276,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t<div class=\"right\">
 \t\t\t\t<div class=\"searchbar\">
 \t\t\t\t\t<img draggable=\"false\" src=\"";
-        // line 103
+        // line 112
         yield ($context["server"] ?? null);
         yield "image/searchbar.png\" alt=\"Search\">
 
@@ -257,7 +284,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t<div class=\"icon\">
 \t\t\t\t\t<a href=\"#\">
 \t\t\t\t\t\t<img src=\"";
-        // line 108
+        // line 117
         yield ($context["server"] ?? null);
         yield "image/icons/profile.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
@@ -265,7 +292,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t<div class=\"icon\">
 \t\t\t\t\t<a href=\"#\">
 \t\t\t\t\t\t<img src=\"";
-        // line 113
+        // line 122
         yield ($context["server"] ?? null);
         yield "image/icons/bag.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
@@ -273,7 +300,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t<div class=\"icon icon-white\">
 \t\t\t\t\t<a href=\"#\">
 \t\t\t\t\t\t<img src=\"";
-        // line 118
+        // line 127
         yield ($context["server"] ?? null);
         yield "image/icons/profile-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
@@ -281,7 +308,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t<div class=\"icon icon-white\">
 \t\t\t\t\t<a href=\"#\">
 \t\t\t\t\t\t<img src=\"";
-        // line 123
+        // line 132
         yield ($context["server"] ?? null);
         yield "image/icons/bag-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
@@ -289,7 +316,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t</div>
 \t</header>
 \t<main class=\"app-main ";
-        // line 128
+        // line 137
         if (($context["is_main_page"] ?? null)) {
             yield "is-main-page";
         }
@@ -318,7 +345,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  293 => 128,  285 => 123,  277 => 118,  269 => 113,  261 => 108,  253 => 103,  232 => 89,  194 => 56,  189 => 54,  185 => 53,  181 => 52,  175 => 48,  166 => 46,  161 => 45,  148 => 43,  143 => 42,  137 => 40,  135 => 39,  130 => 38,  124 => 36,  121 => 35,  115 => 33,  112 => 32,  106 => 30,  103 => 29,  97 => 27,  95 => 26,  91 => 25,  87 => 24,  83 => 23,  79 => 22,  76 => 21,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  56 => 10,  51 => 8,  42 => 1,);
+        return array (  320 => 137,  312 => 132,  304 => 127,  296 => 122,  288 => 117,  280 => 112,  259 => 98,  221 => 65,  216 => 63,  212 => 62,  208 => 61,  202 => 57,  193 => 55,  188 => 54,  175 => 52,  170 => 51,  164 => 49,  162 => 48,  157 => 47,  151 => 45,  148 => 44,  142 => 42,  139 => 41,  133 => 39,  130 => 38,  124 => 36,  121 => 35,  115 => 33,  112 => 32,  106 => 30,  103 => 29,  97 => 27,  95 => 26,  91 => 25,  87 => 24,  83 => 23,  79 => 22,  76 => 21,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  56 => 10,  51 => 8,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -359,6 +386,15 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t{% endif %}
 \t{% if is_cart_page %}
 \t<link href=\"{{ page_cart }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_forgot_password_page %}
+\t<link href=\"{{ page_forgot_password }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_email_sent_page %}
+\t<link href=\"{{ page_email_sent }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_new_password_page %}
+\t<link href=\"{{ page_new_password }}\" rel=\"stylesheet\" type=\"text/css\" />
 \t{% endif %}
 \t<link href=\"{{ app_footer }}\" rel=\"stylesheet\" type=\"text/css\" />
 \t{% if icon %}

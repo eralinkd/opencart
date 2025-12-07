@@ -40,6 +40,10 @@ class Header extends \Opencart\System\Engine\Controller {
 		$data['page_account_general'] = 'catalog/view/stylesheet/account/general.css';
 		$data['page_account_history'] = 'catalog/view/stylesheet/account/history.css';
 
+		// checkout page styles
+		$data['page_checkout_new'] = 'catalog/view/stylesheet/checkout/new.css';
+		$data['page_checkout_existing'] = 'catalog/view/stylesheet/checkout/existing.css';
+
 		$this->document->addScript('catalog/view/javascript/components/ui/Button.js');
 		$this->document->addScript('catalog/view/javascript/components/ui/ButtonSecondary.js');
 		$this->document->addScript('catalog/view/javascript/components/ui/Input.js');
@@ -71,6 +75,8 @@ class Header extends \Opencart\System\Engine\Controller {
 		$data['is_new_password_page'] = ($route === 'auth/new_password');
 		$data['is_account_general_page'] = ($route === 'account/general');
 		$data['is_account_history_page'] = ($route === 'account/history');
+		$data['is_checkout_new_page'] = ($route === 'checkout/new_customer');
+		$data['is_checkout_existing_page'] = ($route === 'checkout/existing_customer');
 
 		$data['server'] = HTTP_SERVER;
 		$data['profile_url'] = $this->url->link('account/general');

@@ -1,16 +1,13 @@
 <?php
-namespace Opencart\Catalog\Controller\Cart;
+namespace Opencart\Catalog\Controller\Checkout;
 
-class Cart extends \Opencart\System\Engine\Controller {
+class ExistingCustomer extends \Opencart\System\Engine\Controller {
 	public function index(): void {
 		
-		$this->document->setTitle('Cart | SkyFix');
+		$this->document->setTitle('Existing Customer Checkout | SkyFix');
 
 		$data = [];
 		$data['server'] = HTTP_SERVER;
-
-    $this->document->addScript('catalog/view/javascript/components/CartItem.js');
-		$data['CartItem'] = $this->load->view('common/components/CartItem', []);
 
     $data['styles'] = $this->document->getStyles();
 		$data['scripts'] = $this->document->getScripts();
@@ -19,7 +16,8 @@ class Cart extends \Opencart\System\Engine\Controller {
 		$data['footer'] = $this->load->controller('common/footer');
 
 		$data['url_checkout_new'] = $this->url->link('checkout/new_customer');
+		$data['profile_url'] = $this->url->link('account/general');
 
-		$this->response->setOutput($this->load->view('cart/cart', $data));
+		$this->response->setOutput($this->load->view('checkout/existing_customer', $data));
 	}
 }

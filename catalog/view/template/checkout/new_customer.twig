@@ -1,0 +1,84 @@
+{{header}}
+
+<div class="container">
+  <h1 class="title">Checkout</h1>
+
+  <ul class="navigation">
+    <a href="{{ url_checkout_new }}">
+      <li class="active">I’m New</li>
+    </a>
+    <a href="{{ url_checkout_existing }}">
+      <li>I Have an Account</li>
+    </a>
+  </ul>
+</div>
+
+<div class="container content">
+  <div>
+    <div class="block login">
+      <h1 class="title">Login</h1>
+      <div class="auth-form">
+        <form class="form">
+          <ui-input label="Email" placeholder="Enter"></ui-input>
+          <ui-input label="Password" placeholder="Enter" type="password"></ui-input>
+          <ui-button-secondary class="button">
+            <span slot="text">Login</span>
+          </ui-button-secondary>
+        </form>
+        <div class="separator">
+          <div class="divider">
+          </div>
+          <div class="text">or</div>
+          <div class="divider">
+          </div>
+        </div>
+        <div class="oauth-button">Continue with Google</div>
+      </div>
+    </div>
+    <div class="block fields">
+      <p class="fields-title">Contact information</p>
+      <div class="grid">
+        <ui-input label="First Name" placeholder="Enter"></ui-input>
+        <ui-input label="Last Name" placeholder="Enter"></ui-input>
+        <ui-input label="Phone" placeholder="Enter"></ui-input>
+        <ui-input label="Email" placeholder="Enter"></ui-input>
+      </div>
+
+      <p class="fields-title mt-32">Delivery Information</p>
+      <div class="delivery-methods">
+        {% for method in delivery_methods %}
+        <label class="delivery-option">
+          <input type="radio" name="delivery_method" value="{{ method.id }}" {% if loop.first %}checked{% endif %}>
+          <div class="delivery-option__content">
+            <p class="delivery-option__title">{{ method.title }}</p>
+          </div>
+        </label>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="block summary">
+    <p class="text-20 summary-title">Order Summary</p>
+    <div class="subtotal line">
+      <p class="text-16">Subtotal</p>
+      <p class="text-20">$35</p>
+    </div>
+    <div class="discount line">
+      <p class="text-16">Discount</p>
+      <p class="text-20">0</p>
+    </div>
+    <div class="separator"></div>
+    <div class="total line">
+      <p class="text-16">Total</p>
+      <p class="text-20">$35</p>
+    </div>
+    <a href="{{ url_checkout_new }}">
+      <ui-button-secondary class="button">
+        <span slot="text">Continue to Checkout</span>
+      </ui-button-secondary>
+    </a>
+  </div>
+</div>
+
+
+{{footer}}

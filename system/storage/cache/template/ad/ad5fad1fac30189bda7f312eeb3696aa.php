@@ -172,70 +172,88 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t";
         }
         // line 53
+        yield "\t";
+        if (($context["is_checkout_new_page"] ?? null)) {
+            // line 54
+            yield "\t<link href=\"";
+            yield ($context["page_checkout_new"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 56
+        yield "\t";
+        if (($context["is_checkout_existing_page"] ?? null)) {
+            // line 57
+            yield "\t<link href=\"";
+            yield ($context["page_checkout_existing"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 59
         yield "\t<link href=\"";
         yield ($context["app_footer"] ?? null);
         yield "\" rel=\"stylesheet\" type=\"text/css\" />
 \t";
-        // line 54
+        // line 60
         if (($context["icon"] ?? null)) {
-            // line 55
+            // line 61
             yield "\t<link rel=\"icon\" href=\"";
             yield ($context["icon"] ?? null);
             yield "\" type=\"image/png\">
 \t";
         }
-        // line 57
+        // line 63
         yield "\t";
         $context['_parent'] = $context;
         $context['_seq'] = CoreExtension::ensureTraversable(($context["styles"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["style"]) {
-            // line 58
+            // line 64
             yield "\t<link href=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "href", [], "any", false, false, false, 58);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "href", [], "any", false, false, false, 64);
             yield "\" type=\"text/css\" rel=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "rel", [], "any", false, false, false, 58);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "rel", [], "any", false, false, false, 64);
             yield "\" media=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "media", [], "any", false, false, false, 58);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "media", [], "any", false, false, false, 64);
             yield "\" />
 \t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_key'], $context['style'], $context['_parent']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 60
+        // line 66
         yield "\t";
         $context['_parent'] = $context;
         $context['_seq'] = CoreExtension::ensureTraversable(($context["scripts"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["script"]) {
-            // line 61
+            // line 67
             yield "\t<script src=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["script"], "href", [], "any", false, false, false, 61);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["script"], "href", [], "any", false, false, false, 67);
             yield "\" type=\"text/javascript\"></script>
 \t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_key'], $context['script'], $context['_parent']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 63
+        // line 69
         yield "</head>
 
 <body>
 
 \t";
-        // line 67
+        // line 73
         yield ($context["UIButton"] ?? null);
         yield "
 \t";
-        // line 68
+        // line 74
         yield ($context["UIButtonSecondary"] ?? null);
         yield "
 \t";
-        // line 69
+        // line 75
         yield ($context["UIInput"] ?? null);
         yield "
 
 \t<header class=\"app-header ";
-        // line 71
+        // line 77
         if (($context["is_main_page"] ?? null)) {
             yield "is-main-page";
         }
@@ -244,7 +262,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t<div class=\"left\">
 \t\t\t\t<div class=\"logo\">
 \t\t\t\t\t<a href=\"";
-        // line 75
+        // line 81
         yield ($context["home"] ?? null);
         yield "\">
 \t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
@@ -262,7 +280,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t</div>
 \t\t\t\t<div class=\"logo logo-white\">
 \t\t\t\t\t<a href=\"";
-        // line 90
+        // line 96
         yield ($context["home"] ?? null);
         yield "\">
 \t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
@@ -279,7 +297,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<ul class=\"nav text-20 ";
-        // line 104
+        // line 110
         if (($context["is_main_page"] ?? null)) {
             yield "text-white";
         } else {
@@ -300,51 +318,51 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t<div class=\"right\">
 \t\t\t\t<div class=\"searchbar\">
 \t\t\t\t\t<img draggable=\"false\" src=\"";
-        // line 118
+        // line 124
         yield ($context["server"] ?? null);
         yield "image/searchbar.png\" alt=\"Search\">
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
 \t\t\t\t\t<a href=\"";
-        // line 122
+        // line 128
         yield ($context["profile_url"] ?? null);
         yield "\">
 \t\t\t\t\t\t<img src=\"";
-        // line 123
+        // line 129
         yield ($context["server"] ?? null);
         yield "image/icons/profile.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
 \t\t\t\t\t<a href=\"";
-        // line 127
+        // line 133
         yield ($context["cart_url"] ?? null);
         yield "\">
 \t\t\t\t\t\t<img src=\"";
-        // line 128
+        // line 134
         yield ($context["server"] ?? null);
         yield "image/icons/bag.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon icon-white\">
 \t\t\t\t\t<a href=\"";
-        // line 132
+        // line 138
         yield ($context["profile_url"] ?? null);
         yield "\">
 \t\t\t\t\t\t<img src=\"";
-        // line 133
+        // line 139
         yield ($context["server"] ?? null);
         yield "image/icons/profile-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon icon-white\">
 \t\t\t\t\t<a href=\"";
-        // line 137
+        // line 143
         yield ($context["cart_url"] ?? null);
         yield "\">
 \t\t\t\t\t\t<img src=\"";
-        // line 138
+        // line 144
         yield ($context["server"] ?? null);
         yield "image/icons/bag-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
@@ -352,7 +370,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t</div>
 \t</header>
 \t<main class=\"app-main ";
-        // line 143
+        // line 149
         if (($context["is_main_page"] ?? null)) {
             yield "is-main-page";
         }
@@ -381,7 +399,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  356 => 143,  348 => 138,  344 => 137,  337 => 133,  333 => 132,  326 => 128,  322 => 127,  315 => 123,  311 => 122,  304 => 118,  283 => 104,  266 => 90,  248 => 75,  239 => 71,  234 => 69,  230 => 68,  226 => 67,  220 => 63,  211 => 61,  206 => 60,  193 => 58,  188 => 57,  182 => 55,  180 => 54,  175 => 53,  169 => 51,  166 => 50,  160 => 48,  157 => 47,  151 => 45,  148 => 44,  142 => 42,  139 => 41,  133 => 39,  130 => 38,  124 => 36,  121 => 35,  115 => 33,  112 => 32,  106 => 30,  103 => 29,  97 => 27,  95 => 26,  91 => 25,  87 => 24,  83 => 23,  79 => 22,  76 => 21,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  56 => 10,  51 => 8,  42 => 1,);
+        return array (  374 => 149,  366 => 144,  362 => 143,  355 => 139,  351 => 138,  344 => 134,  340 => 133,  333 => 129,  329 => 128,  322 => 124,  301 => 110,  284 => 96,  266 => 81,  257 => 77,  252 => 75,  248 => 74,  244 => 73,  238 => 69,  229 => 67,  224 => 66,  211 => 64,  206 => 63,  200 => 61,  198 => 60,  193 => 59,  187 => 57,  184 => 56,  178 => 54,  175 => 53,  169 => 51,  166 => 50,  160 => 48,  157 => 47,  151 => 45,  148 => 44,  142 => 42,  139 => 41,  133 => 39,  130 => 38,  124 => 36,  121 => 35,  115 => 33,  112 => 32,  106 => 30,  103 => 29,  97 => 27,  95 => 26,  91 => 25,  87 => 24,  83 => 23,  79 => 22,  76 => 21,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  56 => 10,  51 => 8,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -437,6 +455,12 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t{% endif %}
 \t{% if is_account_history_page %}
 \t<link href=\"{{ page_account_history }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_checkout_new_page %}
+\t<link href=\"{{ page_checkout_new }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_checkout_existing_page %}
+\t<link href=\"{{ page_checkout_existing }}\" rel=\"stylesheet\" type=\"text/css\" />
 \t{% endif %}
 \t<link href=\"{{ app_footer }}\" rel=\"stylesheet\" type=\"text/css\" />
 \t{% if icon %}

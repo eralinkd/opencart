@@ -14,8 +14,8 @@ use Twig\Source;
 use Twig\Template;
 use Twig\TemplateWrapper;
 
-/* catalog/view/template/cart/cart.twig */
-class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
+/* catalog/view/template/checkout/existing_customer.twig */
+class __TwigTemplate_1638919986ec613ea4b72ffbc4429f23 extends Template
 {
     private Source $source;
     /**
@@ -42,25 +42,44 @@ class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
         yield ($context["header"] ?? null);
         yield "
 
-";
-        // line 3
-        yield ($context["CartItem"] ?? null);
-        yield "
-
 <div class=\"container\">
-  <div class=\"cart-title\">
-    <h1 class=\"title\">Cart (1)</h1>
-  </div>
+  <h1 class=\"title\">Checkout</h1>
+
+  <ul class=\"navigation\">
+    <a href=\"";
+        // line 7
+        yield ($context["url_checkout_new"] ?? null);
+        yield "\">
+      <li>I’m New</li>
+    </a>
+    <a href=\"";
+        // line 10
+        yield ($context["url_checkout_existing"] ?? null);
+        yield "\">
+      <li class=\"active\">I Have an Account</li>
+    </a>
+  </ul>
 </div>
 
-<div class=\"container cart-content\">
+<div class=\"container content\">
+  <div class=\"block customer-info\">
+    <p class=\"fields-title\">Contact information</p>
+    <div class=\"field\">
+      <p>James Thor</p>
+      <a href=\"";
+        // line 21
+        yield ($context["profile_url"] ?? null);
+        yield "\">Change</a>
+    </div>
 
-  <div class=\"block cart-items\">
-    <cart-item></cart-item>
-    <div class=\"separator\"></div>
-    <cart-item></cart-item>
-    <div class=\"separator\"></div>
-    <cart-item></cart-item>
+    <p class=\"fields-title\">Delivery Information</p>
+    <div class=\"field\">
+      <p>Kyiv, Nova Poshta branch № 1234 </p>
+      <a href=\"";
+        // line 27
+        yield ($context["profile_url"] ?? null);
+        yield "\">Change</a>
+    </div>
   </div>
   <div class=\"block summary\">
     <p class=\"text-20 summary-title\">Order Summary</p>
@@ -78,7 +97,7 @@ class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
       <p class=\"text-20\">\$35</p>
     </div>
     <a href=\"";
-        // line 35
+        // line 45
         yield ($context["url_checkout_new"] ?? null);
         yield "\">
       <ui-button-secondary class=\"button\">
@@ -87,10 +106,11 @@ class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
     </a>
   </div>
 </div>
-</div>
+
+
 
 ";
-        // line 44
+        // line 55
         yield ($context["footer"] ?? null);
         yield from [];
     }
@@ -100,7 +120,7 @@ class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
      */
     public function getTemplateName(): string
     {
-        return "catalog/view/template/cart/cart.twig";
+        return "catalog/view/template/checkout/existing_customer.twig";
     }
 
     /**
@@ -116,29 +136,39 @@ class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  94 => 44,  82 => 35,  47 => 3,  42 => 1,);
+        return array (  114 => 55,  101 => 45,  80 => 27,  71 => 21,  57 => 10,  51 => 7,  42 => 1,);
     }
 
     public function getSourceContext(): Source
     {
-        return new Source("{{ header }}
-
-{{ CartItem|raw }}
+        return new Source("{{header}}
 
 <div class=\"container\">
-  <div class=\"cart-title\">
-    <h1 class=\"title\">Cart (1)</h1>
-  </div>
+  <h1 class=\"title\">Checkout</h1>
+
+  <ul class=\"navigation\">
+    <a href=\"{{ url_checkout_new }}\">
+      <li>I’m New</li>
+    </a>
+    <a href=\"{{ url_checkout_existing }}\">
+      <li class=\"active\">I Have an Account</li>
+    </a>
+  </ul>
 </div>
 
-<div class=\"container cart-content\">
+<div class=\"container content\">
+  <div class=\"block customer-info\">
+    <p class=\"fields-title\">Contact information</p>
+    <div class=\"field\">
+      <p>James Thor</p>
+      <a href=\"{{profile_url}}\">Change</a>
+    </div>
 
-  <div class=\"block cart-items\">
-    <cart-item></cart-item>
-    <div class=\"separator\"></div>
-    <cart-item></cart-item>
-    <div class=\"separator\"></div>
-    <cart-item></cart-item>
+    <p class=\"fields-title\">Delivery Information</p>
+    <div class=\"field\">
+      <p>Kyiv, Nova Poshta branch № 1234 </p>
+      <a href=\"{{profile_url}}\">Change</a>
+    </div>
   </div>
   <div class=\"block summary\">
     <p class=\"text-20 summary-title\">Order Summary</p>
@@ -162,8 +192,9 @@ class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
     </a>
   </div>
 </div>
-</div>
 
-{{ footer }}", "catalog/view/template/cart/cart.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\cart\\cart.twig");
+
+
+{{footer}}", "catalog/view/template/checkout/existing_customer.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\checkout\\existing_customer.twig");
     }
 }

@@ -50,6 +50,12 @@
 	{% if is_account_history_page %}
 	<link href="{{ page_account_history }}" rel="stylesheet" type="text/css" />
 	{% endif %}
+	{% if is_checkout_new_page %}
+	<link href="{{ page_checkout_new }}" rel="stylesheet" type="text/css" />
+	{% endif %}
+	{% if is_checkout_existing_page %}
+	<link href="{{ page_checkout_existing }}" rel="stylesheet" type="text/css" />
+	{% endif %}
 	<link href="{{ app_footer }}" rel="stylesheet" type="text/css" />
 	{% if icon %}
 	<link rel="icon" href="{{ icon }}" type="image/png">

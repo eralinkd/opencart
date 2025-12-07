@@ -1,21 +1,31 @@
-{{ header }}
-
-{{ CartItem|raw }}
+{{header}}
 
 <div class="container">
-  <div class="cart-title">
-    <h1 class="title">Cart (1)</h1>
-  </div>
+  <h1 class="title">Checkout</h1>
+
+  <ul class="navigation">
+    <a href="{{ url_checkout_new }}">
+      <li>I’m New</li>
+    </a>
+    <a href="{{ url_checkout_existing }}">
+      <li class="active">I Have an Account</li>
+    </a>
+  </ul>
 </div>
 
-<div class="container cart-content">
+<div class="container content">
+  <div class="block customer-info">
+    <p class="fields-title">Contact information</p>
+    <div class="field">
+      <p>James Thor</p>
+      <a href="{{profile_url}}">Change</a>
+    </div>
 
-  <div class="block cart-items">
-    <cart-item></cart-item>
-    <div class="separator"></div>
-    <cart-item></cart-item>
-    <div class="separator"></div>
-    <cart-item></cart-item>
+    <p class="fields-title">Delivery Information</p>
+    <div class="field">
+      <p>Kyiv, Nova Poshta branch № 1234 </p>
+      <a href="{{profile_url}}">Change</a>
+    </div>
   </div>
   <div class="block summary">
     <p class="text-20 summary-title">Order Summary</p>
@@ -39,6 +49,7 @@
     </a>
   </div>
 </div>
-</div>
 
-{{ footer }}
+
+
+{{footer}}

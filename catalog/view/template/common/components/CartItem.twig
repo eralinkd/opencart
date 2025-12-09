@@ -35,7 +35,7 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
-      max-width: 297px;
+      width: 270px;
     }
 
     .product-name {
@@ -94,6 +94,7 @@
     }
 
     .price {
+      width: 90px;
       color: #000;
       font-family: Inter;
       font-size: 20px;
@@ -274,7 +275,7 @@
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
-          return response.json();
+          return response
         })
         .then(data => {
           if (data.success) {
@@ -310,10 +311,6 @@
 
       removeItem() {
         this.loadAttributes();
-        
-        if (!confirm('Are you sure you want to remove this item from cart?')) {
-          return;
-        }
 
         if (!window.cartApi || !window.cartApi.remove) {
           console.error('Cart API not available');

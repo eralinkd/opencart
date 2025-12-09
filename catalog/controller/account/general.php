@@ -17,6 +17,7 @@ class General extends \Opencart\System\Engine\Controller {
 
 		$data['general_url'] = $this->url->link('account/general');
 		$data['history_url'] = $this->url->link('account/history');
+		$data['wishlist_url'] = $this->url->link('account/wishlist');
 		$data['reset_password_url'] = $this->url->link('auth/new_password');
 
 		$this->response->setOutput($this->load->view('account/general', $data));

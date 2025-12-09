@@ -39,6 +39,7 @@ class Header extends \Opencart\System\Engine\Controller {
 		// account page styles
 		$data['page_account_general'] = 'catalog/view/stylesheet/account/general.css';
 		$data['page_account_history'] = 'catalog/view/stylesheet/account/history.css';
+		$data['page_account_wishlist'] = 'catalog/view/stylesheet/account/wishlist.css';
 
 		// checkout page styles
 		$data['page_checkout_new'] = 'catalog/view/stylesheet/checkout/new.css';
@@ -75,6 +76,7 @@ class Header extends \Opencart\System\Engine\Controller {
 		$data['is_new_password_page'] = ($route === 'auth/new_password');
 		$data['is_account_general_page'] = ($route === 'account/general');
 		$data['is_account_history_page'] = ($route === 'account/history');
+		$data['is_account_wishlist_page'] = ($route === 'account/wishlist');
 		$data['is_checkout_new_page'] = ($route === 'checkout/new_customer');
 		$data['is_checkout_existing_page'] = ($route === 'checkout/existing_customer');
 

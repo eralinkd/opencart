@@ -99,7 +99,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
                 // line 35
                 yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "model", [], "any", false, false, false, 35);
                 yield "</p>
-\t\t\t\t\t<p class=\"product-price text-32\">\$";
+\t\t\t\t\t<p class=\"product-price text-32\">";
                 // line 36
                 yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "price_formatted", [], "any", false, false, false, 36);
                 yield "</p>
@@ -206,7 +206,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
                 // line 94
                 yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "model", [], "any", false, false, false, 94);
                 yield "</p>
-\t\t\t\t\t<p class=\"product-price text-32\">\$";
+\t\t\t\t\t<p class=\"product-price text-32\">";
                 // line 95
                 yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "price_formatted", [], "any", false, false, false, 95);
                 yield "</p>
@@ -395,7 +395,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t\t\t\t\t<h4 class=\"product-title\">{{ product.name }}</h4>
 \t\t\t\t\t</div>
 \t\t\t\t\t<p class=\"text-16\">Model: {{ product.model }}</p>
-\t\t\t\t\t<p class=\"product-price text-32\">\${{ product.price_formatted }}</p>
+\t\t\t\t\t<p class=\"product-price text-32\">{{ product.price_formatted }}</p>
 \t\t\t\t\t<ui-button-secondary class=\"product-button\">
 \t\t\t\t\t\t<span slot=\"text\">View product</span>
 \t\t\t\t\t</ui-button-secondary>
@@ -454,7 +454,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t\t\t\t\t<h4 class=\"product-title\">{{ product.name }}</h4>
 \t\t\t\t\t</div>
 \t\t\t\t\t<p class=\"text-16\">Model: {{ product.model }}</p>
-\t\t\t\t\t<p class=\"product-price text-32\">\${{ product.price_formatted }}</p>
+\t\t\t\t\t<p class=\"product-price text-32\">{{ product.price_formatted }}</p>
 \t\t\t\t\t<ui-button-secondary class=\"product-button\">
 \t\t\t\t\t\t<span slot=\"text\">View product</span>
 \t\t\t\t\t</ui-button-secondary>

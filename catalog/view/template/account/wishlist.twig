@@ -1,0 +1,58 @@
+{{ header }}
+
+<div class="container title">
+  <h1>My Profile</h1>
+</div>
+
+<div class="container content">
+  <ul class="navigation">
+    <a href="{{ general_url }}">
+      <li>General</li>
+    </a>
+    <a href="{{ history_url }}">
+      <li>Order History</li>
+    </a>
+    <a href="{{ wishlist_url }}">
+      <li class="active">Wishlist</li>
+    </a>
+  </ul>
+
+  <div class="block">
+    <h2 class="block-title">Wishlist</h2>
+    <div class="grid">
+      {% if wishlist_products %}
+      {% for product in wishlist_products %}
+      <div class="product-card" data-product-url="{{ product.url_raw }}">
+        <div class="wishlist-icon"><img src="{{ server }}image/icons/heart-yellow.svg" alt="add to wishlist"></div>
+        <div class="product-image">
+          <img src="{{ product.image }}" alt="{{ product.name }}">
+        </div>
+        <div class="product-info">
+          <p class="availability text-16">{{ product.availability }}</p>
+          <h4 class="product-title">{{ product.name }}</h4>
+        </div>
+        <p class="text-16">Model: {{ product.model }}</p>
+        <p class="product-price text-32">{{ product.price_formatted }}</p>
+        <ui-button-secondary class="product-button">
+          <span slot="text">View product</span>
+        </ui-button-secondary>
+      </div>
+      {% endfor %}
+      {% else %}
+      <p class="text-16">No products in wishlist</p>
+      {% endif %}
+    </div>
+  </div>
+
+</div>
+
+<script>
+  document.addEventListener('click', function (event) {
+    const card = event.target.closest('.product-card[data-product-url]');
+    if (card) {
+      window.location.href = card.getAttribute('data-product-url');
+    }
+  });
+</script>
+
+{{ footer }}

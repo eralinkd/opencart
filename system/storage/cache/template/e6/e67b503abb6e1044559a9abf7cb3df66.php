@@ -263,7 +263,7 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
                 // line 101
                 yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "model", [], "any", false, false, false, 101);
                 yield "</p>
-\t\t\t\t\t<p class=\"product-price text-32\">\$";
+\t\t\t\t\t<p class=\"product-price text-32\">";
                 // line 102
                 yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "price_formatted", [], "any", false, false, false, 102);
                 yield "</p>
@@ -552,7 +552,7 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
 \t\t\t\t\t\t<h4 class=\"product-title\">{{ product.name }}</h4>
 \t\t\t\t\t</div>
 \t\t\t\t\t<p class=\"text-16\">Model: {{ product.model }}</p>
-\t\t\t\t\t<p class=\"product-price text-32\">\${{ product.price_formatted }}</p>
+\t\t\t\t\t<p class=\"product-price text-32\">{{ product.price_formatted }}</p>
 \t\t\t\t\t<ui-button-secondary class=\"product-button\">
 \t\t\t\t\t\t<span slot=\"text\">View product</span>
 \t\t\t\t\t</ui-button-secondary>

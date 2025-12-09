@@ -1857,3 +1857,29 @@ Backtrace: 2
 File: /var/www/opencart/index.php
 Line: 20
 Function: require_once
+2025-12-09 20:57:35 - Error: Error: Could not load model catalog/option!
+File: D:\xampp\htdocs\opencart\system\engine\loader.php
+Line: 148
+
+Backtrace: 0
+File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
+Line: 1136
+Class: Opencart\System\Engine\Loader
+Function: model
+
+Backtrace: 1
+File: D:\xampp\htdocs\opencart\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Product
+Function: autocomplete
+
+Backtrace: 2
+File: D:\xampp\htdocs\opencart\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 3
+File: D:\xampp\htdocs\opencart\admin\index.php
+Line: 20
+Function: require_once

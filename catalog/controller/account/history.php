@@ -17,6 +17,7 @@ class History extends \Opencart\System\Engine\Controller {
 
 		$data['general_url'] = $this->url->link('account/general');
 		$data['history_url'] = $this->url->link('account/history');
+		$data['wishlist_url'] = $this->url->link('account/wishlist');
 
 		$data['orders'] = [
 			[

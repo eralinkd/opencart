@@ -60,10 +60,11 @@ class __TwigTemplate_63726fbfca77a5b2521d2676ccc8e583 extends Template
         yield "\">
       <li>Order History</li>
     </a>
-    <a href=\"#\">
-      <li>Email Notification</li>
-    </a>
-    <a href=\"#\">
+    ";
+        // line 18
+        yield "    <a href=\"";
+        yield ($context["wishlist_url"] ?? null);
+        yield "\">
       <li>Wishlist</li>
     </a>
   </ul>
@@ -119,7 +120,7 @@ class __TwigTemplate_63726fbfca77a5b2521d2676ccc8e583 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  97 => 41,  89 => 36,  81 => 31,  59 => 12,  53 => 9,  42 => 1,);
+        return array (  98 => 41,  90 => 36,  82 => 31,  65 => 18,  59 => 12,  53 => 9,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -138,10 +139,10 @@ class __TwigTemplate_63726fbfca77a5b2521d2676ccc8e583 extends Template
     <a href=\"{{ history_url }}\">
       <li>Order History</li>
     </a>
-    <a href=\"#\">
+    {# <a href=\"#\">
       <li>Email Notification</li>
-    </a>
-    <a href=\"#\">
+    </a> #}
+    <a href=\"{{ wishlist_url }}\">
       <li>Wishlist</li>
     </a>
   </ul>

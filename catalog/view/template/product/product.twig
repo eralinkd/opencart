@@ -44,22 +44,17 @@
 		</div>
 	</div>
 	<div class="info block">
+		{% if product.custom_fields %}
 		<p class="text-20">Key Features</p>
 		<div class="divider"></div>
 		<ul class="list">
+			{% for field in product.custom_fields %}
 			<li>
-				<span class="key">Brand</span><span class="value">RadioMaster</span>
+				<span class="key">{{ field.key }}</span><span class="value">{{ field.value }}</span>
 			</li>
-			<li>
-				<span class="key">Brand</span><span class="value">RadioMaster</span>
-			</li>
-			<li>
-				<span class="key">Brand</span><span class="value">RadioMaster</span>
-			</li>
-			<li>
-				<span class="key">Brand</span><span class="value">RadioMaster</span>
-			</li>
+			{% endfor %}
 		</ul>
+		{% endif %}
 		<p class="text-20">Description</p>
 		<div class="divider"></div>
 		<p class="text-16">
@@ -70,7 +65,7 @@
 		<div class="price block">
 			<p class="text-32">{{ product.price_formatted }} uah</p>
 			<p class="text-16 availability">{% if product.stock_text > 0 %}In Stock{% else %}Out of Stock{% endif %}</p>
-			<ui-button class="add-to-cart">
+			<ui-button class="add-to-cart" data-product-id="{{ product.product_id }}">
 				<img slot="icon" style="display: block; width: 32px; height: 32px; object-fit: contain"
 					src="{{ server }}image/icons/cart.svg" alt="Cart" />
 				<span slot="text">Add to cart </span>
@@ -248,6 +243,70 @@
 		const card = event.target.closest('.product-card[data-product-url]');
 		if (card) {
 			window.location.href = card.getAttribute('data-product-url');
+		}
+	});
+
+	// Add to cart functionality
+	document.addEventListener('DOMContentLoaded', function() {
+		const addToCartBtn = document.querySelector('.add-to-cart');
+		if (addToCartBtn) {
+			addToCartBtn.addEventListener('click', function(e) {
+				e.preventDefault();
+				
+				const productId = {{ product.product_id }};
+				const addToCartUrl = '{{ url_cart_add }}';
+				
+				if (!addToCartUrl) {
+					console.error('Cart add URL not available');
+					alert('Cart functionality is not available');
+					return;
+				}
+
+				// Disable button during request
+				const originalText = addToCartBtn.querySelector('span[slot="text"]')?.textContent || 'Add to cart';
+				const buttonText = addToCartBtn.querySelector('span[slot="text"]');
+				if (buttonText) {
+					buttonText.textContent = 'Adding...';
+				}
+				addToCartBtn.disabled = true;
+
+				const formData = new FormData();
+				formData.append('product_id', productId);
+				formData.append('quantity', 1);
+
+				fetch(addToCartUrl, {
+					method: 'POST',
+					body: formData
+				})
+				.then(response => response.json())
+				.then(data => {
+					if (data.success) {
+						if (buttonText) {
+							buttonText.textContent = 'Added!';
+							setTimeout(() => {
+								buttonText.textContent = originalText;
+							}, 2000);
+						}
+
+						console.log('Product added to cart:', data);
+					} else if (data.error) {
+						alert(data.error);
+						if (buttonText) {
+							buttonText.textContent = originalText;
+						}
+					}
+				})
+				.catch(error => {
+					console.error('Error adding to cart:', error);
+					alert('Error adding product to cart');
+					if (buttonText) {
+						buttonText.textContent = originalText;
+					}
+				})
+				.finally(() => {
+					addToCartBtn.disabled = false;
+				});
+			});
 		}
 	});
 </script>

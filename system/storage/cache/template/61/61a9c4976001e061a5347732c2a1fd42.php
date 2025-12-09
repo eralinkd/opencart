@@ -59,7 +59,6 @@ class __TwigTemplate_a9f16eabb1eb76d8d2295fef732a8811 extends Template
 \t\t</div>
 \t\t<div class=\"right\">
 \t\t\t<ul class=\"nav text-18 text-white\">
-\t\t\t\t<li><a href=\"#\">Catalog</a></li>
 \t\t\t\t<li><a href=\"#\">Shipping & Payment</a></li>
 \t\t\t\t<li><a href=\"#\">Batteries</a></li>
 \t\t\t\t<li><a href=\"#\">Warranty & Returns</a></li>
@@ -72,15 +71,15 @@ class __TwigTemplate_a9f16eabb1eb76d8d2295fef732a8811 extends Template
 \t\t\t</ul>
 \t\t\t<div class=\"payments\">
 \t\t\t\t<img src=\"";
-        // line 30
+        // line 29
         yield ($context["server"] ?? null);
         yield "image/footer/visa.png\" alt=\"Visa\">
 \t\t\t\t<img src=\"";
-        // line 31
+        // line 30
         yield ($context["server"] ?? null);
         yield "image/footer/mastercard.png\" alt=\"Mastercard\">
 \t\t\t\t<img src=\"";
-        // line 32
+        // line 31
         yield ($context["server"] ?? null);
         yield "image/footer/american.png\" alt=\"American Express\">
 \t\t\t</div>
@@ -117,7 +116,7 @@ class __TwigTemplate_a9f16eabb1eb76d8d2295fef732a8811 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  84 => 32,  80 => 31,  76 => 30,  50 => 7,  42 => 1,);
+        return array (  83 => 31,  79 => 30,  75 => 29,  50 => 7,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -139,7 +138,6 @@ class __TwigTemplate_a9f16eabb1eb76d8d2295fef732a8811 extends Template
 \t\t</div>
 \t\t<div class=\"right\">
 \t\t\t<ul class=\"nav text-18 text-white\">
-\t\t\t\t<li><a href=\"#\">Catalog</a></li>
 \t\t\t\t<li><a href=\"#\">Shipping & Payment</a></li>
 \t\t\t\t<li><a href=\"#\">Batteries</a></li>
 \t\t\t\t<li><a href=\"#\">Warranty & Returns</a></li>

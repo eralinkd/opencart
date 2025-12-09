@@ -2,32 +2,27 @@ if (!customElements.get('custom-card')) {
   class CustomCard extends HTMLElement {
     constructor() {
       super();
-      
-      // Получаем шаблон
+
       const template = document.getElementById('custom-card-template');
       if (!template) {
         console.error('Template "custom-card-template" not found');
         return;
       }
-      
-      // Создаем Shadow DOM
+
       const shadowRoot = this.attachShadow({ mode: 'open' });
       shadowRoot.appendChild(template.content.cloneNode(true));
     }
-    
-    // Отслеживаем изменения атрибутов
+
     static get observedAttributes() {
       return ['title', 'image'];
     }
-    
-    // Вызывается при изменении атрибутов
+
     attributeChangedCallback(name, oldValue, newValue) {
       if (oldValue === newValue) return;
       
       this.updateCard();
     }
-    
-    // Вызывается при добавлении элемента в DOM
+
     connectedCallback() {
       this.updateCard();
     }

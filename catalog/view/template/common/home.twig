@@ -5,18 +5,18 @@
 		<img class="image" src="{{ server }}image/home/banner.png" alt="Hero">
 		<div class="decor"></div>
 		<h1 class="text-white">Drone parts built for any load</h1>
-		<a href="{{ catalog_link }}" class="hero-cta" data-oc-router="link">
+		{# <a href="{{ catalog_link }}" class="hero-cta" data-oc-router="link">
 			<ui-button>
 				<img slot="icon" style="display: block; width: 100%; height: 100%; object-fit: contain;"
 					src="{{ server }}image/icons/arrow-top-right.svg" alt="Arrow Right">
 				<span slot="text">See catalog
 				</span>
 			</ui-button>
-		</a>
+		</a> #}
 	</div>
 </div>
 
-<div class="container products">
+<div class="container products" id="batteries">
 	<h3 class="products-title">Batteries</h3>
 	<div class="swiper products-swiper">
 		<div class="swiper-wrapper">
@@ -24,6 +24,7 @@
 			{% for product in battery_products %}
 			<div class="swiper-slide">
 				<div class="product-card" data-product-url="{{ product.url_raw }}">
+					<div class="wishlist-icon"><img src="{{ server }}image/icons/heart-yellow.svg" alt="add to wishlist"></div>
 					<div class="product-image">
 						<img src="{{ product.image }}" alt="{{ product.name }}">
 					</div>
@@ -74,7 +75,7 @@
 	</div>
 </div>
 
-<div class="container products">
+<div class="container products" id="controllers">
 	<h3 class="products-title">Controllers</h3>
 	<div class="swiper products-swiper">
 		<div class="swiper-wrapper">
@@ -82,6 +83,7 @@
 			{% for product in controller_products %}
 			<div class="swiper-slide">
 				<div class="product-card" data-product-url="{{ product.url_raw }}">
+					<div class="wishlist-icon"><img src="{{ server }}image/icons/heart-yellow.svg" alt="add to wishlist"></div>
 					<div class="product-image">
 						<img src="{{ product.image }}" alt="{{ product.name }}">
 					</div>
@@ -119,12 +121,12 @@
 			<p class="text-40">Reliability for Your Drones</p>
 			<p class="text-24">We provide proven solutions for heavy-duty use. Our team of enthusiasts tests every component
 				to ensure your drone always performs reliably.</p>
-			<ui-button is-white>
+			{# <ui-button is-white>
 				<img slot="icon" style="display: block; width: 100%; height: 100%; object-fit: contain; filter: invert(1);"
 					src="{{ server }}image/icons/arrow-top-right.svg" alt="Arrow Right">
 				<span slot="text">See catalog
 				</span>
-			</ui-button>
+			</ui-button> #}
 		</div>
 	</div>
 </div>
@@ -136,7 +138,7 @@
 			return;
 		}
 
-		const productsSwiper = new Swiper('.products-swiper', {
+		new Swiper('.products-swiper', {
 			slidesPerView: 3.5,
 			spaceBetween: 24,
 			loop: false,
@@ -164,10 +166,33 @@
 		});
 	}
 
-	if (document.readyState === 'loading') {
-		document.addEventListener('DOMContentLoaded', initProductsSwiper);
-	} else {
+	function initWishlistIcons() {
+		const wishlistIcons = document.querySelectorAll('.products .wishlist-icon');
+
+		wishlistIcons.forEach((icon) => {
+			icon.addEventListener('click', (event) => {
+				event.preventDefault();
+				event.stopPropagation();
+
+				const heart = icon.querySelector('img');
+				if (heart) {
+					heart.classList.toggle('active');
+				}
+
+				icon.classList.toggle('is-active');
+			});
+		});
+	}
+
+	function initHomePage() {
 		initProductsSwiper();
+		initWishlistIcons();
+	}
+
+	if (document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', initHomePage);
+	} else {
+		initHomePage();
 	}
 
 	document.addEventListener('click', function (event) {

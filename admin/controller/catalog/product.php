@@ -678,6 +678,13 @@ class Product extends \Opencart\System\Engine\Controller {
 			$data['product_description'] = [];
 		}
 
+		// Custom Fields
+		if (!empty($product_id)) {
+			$data['product_custom_field'] = $this->model_catalog_product->getCustomFields($product_id);
+		} else {
+			$data['product_custom_field'] = [];
+		}
+
 		// Removed: model, product_codes, identifiers - not needed
 
 		if (!empty($product_info)) {

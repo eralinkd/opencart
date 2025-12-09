@@ -109,13 +109,23 @@
 				</div>
 				<ul class="nav text-20 {% if is_main_page %}text-white{% else %}text-secondary{% endif %}">
 					<li>
-						<a href="#">Batteries</a>
+						<a href="{{ home }}#batteries">Batteries</a>
 					</li>
 					<li>
-						<a href="#">Controllers</a>
+						<a href="{{ home }}#controllers">Controllers</a>
 					</li>
-					<li>
-						<a href="#">About Us</a>
+					<li class="nav-dropdown" data-dropdown="info">
+						<button type="button" class="nav-dropdown__toggle" aria-haspopup="true" aria-expanded="false">
+							<span>Info</span>
+							<span class="nav-dropdown__chevron" aria-hidden="true"></span>
+						</button>
+						<div class="nav-dropdown__menu-wrapper">
+							<div class="nav-dropdown__menu">
+								{% for link in info_links %}
+								<a href="{{ link.href }}" class="nav-dropdown__item">{{ link.label }}</a>
+								{% endfor %}
+							</div>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -146,4 +156,51 @@
 				</div>
 			</div>
 	</header>
+	<script>
+		(function () {
+			const dropdown = document.querySelector('[data-dropdown="info"]');
+			if (!dropdown) return;
+
+			const toggle = dropdown.querySelector('.nav-dropdown__toggle');
+
+			const openDropdown = () => {
+				dropdown.classList.add('is-open');
+				toggle.setAttribute('aria-expanded', 'true');
+			};
+
+			const closeDropdown = () => {
+				dropdown.classList.remove('is-open');
+				toggle.setAttribute('aria-expanded', 'false');
+			};
+
+			// Hover / pointer interactions
+			dropdown.addEventListener('mouseenter', openDropdown);
+			dropdown.addEventListener('mouseleave', closeDropdown);
+
+			// Keyboard focus
+			dropdown.addEventListener('focusin', openDropdown);
+			dropdown.addEventListener('focusout', (event) => {
+				if (!dropdown.contains(event.relatedTarget)) {
+					closeDropdown();
+				}
+			});
+
+			// Click toggle for touch devices
+			toggle.addEventListener('click', (event) => {
+				event.preventDefault();
+				event.stopPropagation();
+				if (dropdown.classList.contains('is-open')) {
+					closeDropdown();
+				} else {
+					openDropdown();
+				}
+			});
+
+			document.addEventListener('click', (event) => {
+				if (!dropdown.contains(event.target)) {
+					closeDropdown();
+				}
+			});
+		})();
+	</script>
 	<main class="app-main {% if is_main_page %}is-main-page{% endif %}">

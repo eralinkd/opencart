@@ -33,6 +33,25 @@
 .products {
   margin-top: 100px;
 }
+.products .wishlist-icon {
+  margin-left: auto;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 500px;
+  background: rgba(255, 229, 123, 0.22);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.products .wishlist-icon.is-active {
+  background: rgba(255, 229, 123, 0.7);
+}
+.products .wishlist-icon img {
+  width: 23px;
+  height: 23px;
+}
 .products .products-title {
   margin-bottom: 24px;
 }

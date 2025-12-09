@@ -1,3757 +1,1859 @@
-2025-11-26 20:55:52 - Error: Unable to find template "common/components.twig" (looked into: .) in "catalog/view/template/common/home.twig" at line 1.
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
+2025-12-08 10:17:35 - PHP Unknown:  Creation of dynamic property Opencart\System\Library\Cart\Cart::$registry is deprecated in /var/www/opencart/system/library/cart/cart.php on line 502025-12-08 10:20:20 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 70
+2025-12-08 10:20:22 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 71
+2025-12-08 10:20:22 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 72
+2025-12-08 10:20:32 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 73
+2025-12-08 10:20:33 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 74
+2025-12-08 10:35:59 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 76
+2025-12-08 10:36:00 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 77
+2025-12-08 10:36:51 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 79
+2025-12-08 10:36:52 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 80
+2025-12-08 10:38:18 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 81
+2025-12-08 10:38:19 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 82
+2025-12-08 10:40:02 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 83
+2025-12-08 10:40:03 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 84
+2025-12-08 10:40:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 85
+2025-12-08 10:40:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 86
+2025-12-08 10:40:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 87
+2025-12-08 10:40:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 88
+2025-12-08 10:47:54 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 89
+2025-12-08 10:47:55 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 90
+2025-12-08 10:47:56 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 91
+2025-12-08 10:47:57 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 92
+2025-12-08 10:47:57 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 93
+2025-12-08 10:47:58 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 94
+2025-12-08 10:47:58 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 95
+2025-12-08 10:47:58 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 96
+2025-12-08 10:47:59 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 97
+2025-12-08 10:48:03 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 98
+2025-12-08 10:48:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 99
+2025-12-08 10:48:05 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 100
+2025-12-08 10:48:25 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 101
+2025-12-08 10:48:26 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 102
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 103
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 104
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 105
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 106
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 107
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 108
+2025-12-08 10:48:28 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 109
+2025-12-08 10:48:41 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 110
+2025-12-08 10:48:54 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 111
+2025-12-08 10:49:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 112
+2025-12-08 10:49:05 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 113
+2025-12-08 10:49:06 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 114
+2025-12-08 11:07:28 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
 
 Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 296
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\cache\template\f1\f17936c6d69993d290606a939a6348a8.php
-Line: 42
-Class: Twig\Template
-Function: loadTemplate
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 387
-Class: __TwigTemplate_26f3baffc38463740621a491e0c161b3
-Function: doDisplay
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 343
-Class: Twig\Template
-Function: yield
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 358
-Class: Twig\Template
-Function: display
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\TemplateWrapper.php
-Line: 51
-Class: Twig\Template
-Function: render
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\TemplateWrapper
-Function: render
-
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 11
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 12
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 25
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 13
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 14
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 15
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-26 20:56:01 - Error: Unable to find template "common/components.twig" (looked into: .) in "catalog/view/template/common/home.twig" at line 1.
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 296
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\cache\template\f1\f17936c6d69993d290606a939a6348a8.php
-Line: 42
-Class: Twig\Template
-Function: loadTemplate
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 387
-Class: __TwigTemplate_26f3baffc38463740621a491e0c161b3
-Function: doDisplay
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 343
-Class: Twig\Template
-Function: yield
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 358
-Class: Twig\Template
-Function: display
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\TemplateWrapper.php
-Line: 51
-Class: Twig\Template
-Function: render
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\TemplateWrapper
-Function: render
-
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 11
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 12
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 25
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 13
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 14
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 15
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-26 21:01:02 - Error: Unable to find template "common/button-component.twig" (looked into: .) in "catalog/view/template/common/home.twig" at line 4.
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 296
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\cache\template\f1\f17936c6d69993d290606a939a6348a8.php
-Line: 47
-Class: Twig\Template
-Function: loadTemplate
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 387
-Class: __TwigTemplate_26f3baffc38463740621a491e0c161b3
-Function: doDisplay
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 343
-Class: Twig\Template
-Function: yield
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 358
-Class: Twig\Template
-Function: display
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\TemplateWrapper.php
-Line: 51
-Class: Twig\Template
-Function: render
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\TemplateWrapper
-Function: render
-
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 11
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 12
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 25
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 13
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 14
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 15
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-26 21:02:06 - Error: Unable to find template "common/button-component.twig" (looked into: .) in "catalog/view/template/common/home.twig" at line 4.
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 296
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\cache\template\f1\f17936c6d69993d290606a939a6348a8.php
-Line: 47
-Class: Twig\Template
-Function: loadTemplate
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 387
-Class: __TwigTemplate_26f3baffc38463740621a491e0c161b3
-Function: doDisplay
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 343
-Class: Twig\Template
-Function: yield
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 358
-Class: Twig\Template
-Function: display
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\TemplateWrapper.php
-Line: 51
-Class: Twig\Template
-Function: render
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\TemplateWrapper
-Function: render
-
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 11
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 12
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 25
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 13
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 14
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 15
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-26 21:10:03 - Error: Unable to find template "common/button-component" (looked into: .) in "catalog/view/template/common/header.twig" at line 32.
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 296
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\cache\template\ad\ad5fad1fac30189bda7f312eeb3696aa.php
-Line: 142
-Class: Twig\Template
-Function: loadTemplate
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 387
-Class: __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a
-Function: doDisplay
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 343
-Class: Twig\Template
-Function: yield
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Template.php
-Line: 358
-Class: Twig\Template
-Function: display
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\TemplateWrapper.php
-Line: 51
-Class: Twig\Template
-Function: render
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\TemplateWrapper
-Function: render
-
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 11
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 12
-File: D:\xampp\htdocs\opencart\catalog\controller\common\header.php
-Line: 42
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 13
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 112
-Class: Opencart\Catalog\Controller\Common\Header
-Function: index
-
-Backtrace: 14
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 25
-Class: Opencart\System\Engine\Loader
-Function: controller
-
-Backtrace: 15
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 16
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 17
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-26 21:12:45 - Error: Unable to find template "catalog/view/template/common/cardcomponent.twig" (looked into: .).
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 357
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\Environment
-Function: load
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 26
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-26 21:14:36 - Error: Unable to find template "catalog/view/template/common/cardcomponent.twig" (looked into: .).
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 357
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\Environment
-Function: load
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 26
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-26 22:02:50 - Error: Undefined constant "Opencart\Catalog\Controller\Startup\DIR_CATALOG"
-File: D:\xampp\htdocs\opencart\catalog\controller\startup\sass.php
-Line: 17
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Startup\Sass
-Function: index
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 208
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-26 23:49:15 - Error: Error: Could not load template common/home!
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 121
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 35
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-26 23:49:28 - Error: Error: Could not load template common/home!
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 121
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 35
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-27 02:12:51 - Error: Error: Could not make a database link using mobius@localhost!<br/>Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
-File: D:\xampp\htdocs\opencart\system\library\db\mysqli.php
-Line: 86
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\library\db.php
-Line: 40
-Class: Opencart\System\Library\DB\MySQLi
-Function: __construct
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 148
-Class: Opencart\System\Library\DB
-Function: __construct
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-27 02:13:08 - Error: Error: Could not make a database link using mobius@localhost!<br/>Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение
-File: D:\xampp\htdocs\opencart\system\library\db\mysqli.php
-Line: 86
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\library\db.php
-Line: 40
-Class: Opencart\System\Library\DB\MySQLi
-Function: __construct
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 148
-Class: Opencart\System\Library\DB
-Function: __construct
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-11-27 12:07:17 - Error: Error: Could not load model catalog/category!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/install/create_drone_categories.php
-Line: 22
-Class: Opencart\System\Engine\Loader
-Function: model
-2025-11-27 12:15:07 - PHP Warning:  Undefined array key "name" in /var/www/opencart/admin/controller/catalog/product.php on line 834
-2025-11-27 12:20:11 - Error: Error: Could not load model setting/setting!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/startup/setting.php
-Line: 16
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Startup\Setting
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 208
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:20:12 - Error: Error: Could not load model setting/setting!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/startup/setting.php
-Line: 16
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Startup\Setting
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 208
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:22:19 - Error: <b>Notice</b>:  Undefined property: Proxy::addLogin in <b>/var/www/opencart/admin/controller/common/login.php</b> on line <b>108</b>
-File: /var/www/opencart/system/engine/proxy.php
-Line: 91
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/common/login.php
-Line: 108
-Class: Opencart\System\Engine\Proxy
-Function: __call
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Common\Login
-Function: login
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:24:21 - Error: Error: Could not load model sale/order!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/extension/opencart/admin/controller/dashboard/recent.php
-Line: 102
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/loader.php
-Line: 112
-Class: Opencart\Admin\Controller\Extension\Opencart\Dashboard\Recent
-Function: dashboard
-
-Backtrace: 2
-File: /var/www/opencart/admin/controller/common/dashboard.php
-Line: 44
-Class: Opencart\System\Engine\Loader
-Function: controller
-
-Backtrace: 3
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Common\Dashboard
-Function: index
-
-Backtrace: 4
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 5
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:25:00 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
-2025-11-27 12:25:00 - Error: <b>Notice</b>:  Undefined property: Proxy::getNotifications in <b>/var/www/opencart/admin/controller/common/header.php</b> on line <b>60</b>
-File: /var/www/opencart/system/engine/proxy.php
-Line: 91
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/common/header.php
-Line: 60
-Class: Opencart\System\Engine\Proxy
-Function: __call
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/loader.php
-Line: 112
-Class: Opencart\Admin\Controller\Common\Header
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/admin/controller/common/dashboard.php
-Line: 42
-Class: Opencart\System\Engine\Loader
-Function: controller
-
-Backtrace: 3
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Common\Dashboard
-Function: index
-
-Backtrace: 4
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 5
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:25:02 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
-2025-11-27 12:25:02 - Error: <b>Notice</b>:  Undefined property: Proxy::getNotifications in <b>/var/www/opencart/admin/controller/common/header.php</b> on line <b>60</b>
-File: /var/www/opencart/system/engine/proxy.php
-Line: 91
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/common/header.php
-Line: 60
-Class: Opencart\System\Engine\Proxy
-Function: __call
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/loader.php
-Line: 112
-Class: Opencart\Admin\Controller\Common\Header
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/admin/controller/common/dashboard.php
-Line: 42
-Class: Opencart\System\Engine\Loader
-Function: controller
-
-Backtrace: 3
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Common\Dashboard
-Function: index
-
-Backtrace: 4
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 5
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:25:02 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
-2025-11-27 12:25:02 - Error: <b>Notice</b>:  Undefined property: Proxy::getNotifications in <b>/var/www/opencart/admin/controller/common/header.php</b> on line <b>60</b>
-File: /var/www/opencart/system/engine/proxy.php
-Line: 91
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/common/header.php
-Line: 60
-Class: Opencart\System\Engine\Proxy
-Function: __call
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/loader.php
-Line: 112
-Class: Opencart\Admin\Controller\Common\Header
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/admin/controller/common/dashboard.php
-Line: 42
-Class: Opencart\System\Engine\Loader
-Function: controller
-
-Backtrace: 3
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Common\Dashboard
-Function: index
-
-Backtrace: 4
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 5
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:25:02 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
-2025-11-27 12:25:02 - Error: <b>Notice</b>:  Undefined property: Proxy::getNotifications in <b>/var/www/opencart/admin/controller/common/header.php</b> on line <b>60</b>
-File: /var/www/opencart/system/engine/proxy.php
-Line: 91
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/common/header.php
-Line: 60
-Class: Opencart\System\Engine\Proxy
-Function: __call
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/loader.php
-Line: 112
-Class: Opencart\Admin\Controller\Common\Header
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/admin/controller/common/dashboard.php
-Line: 42
-Class: Opencart\System\Engine\Loader
-Function: controller
-
-Backtrace: 3
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Common\Dashboard
-Function: index
-
-Backtrace: 4
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 5
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:25:18 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
-2025-11-27 12:25:18 - Error: <b>Notice</b>:  Undefined property: Proxy::getNotifications in <b>/var/www/opencart/admin/controller/common/header.php</b> on line <b>60</b>
-File: /var/www/opencart/system/engine/proxy.php
-Line: 91
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/common/header.php
-Line: 60
-Class: Opencart\System\Engine\Proxy
-Function: __call
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/loader.php
-Line: 112
-Class: Opencart\Admin\Controller\Common\Header
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/admin/controller/common/dashboard.php
-Line: 42
-Class: Opencart\System\Engine\Loader
-Function: controller
-
-Backtrace: 3
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Common\Dashboard
-Function: index
-
-Backtrace: 4
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 5
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:26:34 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
-2025-11-27 12:26:34 - Error: Error: Could not load model tool/image!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/common/header.php
-Line: 88
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/loader.php
-Line: 112
-Class: Opencart\Admin\Controller\Common\Header
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/admin/controller/common/dashboard.php
-Line: 42
-Class: Opencart\System\Engine\Loader
-Function: controller
-
-Backtrace: 3
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Common\Dashboard
-Function: index
-
-Backtrace: 4
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 5
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:26:53 - PHP Warning:  Undefined array key "image" in /var/www/opencart/admin/controller/common/language.php on line 28
-2025-11-27 12:26:53 - Error: Error: Could not load model tool/image!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/common/header.php
-Line: 88
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/loader.php
-Line: 112
-Class: Opencart\Admin\Controller\Common\Header
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/admin/controller/common/dashboard.php
-Line: 42
-Class: Opencart\System\Engine\Loader
-Function: controller
-
-Backtrace: 3
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Common\Dashboard
-Function: index
-
-Backtrace: 4
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 5
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:38:02 - Error: Error: Could not load model catalog/filter!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/category.php
-Line: 320
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Category
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:43:03 - Error: Error: Could not load model catalog/filter!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/category.php
-Line: 320
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Category
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:46:38 - Error: Error: Could not load model catalog/option!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 1481
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: autocomplete
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:46:40 - Error: Error: Could not load model catalog/option!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 1481
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: autocomplete
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:46:45 - Error: Error: Could not load model catalog/identifier!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 688
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:49:39 - Error: Error: Could not load model catalog/identifier!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 688
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:50:09 - Error: Error: Could not load model catalog/option!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 1481
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: autocomplete
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:50:14 - Error: Error: Could not load model catalog/option!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 1481
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: autocomplete
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:50:26 - Error: Error: Could not load model catalog/filter!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/category.php
-Line: 320
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Category
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 12:50:45 - Error: Error: Could not load model catalog/identifier!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 688
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:13:54 - Error: Error: Could not load model catalog/identifier!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 688
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:15:08 - Error: Error: Could not load model localisation/tax_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 709
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:15:09 - Error: Error: Could not load model localisation/tax_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 709
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:15:09 - Error: Error: Could not load model localisation/tax_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 709
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:15:14 - Error: Error: Could not load model localisation/tax_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 709
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:05 - Error: Error: Could not load model localisation/stock_status!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 738
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:06 - Error: Error: Could not load model localisation/stock_status!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 738
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:06 - Error: Error: Could not load model localisation/stock_status!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 738
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:06 - Error: Error: Could not load model localisation/stock_status!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 738
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:06 - Error: Error: Could not load model localisation/stock_status!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 738
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:07 - Error: Error: Could not load model localisation/stock_status!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 738
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:07 - Error: Error: Could not load model localisation/stock_status!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 738
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:54 - Error: Error: Could not load model localisation/length_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 785
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:54 - Error: Error: Could not load model localisation/length_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 785
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:54 - Error: Error: Could not load model localisation/length_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 785
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:55 - Error: Error: Could not load model localisation/length_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 785
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:55 - Error: Error: Could not load model localisation/length_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 785
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:16:55 - Error: Error: Could not load model localisation/length_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 785
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:17:25 - Error: Error: Could not load model localisation/weight_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 802
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:17:25 - Error: Error: Could not load model localisation/weight_class!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 802
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:23:51 - Error: Error: Could not load model catalog/filter!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 727
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:35:32 - Error: Error: Could not load model catalog/download!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 768
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-11-27 13:35:33 - Error: Error: Could not load model catalog/download!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 768
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-12-01 10:20:20 - Error: Error: Could not load model catalog/filter!
-File: /var/www/opencart/system/engine/loader.php
-Line: 148
-
-Backtrace: 0
-File: /var/www/opencart/admin/controller/catalog/category.php
-Line: 320
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Category
-Function: form
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "model" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "location" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "minimum" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "stock_status_id" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "date_available" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "manufacturer_id" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "points" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "weight" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "weight_class_id" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "length" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "width" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "height" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "length_class_id" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "tax_class_id" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "sort_order" in /var/www/opencart/admin/model/catalog/product.php on line 59
-2025-12-01 10:20:41 - PHP Warning:  Undefined array key "tag" in /var/www/opencart/admin/model/catalog/product.php on line 1335
-2025-12-01 10:20:41 - Error: Opencart\System\Library\DB::escape(): Argument #1 ($value) must be of type string, null given, called in /var/www/opencart/admin/model/catalog/product.php on line 1335
 File: /var/www/opencart/system/library/db.php
-Line: 64
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
 
-Backtrace: 0
-File: /var/www/opencart/admin/model/catalog/product.php
-Line: 1335
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
 Class: Opencart\System\Library\DB
-Function: escape
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/loader.php
-Line: 343
-Class: Opencart\Admin\Model\Catalog\Product
-Function: addDescription
+Function: query
 
 Backtrace: 2
-File: /var/www/opencart/system/engine/proxy.php
-Line: 87
-Class: Opencart\System\Engine\Loader
-Function: Opencart\System\Engine\{closure}
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
 
 Backtrace: 3
-File: /var/www/opencart/admin/model/catalog/product.php
-Line: 69
-Class: Opencart\System\Engine\Proxy
-Function: __call
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
 
 Backtrace: 4
-File: /var/www/opencart/system/engine/loader.php
-Line: 343
-Class: Opencart\Admin\Model\Catalog\Product
-Function: addProduct
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
 
 Backtrace: 5
-File: /var/www/opencart/system/engine/proxy.php
-Line: 87
-Class: Opencart\System\Engine\Loader
-Function: Opencart\System\Engine\{closure}
-
-Backtrace: 6
-File: /var/www/opencart/admin/controller/catalog/product.php
-Line: 919
-Class: Opencart\System\Engine\Proxy
-Function: __call
-
-Backtrace: 7
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: save
-
-Backtrace: 8
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 9
-File: /var/www/opencart/admin/index.php
-Line: 20
-Function: require_once
-2025-12-01 10:55:48 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 93
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
 File: /var/www/opencart/index.php
 Line: 20
 Function: require_once
-2025-12-01 10:55:50 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
+2025-12-08 11:07:29 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
 
 Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 93
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 10:55:50 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 93
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 10:55:50 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 93
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 10:55:50 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 93
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 10:55:51 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 93
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 10:55:51 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 93
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 10:55:51 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 93
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 10:55:51 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 93
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:00:24 - Error: Error: Could not call registry key session!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 88
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:00:25 - Error: Error: Could not call registry key session!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 88
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:00:25 - Error: Error: Could not call registry key session!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 88
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:00:25 - Error: Error: Could not call registry key session!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 88
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:00:25 - Error: Error: Could not call registry key session!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 88
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:00:26 - Error: Error: Could not call registry key session!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 88
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:00:26 - Error: Error: Could not call registry key session!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 88
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:00:26 - Error: Error: Could not call registry key session!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 88
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:02:01 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 106
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:02:01 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 106
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:02:01 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 106
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:02:01 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 106
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 11:02:02 - Error: Error: Could not call registry key currency!
-File: /var/www/opencart/system/engine/controller.php
-Line: 43
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 106
-Class: Opencart\System\Engine\Controller
-Function: __get
-
-Backtrace: 1
-File: /var/www/opencart/catalog/controller/common/home.php
-Line: 33
-Class: Opencart\Catalog\Controller\Common\Home
-Function: getProductsByCategoryName
-
-Backtrace: 2
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 3
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 4
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 19
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 21
-2025-12-01 13:00:35 - PHP Unknown:  strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/opencart/catalog/controller/product/product.php on line 21
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 35
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 40
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 41
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 42
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 43
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 44
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 46
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 47
-2025-12-01 13:00:35 - PHP Warning:  Trying to access array offset on null in /var/www/opencart/catalog/controller/product/product.php on line 48
-2025-12-01 13:00:35 - Error: Opencart\Catalog\Controller\Product\Product::buildHighlights(): Argument #1 ($product) must be of type array, null given, called in /var/www/opencart/catalog/controller/product/product.php on line 49
-File: /var/www/opencart/catalog/controller/product/product.php
-Line: 118
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/product/product.php
-Line: 49
-Class: Opencart\Catalog\Controller\Product\Product
-Function: buildHighlights
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Product\Product
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 13:10:27 - Error: Unsupported operand types: int + string
-File: /var/www/opencart/catalog/controller/product/product.php
-Line: 10
-
-Backtrace: 0
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Product\Product
-Function: index
-
-Backtrace: 1
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 2
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 13:10:28 - Error: Unsupported operand types: int + string
-File: /var/www/opencart/catalog/controller/product/product.php
-Line: 10
-
-Backtrace: 0
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Product\Product
-Function: index
-
-Backtrace: 1
-File: /var/www/opencart/system/framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 2
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 13:49:27 - Error: Incompatible units px and %.: line: 184, column: 5
-File: /var/www/opencart/system/storage/vendor/scssphp/scssphp/src/Compiler.php
-Line: 611
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/startup/sass.php
-Line: 34
-Class: ScssPhp\ScssPhp\Compiler
-Function: compileString
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Startup\Sass
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 208
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 13:49:27 - Error: Incompatible units px and %.: line: 184, column: 5
-File: /var/www/opencart/system/storage/vendor/scssphp/scssphp/src/Compiler.php
-Line: 611
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/startup/sass.php
-Line: 34
-Class: ScssPhp\ScssPhp\Compiler
-Function: compileString
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Startup\Sass
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 208
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 13:49:28 - Error: Incompatible units px and %.: line: 184, column: 5
-File: /var/www/opencart/system/storage/vendor/scssphp/scssphp/src/Compiler.php
-Line: 611
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/startup/sass.php
-Line: 34
-Class: ScssPhp\ScssPhp\Compiler
-Function: compileString
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Startup\Sass
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 208
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-01 13:49:28 - Error: Incompatible units px and %.: line: 184, column: 5
-File: /var/www/opencart/system/storage/vendor/scssphp/scssphp/src/Compiler.php
-Line: 611
-
-Backtrace: 0
-File: /var/www/opencart/catalog/controller/startup/sass.php
-Line: 34
-Class: ScssPhp\ScssPhp\Compiler
-Function: compileString
-
-Backtrace: 1
-File: /var/www/opencart/system/engine/action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Startup\Sass
-Function: index
-
-Backtrace: 2
-File: /var/www/opencart/system/framework.php
-Line: 208
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: /var/www/opencart/index.php
-Line: 20
-Function: require_once
-2025-12-02 20:19:58 - Error: Unable to find template "catalog/view/template/common/ui/card.twig" (looked into: .).
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 357
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\Environment
-Function: load
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 31
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-12-02 20:22:27 - Error: Unable to find template "catalog/view/template/common/components/productcard.twig" (looked into: .).
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 357
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\Environment
-Function: load
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 30
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-12-02 20:23:14 - Error: Unable to find template "catalog/view/template/common/components/productcard.twig" (looked into: .).
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 357
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\Environment
-Function: load
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\catalog\controller\common\home.php
-Line: 30
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Common\Home
-Function: index
-
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-12-02 20:47:33 - Error: Undefined constant "Opencart\Catalog\Controller\Startup\DIR_CATALOG"
-File: D:\xampp\htdocs\opencart\catalog\controller\startup\sass.php
-Line: 17
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Startup\Sass
-Function: index
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 208
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-12-02 21:30:24 - Error: Error: Could not load model catalog/option!
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 148
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
-Line: 1129
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: autocomplete
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\admin\index.php
-Line: 20
-Function: require_once
-2025-12-02 21:30:24 - Error: Error: Could not load model catalog/option!
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 148
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
-Line: 1129
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: autocomplete
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\admin\index.php
-Line: 20
-Function: require_once
-2025-12-02 21:42:24 - Error: Call to undefined method Opencart\Catalog\Controller\Product\Product::getProductsByCategoryName()
-File: D:\xampp\htdocs\opencart\catalog\controller\product\product.php
+File: /var/www/opencart/system/library/db.php
 Line: 54
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Product\Product
-Function: index
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
 
 Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\framework.php
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
 Line: 259
 Class: Opencart\System\Engine\Action
 Function: execute
 
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\index.php
+Backtrace: 5
+File: /var/www/opencart/index.php
 Line: 20
 Function: require_once
-2025-12-02 21:43:14 - Error: Call to undefined method Opencart\Catalog\Controller\Product\Product::getCategoryIdByName()
-File: D:\xampp\htdocs\opencart\catalog\controller\product\product.php
-Line: 227
+2025-12-08 11:07:29 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
 
 Backtrace: 0
-File: D:\xampp\htdocs\opencart\catalog\controller\product\product.php
+File: /var/www/opencart/system/library/db.php
 Line: 54
-Class: Opencart\Catalog\Controller\Product\Product
-Function: getProductsByCategoryName
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
 
 Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Product\Product
-Function: index
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
 
 Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
 
 Backtrace: 3
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-12-02 21:52:10 - Error: Error: Could not load model catalog/option!
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 148
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
-Line: 1129
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: autocomplete
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\admin\index.php
-Line: 20
-Function: require_once
-2025-12-02 21:52:12 - Error: Error: Could not load model catalog/option!
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 148
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
-Line: 1129
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: autocomplete
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\admin\index.php
-Line: 20
-Function: require_once
-2025-12-02 21:52:12 - Error: Error: Could not load model catalog/option!
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 148
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
-Line: 1129
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: autocomplete
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\admin\index.php
-Line: 20
-Function: require_once
-2025-12-02 21:52:13 - Error: Error: Could not load model catalog/option!
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 148
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\admin\controller\catalog\product.php
-Line: 1129
-Class: Opencart\System\Engine\Loader
-Function: model
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Admin\Controller\Catalog\Product
-Function: autocomplete
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\admin\index.php
-Line: 20
-Function: require_once
-2025-12-07 15:18:29 - Error: Unable to find template "catalog/view/template/cart/components/CartItem.twig" (looked into: .).
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 357
-Class: Twig\Environment
-Function: getTemplateClass
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\Environment
-Function: load
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\catalog\controller\cart\cart.php
-Line: 13
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\engine\action.php
+File: /var/www/opencart/system/engine/action.php
 Line: 96
 Class: Opencart\Catalog\Controller\Cart\Cart
 Function: index
 
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\framework.php
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
 Line: 259
 Class: Opencart\System\Engine\Action
 Function: execute
 
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\index.php
+Backtrace: 5
+File: /var/www/opencart/index.php
 Line: 20
 Function: require_once
-2025-12-07 15:21:47 - Error: Unable to find template "catalog/view/template/cart/components/CartItem.twig" (looked into: .).
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
+2025-12-08 11:07:30 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
 
 Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
 
 Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
 
 Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 357
-Class: Twig\Environment
-Function: getTemplateClass
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
 
 Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\Environment
-Function: load
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\catalog\controller\cart\cart.php
-Line: 13
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\engine\action.php
+File: /var/www/opencart/system/engine/action.php
 Line: 96
 Class: Opencart\Catalog\Controller\Cart\Cart
 Function: index
 
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\framework.php
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
 Line: 259
 Class: Opencart\System\Engine\Action
 Function: execute
 
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\index.php
+Backtrace: 5
+File: /var/www/opencart/index.php
 Line: 20
 Function: require_once
-2025-12-07 16:08:51 - Error: Unable to find template "catalog/view/template/cart/components/CartItem.twig" (looked into: .).
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
+2025-12-08 11:07:30 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
 
 Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
 
 Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
 
 Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 357
-Class: Twig\Environment
-Function: getTemplateClass
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
 
 Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\Environment
-Function: load
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\catalog\controller\cart\cart.php
-Line: 13
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\engine\action.php
+File: /var/www/opencart/system/engine/action.php
 Line: 96
 Class: Opencart\Catalog\Controller\Cart\Cart
 Function: index
 
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\framework.php
-Line: 259
-Class: Opencart\System\Engine\Action
-Function: execute
-
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\index.php
-Line: 20
-Function: require_once
-2025-12-07 20:06:20 - Error: Error: Could not load template account/general!
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 121
-
-Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 2
-File: D:\xampp\htdocs\opencart\catalog\controller\account\general.php
-Line: 18
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\engine\action.php
-Line: 96
-Class: Opencart\Catalog\Controller\Account\General
-Function: index
-
 Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\framework.php
+File: /var/www/opencart/system/framework.php
 Line: 259
 Class: Opencart\System\Engine\Action
 Function: execute
 
 Backtrace: 5
-File: D:\xampp\htdocs\opencart\index.php
+File: /var/www/opencart/index.php
 Line: 20
 Function: require_once
-2025-12-07 21:07:04 - Error: Unable to find template "catalog/view/template/checkout/new_customer.twig" (looked into: .).
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 234
+2025-12-08 11:07:31 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
 
 Backtrace: 0
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
-Line: 138
-Class: Twig\Loader\FilesystemLoader
-Function: findTemplate
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
 
 Backtrace: 1
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 304
-Class: Twig\Loader\FilesystemLoader
-Function: getCacheKey
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
 
 Backtrace: 2
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 357
-Class: Twig\Environment
-Function: getTemplateClass
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
 
 Backtrace: 3
-File: D:\xampp\htdocs\opencart\system\storage\vendor\twig\twig\src\Environment.php
-Line: 320
-Class: Twig\Environment
-Function: load
-
-Backtrace: 4
-File: D:\xampp\htdocs\opencart\system\library\template\twig.php
-Line: 119
-Class: Twig\Environment
-Function: render
-
-Backtrace: 5
-File: D:\xampp\htdocs\opencart\system\library\template.php
-Line: 58
-Class: Opencart\System\Library\Template\Twig
-Function: render
-
-Backtrace: 6
-File: D:\xampp\htdocs\opencart\system\engine\loader.php
-Line: 187
-Class: Opencart\System\Library\Template
-Function: render
-
-Backtrace: 7
-File: D:\xampp\htdocs\opencart\catalog\controller\checkout\new_customer.php
-Line: 20
-Class: Opencart\System\Engine\Loader
-Function: view
-
-Backtrace: 8
-File: D:\xampp\htdocs\opencart\system\engine\action.php
+File: /var/www/opencart/system/engine/action.php
 Line: 96
-Class: Opencart\Catalog\Controller\Checkout\NewCustomer
+Class: Opencart\Catalog\Controller\Cart\Cart
 Function: index
 
-Backtrace: 9
-File: D:\xampp\htdocs\opencart\system\framework.php
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
 Line: 259
 Class: Opencart\System\Engine\Action
 Function: execute
 
-Backtrace: 10
-File: D:\xampp\htdocs\opencart\index.php
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:31 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:31 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:31 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:32 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:32 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:35 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:36 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:36 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:37 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:37 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:37 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:37 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:37 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:45 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:46 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:07:46 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:13 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:13 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:14 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:14 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:14 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:14 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:30 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:31 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:32 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:32 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:50 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:50 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:51 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:51 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:52 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:08:53 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:10:13 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:10:14 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:10:14 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:10:36 - Error: Error: Unknown column 'p.sku' in 'SELECT'<br/>Error No: 1054<br/>SELECT `p`.`product_id`, `p`.`model`, `p`.`sku`, `p`.`upc`, `p`.`ean`, `p`.`jan`, `p`.`isbn`, `p`.`mpn`, `p`.`location`, `p`.`variant`, `p`.`override`, `p`.`quantity`, `p`.`stock_status_id`, `p`.`image`, `p`.`manufacturer_id`, `p`.`shipping`, `p`.`price`, `p`.`points`, `p`.`tax_class_id`, `p`.`date_available`, `p`.`weight`, `p`.`weight_class_id`, `p`.`length`, `p`.`width`, `p`.`height`, `p`.`length_class_id`, `p`.`subtract`, `p`.`minimum`, `p`.`sales`, `p`.`rating`, `p`.`status`, `p`.`sort_order`, `p`.`date_added`, `p`.`date_modified`, `pd`.`name`, `pd`.`description`, `pd`.`tag`, `pd`.`meta_title`, `pd`.`meta_description`, `pd`.`meta_keyword`, `p2s`.`store_id` FROM `oc_product` `p` LEFT JOIN `oc_product_description` `pd` ON (`p`.`product_id` = `pd`.`product_id` AND `pd`.`language_id` = '0') LEFT JOIN `oc_product_to_store` `p2s` ON (`p`.`product_id` = `p2s`.`product_id` AND (`p2s`.`store_id` = '0' OR `p2s`.`store_id` = '0')) WHERE `p`.`product_id` = '19' AND `p`.`date_available` <= NOW() AND `p`.`status` = '1' LIMIT 1
+File: /var/www/opencart/system/library/db/mysqli.php
+Line: 122
+
+Backtrace: 0
+File: /var/www/opencart/system/library/db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: /var/www/opencart/system/library/cart/cart.php
+Line: 71
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 21
+Class: Opencart\System\Library\Cart\Cart
+Function: getProducts
+
+Backtrace: 3
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: index
+
+Backtrace: 4
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:30:50 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 282
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: update
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:31:01 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 347
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: remove
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:31:39 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 282
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: update
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:32:08 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 282
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: update
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:32:17 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 282
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: update
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:32:20 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 282
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: update
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:32:31 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 282
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: update
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:34:22 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 283
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: update
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:34:27 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 283
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: update
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:51:26 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 276
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: update
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
+Line: 20
+Function: require_once
+2025-12-08 11:51:42 - Error: Cannot access private property Opencart\System\Library\Cart\Cart::$data
+File: /var/www/opencart/catalog/controller/cart/cart.php
+Line: 276
+
+Backtrace: 0
+File: /var/www/opencart/system/engine/action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Cart\Cart
+Function: update
+
+Backtrace: 1
+File: /var/www/opencart/system/framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 2
+File: /var/www/opencart/index.php
 Line: 20
 Function: require_once

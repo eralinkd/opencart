@@ -4,41 +4,71 @@
 
 <div class="container">
   <div class="cart-title">
-    <h1 class="title">Cart (1)</h1>
+    <h1 class="title">Cart ({{ total_items }})</h1>
   </div>
 </div>
 
 <div class="container cart-content">
-
-  <div class="block cart-items">
-    <cart-item></cart-item>
+  {% if cart_items %}
+  <div class="block cart-items" id="cart-items">
+    {% for item in cart_items %}
+    <cart-item 
+      data-cart-id="{{ item.cart_id|default(0) }}"
+      data-product-id="{{ item.product_id|default(0) }}"
+      data-name="{{ item.name|default('')|e }}"
+      data-model="{{ item.model|default('')|e }}"
+      data-image="{{ item.image|default('')|e }}"
+      data-quantity="{{ item.quantity|default(1) }}"
+      data-price="{{ item.price|default(0) }}"
+      data-price-formatted="{{ item.price_formatted|default('$0.00')|e }}"
+      data-total="{{ item.total|default(0) }}"
+      data-total-formatted="{{ item.total_formatted|default('$0.00')|e }}"
+      data-stock-status="{{ item.stock_status ? '1' : '0' }}"
+    ></cart-item>
+    {% if not loop.last %}
     <div class="separator"></div>
-    <cart-item></cart-item>
-    <div class="separator"></div>
-    <cart-item></cart-item>
+    {% endif %}
+    {% endfor %}
   </div>
+  {% else %}
+  <div class="block cart-items">
+    <p class="text-20" style="text-align: center; padding: 40px;">Your cart is empty</p>
+  </div>
+  {% endif %}
   <div class="block summary">
     <p class="text-20 summary-title">Order Summary</p>
     <div class="subtotal line">
       <p class="text-16">Subtotal</p>
-      <p class="text-20">$35</p>
+      <p class="text-20" id="cart-subtotal">{{ subtotal_formatted }}</p>
     </div>
     <div class="discount line">
       <p class="text-16">Discount</p>
-      <p class="text-20">0</p>
+      <p class="text-20" id="cart-discount">{{ discount_formatted }}</p>
     </div>
     <div class="separator"></div>
     <div class="total line">
       <p class="text-16">Total</p>
-      <p class="text-20">$35</p>
+      <p class="text-20" id="cart-total">{{ total_formatted }}</p>
     </div>
+    {% if cart_items %}
     <a href="{{ url_checkout_new }}">
       <ui-button-secondary class="button">
         <span slot="text">Continue to Checkout</span>
       </ui-button-secondary>
     </a>
+    {% endif %}
   </div>
 </div>
 </div>
+
+<script>
+  // Cart API URLs
+  window.cartApi = {
+    add: '{{ url_cart_add }}',
+    update: '{{ url_cart_update }}',
+    remove: '{{ url_cart_remove }}',
+    get: '{{ url_cart_get }}'
+  };
+</script>
 
 {{ footer }}

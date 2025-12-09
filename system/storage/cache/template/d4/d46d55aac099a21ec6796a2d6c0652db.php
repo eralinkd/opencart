@@ -43,25 +43,13 @@ class __TwigTemplate_fe8caee7472b75d314d6e4951e6b6ebb extends Template
         yield "
 <div style=\"max-width: 1200px; margin: 0 auto; padding: 4rem 1rem; text-align: center;\">
   <h1 style=\"font-size: 4rem; font-weight: bold; margin-bottom: 1rem; color: #1f2937;\">404</h1>
-  <h2 style=\"font-size: 2rem; margin-bottom: 1rem; color: #4b5563;\">";
-        // line 4
-        yield ((array_key_exists("heading_title", $context)) ? (Twig\Extension\CoreExtension::default(($context["heading_title"] ?? null), "Page not found")) : ("Page not found"));
-        yield "</h2>
+  <h2 style=\"font-size: 2rem; margin-bottom: 1rem; color: #4b5563;\">Page not found</h2>
   <p style=\"font-size: 1.125rem; color: #6b7280; margin-bottom: 2rem;\">
-    ";
-        // line 6
-        yield ((array_key_exists("text_error", $context)) ? (Twig\Extension\CoreExtension::default(($context["text_error"] ?? null), "Запрашиваемая страница не существует.")) : ("Запрашиваемая страница не существует."));
-        yield "
+    The requested page does not exist.
   </p>
-  <a href=\"";
-        // line 8
-        yield ((array_key_exists("home", $context)) ? (Twig\Extension\CoreExtension::default(($context["home"] ?? null), "/")) : ("/"));
-        yield "\" style=\"display: inline-block; padding: 0.75rem 1.5rem; background: #2563eb; color: white; border-radius: 0.375rem; text-decoration: none; font-weight: 600;\">
-    Вернуться на главную
-  </a>
 </div>
 ";
-        // line 12
+        // line 9
         yield ($context["footer"] ?? null);
         yield "
 
@@ -90,7 +78,7 @@ class __TwigTemplate_fe8caee7472b75d314d6e4951e6b6ebb extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  65 => 12,  58 => 8,  53 => 6,  48 => 4,  42 => 1,);
+        return array (  53 => 9,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -98,13 +86,10 @@ class __TwigTemplate_fe8caee7472b75d314d6e4951e6b6ebb extends Template
         return new Source("{{ header }}
 <div style=\"max-width: 1200px; margin: 0 auto; padding: 4rem 1rem; text-align: center;\">
   <h1 style=\"font-size: 4rem; font-weight: bold; margin-bottom: 1rem; color: #1f2937;\">404</h1>
-  <h2 style=\"font-size: 2rem; margin-bottom: 1rem; color: #4b5563;\">{{ heading_title|default('Page not found') }}</h2>
+  <h2 style=\"font-size: 2rem; margin-bottom: 1rem; color: #4b5563;\">Page not found</h2>
   <p style=\"font-size: 1.125rem; color: #6b7280; margin-bottom: 2rem;\">
-    {{ text_error|default('Запрашиваемая страница не существует.') }}
+    The requested page does not exist.
   </p>
-  <a href=\"{{ home|default('/') }}\" style=\"display: inline-block; padding: 0.75rem 1.5rem; background: #2563eb; color: white; border-radius: 0.375rem; text-decoration: none; font-weight: 600;\">
-    Вернуться на главную
-  </a>
 </div>
 {{ footer }}
 

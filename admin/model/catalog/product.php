@@ -77,6 +77,15 @@ class Product extends \Opencart\System\Engine\Model {
 			}
 		}
 
+		// Custom Fields
+		if (isset($data['product_custom_field'])) {
+			foreach ($data['product_custom_field'] as $custom_field) {
+				if (!empty($custom_field['field_key']) && !empty($custom_field['field_value'])) {
+					$this->model_catalog_product->addCustomField($product_id, $custom_field);
+				}
+			}
+		}
+
 		// Categories
 		if (isset($data['product_category'])) {
 			foreach ($data['product_category'] as $category_id) {
@@ -255,6 +264,17 @@ class Product extends \Opencart\System\Engine\Model {
 			foreach ($data['product_code'] as $product_code) {
 				$this->model_catalog_product->addCode($product_id, $product_code);
 
+			}
+		}
+
+		// Custom Fields
+		$this->model_catalog_product->deleteCustomFields($product_id);
+
+		if (isset($data['product_custom_field'])) {
+			foreach ($data['product_custom_field'] as $custom_field) {
+				if (!empty($custom_field['field_key']) && !empty($custom_field['field_value'])) {
+					$this->model_catalog_product->addCustomField($product_id, $custom_field);
+				}
 			}
 		}
 
@@ -1483,6 +1503,73 @@ class Product extends \Opencart\System\Engine\Model {
 	 */
 	public function getCodes(int $product_id): array {
 		$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "product_code` WHERE `product_id` = '" . (int)$product_id . "'");
+
+		return $query->rows;
+	}
+
+	/**
+	 * Add Custom Field
+	 *
+	 * Create a new product custom field record in the database.
+	 *
+	 * @param int                  $product_id primary key of the product record
+	 * @param array<string, mixed> $data       array of data with 'field_key' and 'field_value'
+	 *
+	 * @return void
+	 *
+	 * @example
+	 *
+	 * $data = [
+	 *     'field_key'   => 'brand',
+	 *     'field_value' => 'RadioMaster',
+	 *     'sort_order'  => 0
+	 * ];
+	 *
+	 * $this->load->model('catalog/product');
+	 *
+	 * $this->model_catalog_product->addCustomField($product_id, $data);
+	 */
+	public function addCustomField(int $product_id, array $data): void {
+		$sort_order = isset($data['sort_order']) ? (int)$data['sort_order'] : 0;
+		$this->db->query("INSERT INTO `" . DB_PREFIX . "product_custom_field` SET `product_id` = '" . (int)$product_id . "', `field_key` = '" . $this->db->escape((string)$data['field_key']) . "', `field_value` = '" . $this->db->escape((string)$data['field_value']) . "', `sort_order` = '" . (int)$sort_order . "'");
+	}
+
+	/**
+	 * Delete Custom Fields
+	 *
+	 * Delete product custom field records in the database.
+	 *
+	 * @param int $product_id primary key of the product record
+	 *
+	 * @return void
+	 *
+	 * @example
+	 *
+	 * $this->load->model('catalog/product');
+	 *
+	 * $this->model_catalog_product->deleteCustomFields($product_id);
+	 */
+	public function deleteCustomFields(int $product_id): void {
+		$this->db->query("DELETE FROM `" . DB_PREFIX . "product_custom_field` WHERE `product_id` = '" . (int)$product_id . "'");
+	}
+
+	/**
+	 * Get Custom Fields
+	 *
+	 * Get the record of the product custom field records in the database.
+	 *
+	 * @param int $product_id primary key of the product record
+	 *
+	 * @return array<int, array<string, mixed>>
+	 *
+	 * @example
+	 *
+	 * $this->load->model('catalog/product');
+	 *
+	 * $results = $this->model_catalog_product->getCustomFields($product_id);
+	 */
+	public function getCustomFields(int $product_id): array {
+		$query = $this->db->query("SELECT * FROM `" . DB_PREFIX . "product_custom_field` WHERE `product_id` = '" . (int)$product_id . "' ORDER BY `sort_order` ASC, `field_key` ASC");
 
 		return $query->rows;
 	}

@@ -305,47 +305,55 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
         }
         yield "\">
 \t\t\t\t\t<li>
-\t\t\t\t\t\t<a href=\"#\">Batteries</a>
+\t\t\t\t\t\t<a href=\"";
+        // line 112
+        yield ($context["home"] ?? null);
+        yield "#batteries\">Batteries</a>
 \t\t\t\t\t</li>
 \t\t\t\t\t<li>
-\t\t\t\t\t\t<a href=\"#\">Controllers</a>
+\t\t\t\t\t\t<a href=\"";
+        // line 115
+        yield ($context["home"] ?? null);
+        yield "#controllers\">Controllers</a>
 \t\t\t\t\t</li>
-\t\t\t\t\t<li>
-\t\t\t\t\t\t<a href=\"#\">About Us</a>
+\t\t\t\t\t<li class=\"nav-dropdown\" data-dropdown=\"info\">
+\t\t\t\t\t\t<button type=\"button\" class=\"nav-dropdown__toggle\" aria-haspopup=\"true\" aria-expanded=\"false\">
+\t\t\t\t\t\t\t<span>Info</span>
+\t\t\t\t\t\t\t<span class=\"nav-dropdown__chevron\" aria-hidden=\"true\"></span>
+\t\t\t\t\t\t</button>
+\t\t\t\t\t\t<div class=\"nav-dropdown__menu-wrapper\">
+\t\t\t\t\t\t\t<div class=\"nav-dropdown__menu\">
+\t\t\t\t\t\t\t\t";
+        // line 124
+        $context['_parent'] = $context;
+        $context['_seq'] = CoreExtension::ensureTraversable(($context["info_links"] ?? null));
+        foreach ($context['_seq'] as $context["_key"] => $context["link"]) {
+            // line 125
+            yield "\t\t\t\t\t\t\t\t<a href=\"";
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["link"], "href", [], "any", false, false, false, 125);
+            yield "\" class=\"nav-dropdown__item\">";
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["link"], "label", [], "any", false, false, false, 125);
+            yield "</a>
+\t\t\t\t\t\t\t\t";
+        }
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_key'], $context['link'], $context['_parent']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 127
+        yield "\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
 \t\t\t\t\t</li>
 \t\t\t\t</ul>
 \t\t\t</div>
 \t\t\t<div class=\"right\">
 \t\t\t\t<div class=\"searchbar\">
 \t\t\t\t\t<img draggable=\"false\" src=\"";
-        // line 124
+        // line 134
         yield ($context["server"] ?? null);
         yield "image/searchbar.png\" alt=\"Search\">
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
-\t\t\t\t\t<a href=\"";
-        // line 128
-        yield ($context["profile_url"] ?? null);
-        yield "\">
-\t\t\t\t\t\t<img src=\"";
-        // line 129
-        yield ($context["server"] ?? null);
-        yield "image/icons/profile.svg\" alt=\"Profile\">
-\t\t\t\t\t</a>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"icon\">
-\t\t\t\t\t<a href=\"";
-        // line 133
-        yield ($context["cart_url"] ?? null);
-        yield "\">
-\t\t\t\t\t\t<img src=\"";
-        // line 134
-        yield ($context["server"] ?? null);
-        yield "image/icons/bag.svg\" alt=\"Profile\">
-\t\t\t\t\t</a>
-\t\t\t\t</div>
-\t\t\t\t<div class=\"icon icon-white\">
 \t\t\t\t\t<a href=\"";
         // line 138
         yield ($context["profile_url"] ?? null);
@@ -353,10 +361,10 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t\t\t<img src=\"";
         // line 139
         yield ($context["server"] ?? null);
-        yield "image/icons/profile-white.svg\" alt=\"Profile\">
+        yield "image/icons/profile.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
-\t\t\t\t<div class=\"icon icon-white\">
+\t\t\t\t<div class=\"icon\">
 \t\t\t\t\t<a href=\"";
         // line 143
         yield ($context["cart_url"] ?? null);
@@ -364,13 +372,82 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t\t\t<img src=\"";
         // line 144
         yield ($context["server"] ?? null);
+        yield "image/icons/bag.svg\" alt=\"Profile\">
+\t\t\t\t\t</a>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"icon icon-white\">
+\t\t\t\t\t<a href=\"";
+        // line 148
+        yield ($context["profile_url"] ?? null);
+        yield "\">
+\t\t\t\t\t\t<img src=\"";
+        // line 149
+        yield ($context["server"] ?? null);
+        yield "image/icons/profile-white.svg\" alt=\"Profile\">
+\t\t\t\t\t</a>
+\t\t\t\t</div>
+\t\t\t\t<div class=\"icon icon-white\">
+\t\t\t\t\t<a href=\"";
+        // line 153
+        yield ($context["cart_url"] ?? null);
+        yield "\">
+\t\t\t\t\t\t<img src=\"";
+        // line 154
+        yield ($context["server"] ?? null);
         yield "image/icons/bag-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t</div>
 \t</header>
+\t<script>
+\t\t(function () {
+\t\t\tconst dropdown = document.querySelector('[data-dropdown=\"info\"]');
+\t\t\tif (!dropdown) return;
+
+\t\t\tconst toggle = dropdown.querySelector('.nav-dropdown__toggle');
+
+\t\t\tconst openDropdown = () => {
+\t\t\t\tdropdown.classList.add('is-open');
+\t\t\t\ttoggle.setAttribute('aria-expanded', 'true');
+\t\t\t};
+
+\t\t\tconst closeDropdown = () => {
+\t\t\t\tdropdown.classList.remove('is-open');
+\t\t\t\ttoggle.setAttribute('aria-expanded', 'false');
+\t\t\t};
+
+\t\t\t// Hover / pointer interactions
+\t\t\tdropdown.addEventListener('mouseenter', openDropdown);
+\t\t\tdropdown.addEventListener('mouseleave', closeDropdown);
+
+\t\t\t// Keyboard focus
+\t\t\tdropdown.addEventListener('focusin', openDropdown);
+\t\t\tdropdown.addEventListener('focusout', (event) => {
+\t\t\t\tif (!dropdown.contains(event.relatedTarget)) {
+\t\t\t\t\tcloseDropdown();
+\t\t\t\t}
+\t\t\t});
+
+\t\t\t// Click toggle for touch devices
+\t\t\ttoggle.addEventListener('click', (event) => {
+\t\t\t\tevent.preventDefault();
+\t\t\t\tevent.stopPropagation();
+\t\t\t\tif (dropdown.classList.contains('is-open')) {
+\t\t\t\t\tcloseDropdown();
+\t\t\t\t} else {
+\t\t\t\t\topenDropdown();
+\t\t\t\t}
+\t\t\t});
+
+\t\t\tdocument.addEventListener('click', (event) => {
+\t\t\t\tif (!dropdown.contains(event.target)) {
+\t\t\t\t\tcloseDropdown();
+\t\t\t\t}
+\t\t\t});
+\t\t})();
+\t</script>
 \t<main class=\"app-main ";
-        // line 149
+        // line 206
         if (($context["is_main_page"] ?? null)) {
             yield "is-main-page";
         }
@@ -399,7 +476,7 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  374 => 149,  366 => 144,  362 => 143,  355 => 139,  351 => 138,  344 => 134,  340 => 133,  333 => 129,  329 => 128,  322 => 124,  301 => 110,  284 => 96,  266 => 81,  257 => 77,  252 => 75,  248 => 74,  244 => 73,  238 => 69,  229 => 67,  224 => 66,  211 => 64,  206 => 63,  200 => 61,  198 => 60,  193 => 59,  187 => 57,  184 => 56,  178 => 54,  175 => 53,  169 => 51,  166 => 50,  160 => 48,  157 => 47,  151 => 45,  148 => 44,  142 => 42,  139 => 41,  133 => 39,  130 => 38,  124 => 36,  121 => 35,  115 => 33,  112 => 32,  106 => 30,  103 => 29,  97 => 27,  95 => 26,  91 => 25,  87 => 24,  83 => 23,  79 => 22,  76 => 21,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  56 => 10,  51 => 8,  42 => 1,);
+        return array (  451 => 206,  396 => 154,  392 => 153,  385 => 149,  381 => 148,  374 => 144,  370 => 143,  363 => 139,  359 => 138,  352 => 134,  343 => 127,  332 => 125,  328 => 124,  316 => 115,  310 => 112,  301 => 110,  284 => 96,  266 => 81,  257 => 77,  252 => 75,  248 => 74,  244 => 73,  238 => 69,  229 => 67,  224 => 66,  211 => 64,  206 => 63,  200 => 61,  198 => 60,  193 => 59,  187 => 57,  184 => 56,  178 => 54,  175 => 53,  169 => 51,  166 => 50,  160 => 48,  157 => 47,  151 => 45,  148 => 44,  142 => 42,  139 => 41,  133 => 39,  130 => 38,  124 => 36,  121 => 35,  115 => 33,  112 => 32,  106 => 30,  103 => 29,  97 => 27,  95 => 26,  91 => 25,  87 => 24,  83 => 23,  79 => 22,  76 => 21,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  56 => 10,  51 => 8,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -515,13 +592,23 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t</div>
 \t\t\t\t<ul class=\"nav text-20 {% if is_main_page %}text-white{% else %}text-secondary{% endif %}\">
 \t\t\t\t\t<li>
-\t\t\t\t\t\t<a href=\"#\">Batteries</a>
+\t\t\t\t\t\t<a href=\"{{ home }}#batteries\">Batteries</a>
 \t\t\t\t\t</li>
 \t\t\t\t\t<li>
-\t\t\t\t\t\t<a href=\"#\">Controllers</a>
+\t\t\t\t\t\t<a href=\"{{ home }}#controllers\">Controllers</a>
 \t\t\t\t\t</li>
-\t\t\t\t\t<li>
-\t\t\t\t\t\t<a href=\"#\">About Us</a>
+\t\t\t\t\t<li class=\"nav-dropdown\" data-dropdown=\"info\">
+\t\t\t\t\t\t<button type=\"button\" class=\"nav-dropdown__toggle\" aria-haspopup=\"true\" aria-expanded=\"false\">
+\t\t\t\t\t\t\t<span>Info</span>
+\t\t\t\t\t\t\t<span class=\"nav-dropdown__chevron\" aria-hidden=\"true\"></span>
+\t\t\t\t\t\t</button>
+\t\t\t\t\t\t<div class=\"nav-dropdown__menu-wrapper\">
+\t\t\t\t\t\t\t<div class=\"nav-dropdown__menu\">
+\t\t\t\t\t\t\t\t{% for link in info_links %}
+\t\t\t\t\t\t\t\t<a href=\"{{ link.href }}\" class=\"nav-dropdown__item\">{{ link.label }}</a>
+\t\t\t\t\t\t\t\t{% endfor %}
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>
 \t\t\t\t\t</li>
 \t\t\t\t</ul>
 \t\t\t</div>
@@ -552,6 +639,53 @@ class __TwigTemplate_7c8d39e7c1c0f33109d247a71b99b99a extends Template
 \t\t\t\t</div>
 \t\t\t</div>
 \t</header>
+\t<script>
+\t\t(function () {
+\t\t\tconst dropdown = document.querySelector('[data-dropdown=\"info\"]');
+\t\t\tif (!dropdown) return;
+
+\t\t\tconst toggle = dropdown.querySelector('.nav-dropdown__toggle');
+
+\t\t\tconst openDropdown = () => {
+\t\t\t\tdropdown.classList.add('is-open');
+\t\t\t\ttoggle.setAttribute('aria-expanded', 'true');
+\t\t\t};
+
+\t\t\tconst closeDropdown = () => {
+\t\t\t\tdropdown.classList.remove('is-open');
+\t\t\t\ttoggle.setAttribute('aria-expanded', 'false');
+\t\t\t};
+
+\t\t\t// Hover / pointer interactions
+\t\t\tdropdown.addEventListener('mouseenter', openDropdown);
+\t\t\tdropdown.addEventListener('mouseleave', closeDropdown);
+
+\t\t\t// Keyboard focus
+\t\t\tdropdown.addEventListener('focusin', openDropdown);
+\t\t\tdropdown.addEventListener('focusout', (event) => {
+\t\t\t\tif (!dropdown.contains(event.relatedTarget)) {
+\t\t\t\t\tcloseDropdown();
+\t\t\t\t}
+\t\t\t});
+
+\t\t\t// Click toggle for touch devices
+\t\t\ttoggle.addEventListener('click', (event) => {
+\t\t\t\tevent.preventDefault();
+\t\t\t\tevent.stopPropagation();
+\t\t\t\tif (dropdown.classList.contains('is-open')) {
+\t\t\t\t\tcloseDropdown();
+\t\t\t\t} else {
+\t\t\t\t\topenDropdown();
+\t\t\t\t}
+\t\t\t});
+
+\t\t\tdocument.addEventListener('click', (event) => {
+\t\t\t\tif (!dropdown.contains(event.target)) {
+\t\t\t\t\tcloseDropdown();
+\t\t\t\t}
+\t\t\t});
+\t\t})();
+\t</script>
 \t<main class=\"app-main {% if is_main_page %}is-main-page{% endif %}\">", "catalog/view/template/common/header.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\common\\header.twig");
     }
 }

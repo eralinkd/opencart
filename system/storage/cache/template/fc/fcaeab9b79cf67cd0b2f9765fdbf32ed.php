@@ -92,74 +92,168 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
         yield "\" rel=\"stylesheet\" type=\"text/css\" />
 \t";
         // line 26
-        if (($context["is_product_page"] ?? null)) {
+        if (($context["is_login_page"] ?? null)) {
             // line 27
+            yield "\t<link href=\"";
+            yield ($context["page_login"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 29
+        yield "\t";
+        if (($context["is_register_page"] ?? null)) {
+            // line 30
+            yield "\t<link href=\"";
+            yield ($context["page_register"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 32
+        yield "\t";
+        if (($context["is_product_page"] ?? null)) {
+            // line 33
             yield "\t<link href=\"";
             yield ($context["page_product"] ?? null);
             yield "\" rel=\"stylesheet\" type=\"text/css\" />
 \t";
         }
-        // line 29
+        // line 35
+        yield "\t";
+        if (($context["is_cart_page"] ?? null)) {
+            // line 36
+            yield "\t<link href=\"";
+            yield ($context["page_cart"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 38
+        yield "\t";
+        if (($context["is_forgot_password_page"] ?? null)) {
+            // line 39
+            yield "\t<link href=\"";
+            yield ($context["page_forgot_password"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 41
+        yield "\t";
+        if (($context["is_email_sent_page"] ?? null)) {
+            // line 42
+            yield "\t<link href=\"";
+            yield ($context["page_email_sent"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 44
+        yield "\t";
+        if (($context["is_new_password_page"] ?? null)) {
+            // line 45
+            yield "\t<link href=\"";
+            yield ($context["page_new_password"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 47
+        yield "\t";
+        if (($context["is_account_general_page"] ?? null)) {
+            // line 48
+            yield "\t<link href=\"";
+            yield ($context["page_account_general"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 50
+        yield "\t";
+        if (($context["is_account_history_page"] ?? null)) {
+            // line 51
+            yield "\t<link href=\"";
+            yield ($context["page_account_history"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 53
+        yield "\t";
+        if (($context["is_checkout_new_page"] ?? null)) {
+            // line 54
+            yield "\t<link href=\"";
+            yield ($context["page_checkout_new"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 56
+        yield "\t";
+        if (($context["is_checkout_existing_page"] ?? null)) {
+            // line 57
+            yield "\t<link href=\"";
+            yield ($context["page_checkout_existing"] ?? null);
+            yield "\" rel=\"stylesheet\" type=\"text/css\" />
+\t";
+        }
+        // line 59
         yield "\t<link href=\"";
         yield ($context["app_footer"] ?? null);
         yield "\" rel=\"stylesheet\" type=\"text/css\" />
 \t";
-        // line 30
+        // line 60
         if (($context["icon"] ?? null)) {
-            // line 31
+            // line 61
             yield "\t<link rel=\"icon\" href=\"";
             yield ($context["icon"] ?? null);
             yield "\" type=\"image/png\">
 \t";
         }
-        // line 33
+        // line 63
         yield "\t";
         $context['_parent'] = $context;
         $context['_seq'] = CoreExtension::ensureTraversable(($context["styles"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["style"]) {
-            // line 34
+            // line 64
             yield "\t<link href=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "href", [], "any", false, false, false, 34);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "href", [], "any", false, false, false, 64);
             yield "\" type=\"text/css\" rel=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "rel", [], "any", false, false, false, 34);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "rel", [], "any", false, false, false, 64);
             yield "\" media=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "media", [], "any", false, false, false, 34);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["style"], "media", [], "any", false, false, false, 64);
             yield "\" />
 \t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_key'], $context['style'], $context['_parent']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 36
+        // line 66
         yield "\t";
         $context['_parent'] = $context;
         $context['_seq'] = CoreExtension::ensureTraversable(($context["scripts"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["script"]) {
-            // line 37
+            // line 67
             yield "\t<script src=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["script"], "href", [], "any", false, false, false, 37);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["script"], "href", [], "any", false, false, false, 67);
             yield "\" type=\"text/javascript\"></script>
 \t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_key'], $context['script'], $context['_parent']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 39
+        // line 69
         yield "</head>
 
 <body>
 
 \t";
-        // line 43
-        yield ($context["button_component"] ?? null);
+        // line 73
+        yield ($context["UIButton"] ?? null);
         yield "
 \t";
-        // line 44
-        yield ($context["button_secondary"] ?? null);
+        // line 74
+        yield ($context["UIButtonSecondary"] ?? null);
+        yield "
+\t";
+        // line 75
+        yield ($context["UIInput"] ?? null);
         yield "
 
 \t<header class=\"app-header ";
-        // line 46
+        // line 77
         if (($context["is_main_page"] ?? null)) {
             yield "is-main-page";
         }
@@ -167,7 +261,10 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
 \t\t<div class=\"content\">
 \t\t\t<div class=\"left\">
 \t\t\t\t<div class=\"logo\">
-\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t<a href=\"";
+        // line 81
+        yield ($context["home"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
 \t\t\t\t\t\t\t<path
 \t\t\t\t\t\t\t\td=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\"
@@ -182,7 +279,10 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"logo logo-white\">
-\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t<a href=\"";
+        // line 96
+        yield ($context["home"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
 \t\t\t\t\t\t\t<path
 \t\t\t\t\t\t\t\td=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\"
@@ -197,7 +297,7 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<ul class=\"nav text-20 ";
-        // line 79
+        // line 110
         if (($context["is_main_page"] ?? null)) {
             yield "text-white";
         } else {
@@ -218,39 +318,51 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
 \t\t\t<div class=\"right\">
 \t\t\t\t<div class=\"searchbar\">
 \t\t\t\t\t<img draggable=\"false\" src=\"";
-        // line 93
+        // line 124
         yield ($context["server"] ?? null);
         yield "image/searchbar.png\" alt=\"Search\">
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"";
+        // line 128
+        yield ($context["profile_url"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<img src=\"";
-        // line 98
+        // line 129
         yield ($context["server"] ?? null);
         yield "image/icons/profile.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"";
+        // line 133
+        yield ($context["cart_url"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<img src=\"";
-        // line 103
+        // line 134
         yield ($context["server"] ?? null);
         yield "image/icons/bag.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon icon-white\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"";
+        // line 138
+        yield ($context["profile_url"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<img src=\"";
-        // line 108
+        // line 139
         yield ($context["server"] ?? null);
         yield "image/icons/profile-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon icon-white\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"";
+        // line 143
+        yield ($context["cart_url"] ?? null);
+        yield "\">
 \t\t\t\t\t\t<img src=\"";
-        // line 113
+        // line 144
         yield ($context["server"] ?? null);
         yield "image/icons/bag-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
@@ -258,7 +370,7 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
 \t\t\t</div>
 \t</header>
 \t<main class=\"app-main ";
-        // line 118
+        // line 149
         if (($context["is_main_page"] ?? null)) {
             yield "is-main-page";
         }
@@ -287,7 +399,7 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  262 => 118,  254 => 113,  246 => 108,  238 => 103,  230 => 98,  222 => 93,  201 => 79,  163 => 46,  158 => 44,  154 => 43,  148 => 39,  139 => 37,  134 => 36,  121 => 34,  116 => 33,  110 => 31,  108 => 30,  103 => 29,  97 => 27,  95 => 26,  91 => 25,  87 => 24,  83 => 23,  79 => 22,  76 => 21,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  56 => 10,  51 => 8,  42 => 1,);
+        return array (  374 => 149,  366 => 144,  362 => 143,  355 => 139,  351 => 138,  344 => 134,  340 => 133,  333 => 129,  329 => 128,  322 => 124,  301 => 110,  284 => 96,  266 => 81,  257 => 77,  252 => 75,  248 => 74,  244 => 73,  238 => 69,  229 => 67,  224 => 66,  211 => 64,  206 => 63,  200 => 61,  198 => 60,  193 => 59,  187 => 57,  184 => 56,  178 => 54,  175 => 53,  169 => 51,  166 => 50,  160 => 48,  157 => 47,  151 => 45,  148 => 44,  142 => 42,  139 => 41,  133 => 39,  130 => 38,  124 => 36,  121 => 35,  115 => 33,  112 => 32,  106 => 30,  103 => 29,  97 => 27,  95 => 26,  91 => 25,  87 => 24,  83 => 23,  79 => 22,  76 => 21,  73 => 16,  67 => 14,  64 => 13,  58 => 11,  56 => 10,  51 => 8,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -317,8 +429,38 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
 \t<link href=\"{{ index }}\" rel=\"stylesheet\" type=\"text/css\" />
 \t<link href=\"{{ app_header }}\" rel=\"stylesheet\" type=\"text/css\" />
 \t<link href=\"{{ page_home }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% if is_login_page %}
+\t<link href=\"{{ page_login }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_register_page %}
+\t<link href=\"{{ page_register }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
 \t{% if is_product_page %}
 \t<link href=\"{{ page_product }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_cart_page %}
+\t<link href=\"{{ page_cart }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_forgot_password_page %}
+\t<link href=\"{{ page_forgot_password }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_email_sent_page %}
+\t<link href=\"{{ page_email_sent }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_new_password_page %}
+\t<link href=\"{{ page_new_password }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_account_general_page %}
+\t<link href=\"{{ page_account_general }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_account_history_page %}
+\t<link href=\"{{ page_account_history }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_checkout_new_page %}
+\t<link href=\"{{ page_checkout_new }}\" rel=\"stylesheet\" type=\"text/css\" />
+\t{% endif %}
+\t{% if is_checkout_existing_page %}
+\t<link href=\"{{ page_checkout_existing }}\" rel=\"stylesheet\" type=\"text/css\" />
 \t{% endif %}
 \t<link href=\"{{ app_footer }}\" rel=\"stylesheet\" type=\"text/css\" />
 \t{% if icon %}
@@ -334,14 +476,15 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
 
 <body>
 
-\t{{ button_component|raw }}
-\t{{ button_secondary|raw }}
+\t{{ UIButton|raw }}
+\t{{ UIButtonSecondary|raw }}
+\t{{ UIInput|raw }}
 
 \t<header class=\"app-header {% if is_main_page %}is-main-page{% endif %}\">
 \t\t<div class=\"content\">
 \t\t\t<div class=\"left\">
 \t\t\t\t<div class=\"logo\">
-\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t<a href=\"{{ home }}\">
 \t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
 \t\t\t\t\t\t\t<path
 \t\t\t\t\t\t\t\td=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\"
@@ -356,7 +499,7 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"logo logo-white\">
-\t\t\t\t\t<a href=\"/\">
+\t\t\t\t\t<a href=\"{{ home }}\">
 \t\t\t\t\t\t<svg width=\"98\" height=\"30\" viewbox=\"0 0 98 30\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">
 \t\t\t\t\t\t\t<path
 \t\t\t\t\t\t\t\td=\"M1.28345 3.5C0.850622 4.69949 0.617466 5.69931 0.583979 6.49947C0.549026 7.33465 0.731607 7.9523 1.13172 8.35242C4.18161 11.4023 9.10804 12.5756 12.1579 15.6255C15.5179 18.9855 17.0013 24.222 20.3613 27.582C20.4513 27.672 20.5715 27.7319 20.7219 27.7615C21.3622 27.888 22.5493 27.4674 24.2834 26.5C25.2509 24.7659 25.6714 23.5787 25.545 22.9384C25.5153 22.7881 25.4554 22.6679 25.3654 22.5778C22.0054 19.2179 16.7689 17.7344 13.409 14.3745C10.3591 11.3246 9.18575 6.39816 6.13586 3.34827C5.73575 2.94816 5.1181 2.76558 4.28292 2.80053C3.48276 2.83402 2.48294 3.06717 1.28345 3.5Z\"
@@ -388,22 +531,22 @@ class __TwigTemplate_4dc9f38746f4d20ffa5821c1ba661ad9 extends Template
 
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"{{profile_url}}\">
 \t\t\t\t\t\t<img src=\"{{ server }}image/icons/profile.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"{{cart_url}}\">
 \t\t\t\t\t\t<img src=\"{{ server }}image/icons/bag.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon icon-white\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"{{profile_url}}\">
 \t\t\t\t\t\t<img src=\"{{ server }}image/icons/profile-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>
 \t\t\t\t<div class=\"icon icon-white\">
-\t\t\t\t\t<a href=\"#\">
+\t\t\t\t\t<a href=\"{{cart_url}}\">
 \t\t\t\t\t\t<img src=\"{{ server }}image/icons/bag-white.svg\" alt=\"Profile\">
 \t\t\t\t\t</a>
 \t\t\t\t</div>

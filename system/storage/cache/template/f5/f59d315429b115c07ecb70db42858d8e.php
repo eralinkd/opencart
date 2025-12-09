@@ -15,7 +15,7 @@ use Twig\Template;
 use Twig\TemplateWrapper;
 
 /* catalog/view/template/common/components/CartItem.twig */
-class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
+class __TwigTemplate_f5e3d7377c0eaf4b9c918ae1438cd77d extends Template
 {
     private Source $source;
     /**
@@ -251,6 +251,14 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
         this.total = parseFloat(this.getAttribute('data-total') || '0');
         this.totalFormatted = this.getAttribute('data-total-formatted') || '\$0';
         this.stockStatus = this.getAttribute('data-stock-status') === '1';
+        
+        console.log('CartItem attributes loaded:', {
+          cartId: this.cartId,
+          productId: this.productId,
+          name: this.name,
+          quantity: this.quantity,
+          price: this.price
+        });
       }
 
       updateDOM() {
@@ -319,6 +327,8 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
         formData.append('cart_id', this.cartId);
         formData.append('quantity', newQuantity);
 
+        console.log('Updating cart item:', { cart_id: this.cartId, quantity: newQuantity });
+
         fetch(window.cartApi.update, {
           method: 'POST',
           body: formData
@@ -330,6 +340,7 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
           return response.json();
         })
         .then(data => {
+          console.log('Update response:', data);
           if (data.success) {
             this.quantity = newQuantity;
             this.total = data.item_total || (this.price * newQuantity);
@@ -386,6 +397,8 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
         const formData = new FormData();
         formData.append('cart_id', this.cartId);
 
+        console.log('Removing cart item:', { cart_id: this.cartId });
+
         fetch(window.cartApi.remove, {
           method: 'POST',
           body: formData
@@ -397,6 +410,7 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
           return response.json();
         })
         .then(data => {
+          console.log('Remove response:', data);
           if (data.success) {
             const separator = this.nextElementSibling;
             if (separator && separator.classList.contains('separator')) {
@@ -673,6 +687,14 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
         this.total = parseFloat(this.getAttribute('data-total') || '0');
         this.totalFormatted = this.getAttribute('data-total-formatted') || '\$0';
         this.stockStatus = this.getAttribute('data-stock-status') === '1';
+        
+        console.log('CartItem attributes loaded:', {
+          cartId: this.cartId,
+          productId: this.productId,
+          name: this.name,
+          quantity: this.quantity,
+          price: this.price
+        });
       }
 
       updateDOM() {
@@ -741,6 +763,8 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
         formData.append('cart_id', this.cartId);
         formData.append('quantity', newQuantity);
 
+        console.log('Updating cart item:', { cart_id: this.cartId, quantity: newQuantity });
+
         fetch(window.cartApi.update, {
           method: 'POST',
           body: formData
@@ -752,6 +776,7 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
           return response.json();
         })
         .then(data => {
+          console.log('Update response:', data);
           if (data.success) {
             this.quantity = newQuantity;
             this.total = data.item_total || (this.price * newQuantity);
@@ -808,6 +833,8 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
         const formData = new FormData();
         formData.append('cart_id', this.cartId);
 
+        console.log('Removing cart item:', { cart_id: this.cartId });
+
         fetch(window.cartApi.remove, {
           method: 'POST',
           body: formData
@@ -819,6 +846,7 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
           return response.json();
         })
         .then(data => {
+          console.log('Remove response:', data);
           if (data.success) {
             const separator = this.nextElementSibling;
             if (separator && separator.classList.contains('separator')) {
@@ -865,6 +893,6 @@ class __TwigTemplate_e56ddd8a2cd9508d5178e73b286aa380 extends Template
 
     customElements.define('cart-item', CartItem);
   }
-</script>", "catalog/view/template/common/components/CartItem.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\common\\components\\CartItem.twig");
+</script>", "catalog/view/template/common/components/CartItem.twig", "/var/www/opencart/catalog/view/template/common/components/CartItem.twig");
     }
 }

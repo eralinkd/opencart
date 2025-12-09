@@ -27,6 +27,7 @@
           <ul class="nav nav-tabs product-form-tabs">
             <li class="nav-item"><a href="#tab-general" data-bs-toggle="tab" class="nav-link active"><i class="fa-solid fa-file-lines"></i> General Information</a></li>
             <li class="nav-item"><a href="#tab-data" data-bs-toggle="tab" class="nav-link"><i class="fa-solid fa-dollar-sign"></i> Price & Stock</a></li>
+            <li class="nav-item"><a href="#tab-custom-fields" data-bs-toggle="tab" class="nav-link"><i class="fa-solid fa-tags"></i> Custom Fields</a></li>
             <li class="nav-item"><a href="#tab-image" data-bs-toggle="tab" class="nav-link"><i class="fa-solid fa-image"></i> Images</a></li>
           </ul>
           <div class="tab-content product-form-content">
@@ -111,6 +112,42 @@
                 </div>
               </div>
             </div>
+            <div id="tab-custom-fields" class="tab-pane">
+              <div class="form-section">
+                <div class="form-field-group">
+                  <label class="form-label">
+                    <i class="fa-solid fa-tags"></i> Dynamic Custom Fields
+                  </label>
+                  <div class="form-help mb-3">Add custom key-value pairs to display on the product page. These fields will be shown in the product information block.</div>
+                  <div class="custom-fields-list" id="custom-fields-list">
+                    {% set custom_field_row = 0 %}
+                    {% for custom_field in product_custom_field %}
+                      <div class="custom-field-row mb-3" id="custom-field-row-{{ custom_field_row }}">
+                        <div class="row g-3">
+                          <div class="col-md-4">
+                            <label class="form-label small">Field Key</label>
+                            <input type="text" name="product_custom_field[{{ custom_field_row }}][field_key]" value="{{ custom_field.field_key }}" placeholder="e.g., brand" class="form-control" required/>
+                          </div>
+                          <div class="col-md-6">
+                            <label class="form-label small">Field Value</label>
+                            <input type="text" name="product_custom_field[{{ custom_field_row }}][field_value]" value="{{ custom_field.field_value }}" placeholder="e.g., RadioMaster" class="form-control" required/>
+                          </div>
+                          <div class="col-md-2">
+                            <label class="form-label small">Sort Order</label>
+                            <input type="number" name="product_custom_field[{{ custom_field_row }}][sort_order]" value="{{ custom_field.sort_order }}" placeholder="0" class="form-control" min="0"/>
+                          </div>
+                        </div>
+                        <div class="mt-2">
+                          <button type="button" onclick="$('#custom-field-row-{{ custom_field_row }}').remove();" class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i> Remove</button>
+                        </div>
+                      </div>
+                      {% set custom_field_row = custom_field_row + 1 %}
+                    {% endfor %}
+                  </div>
+                  <button type="button" id="button-custom-field" class="btn btn-outline-primary mt-3"><i class="fa-solid fa-plus"></i> Add Custom Field</button>
+                </div>
+              </div>
+            </div>
             <div id="tab-image" class="tab-pane">
               <div class="form-section">
                 <div class="form-field-group">
@@ -170,6 +207,33 @@
 </div>
 <script type="text/javascript"><!--
 var image_row = {{ image_row }};
+var custom_field_row = {{ custom_field_row ?? 0 }};
+
+$('#button-custom-field').on('click', function() {
+    html = '<div class="custom-field-row mb-3" id="custom-field-row-' + custom_field_row + '">';
+    html += '  <div class="row g-3">';
+    html += '    <div class="col-md-4">';
+    html += '      <label class="form-label small">Field Key</label>';
+    html += '      <input type="text" name="product_custom_field[' + custom_field_row + '][field_key]" value="" placeholder="e.g., brand" class="form-control" required/>';
+    html += '    </div>';
+    html += '    <div class="col-md-6">';
+    html += '      <label class="form-label small">Field Value</label>';
+    html += '      <input type="text" name="product_custom_field[' + custom_field_row + '][field_value]" value="" placeholder="e.g., RadioMaster" class="form-control" required/>';
+    html += '    </div>';
+    html += '    <div class="col-md-2">';
+    html += '      <label class="form-label small">Sort Order</label>';
+    html += '      <input type="number" name="product_custom_field[' + custom_field_row + '][sort_order]" value="0" placeholder="0" class="form-control" min="0"/>';
+    html += '    </div>';
+    html += '  </div>';
+    html += '  <div class="mt-2">';
+    html += '    <button type="button" onclick="$(\'#custom-field-row-' + custom_field_row + '\').remove();" class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i> Remove</button>';
+    html += '  </div>';
+    html += '</div>';
+
+    $('#custom-fields-list').append(html);
+
+    custom_field_row++;
+});
 
 $('#button-image').on('click', function() {
     html = '<div class="image-item-card" id="product-image-row-' + image_row + '">';

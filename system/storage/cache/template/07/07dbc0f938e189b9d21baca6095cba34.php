@@ -15,7 +15,7 @@ use Twig\Template;
 use Twig\TemplateWrapper;
 
 /* catalog/view/template/cart/cart.twig */
-class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
+class __TwigTemplate_13dc46807eb3136a5c5ef0e7264e3519 extends Template
 {
     private Source $source;
     /**
@@ -328,6 +328,6 @@ class __TwigTemplate_3396dbbd28dfee0279d32bcbc7406f80 extends Template
   };
 </script>
 
-{{ footer }}", "catalog/view/template/cart/cart.twig", "D:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\cart\\cart.twig");
+{{ footer }}", "catalog/view/template/cart/cart.twig", "/var/www/opencart/catalog/view/template/cart/cart.twig");
     }
 }

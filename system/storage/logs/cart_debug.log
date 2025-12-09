@@ -1,0 +1,1432 @@
+2025-12-08 10:20:20 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:20:20 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 70
+2025-12-08 10:20:22 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:20:22 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 71
+2025-12-08 10:20:22 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:20:22 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 72
+2025-12-08 10:20:32 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:20:32 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 73
+2025-12-08 10:20:33 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:20:33 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 74
+2025-12-08 10:35:59 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:35:59 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:35:59 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:35:59 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 76
+2025-12-08 10:35:59 - Cart::add() - Verification query result: FOUND (cart_id: 76)
+2025-12-08 10:36:00 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:36:00 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:36:00 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:36:00 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 77
+2025-12-08 10:36:00 - Cart::add() - Verification query result: FOUND (cart_id: 77)
+2025-12-08 10:36:51 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:36:51 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:36:51 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:36:51 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 79
+2025-12-08 10:36:51 - Cart::add() - Verification query result: FOUND (cart_id: 79)
+2025-12-08 10:36:52 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:36:52 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:36:52 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:36:52 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 80
+2025-12-08 10:36:52 - Cart::add() - Verification query result: FOUND (cart_id: 80)
+2025-12-08 10:38:18 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:38:18 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:38:18 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:38:18 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 81
+2025-12-08 10:38:18 - Cart::add() - Verification query result: FOUND (cart_id: 81)
+2025-12-08 10:38:18 - Cart::add() - DELETE: \n2025-12-08 10:38:19 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:38:19 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:38:19 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:38:19 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 82
+2025-12-08 10:38:19 - Cart::add() - Verification query result: FOUND (cart_id: 82)
+2025-12-08 10:38:19 - Cart::add() - DELETE: \n2025-12-08 10:40:02 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:40:02 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:40:02 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:40:02 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 83
+2025-12-08 10:40:02 - Cart::add() - Verification query result: FOUND (cart_id: 83)
+2025-12-08 10:40:02 - Cart::add() - DELETE: \n2025-12-08 10:40:03 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:40:03 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:40:03 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:40:03 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 84
+2025-12-08 10:40:03 - Cart::add() - Verification query result: FOUND (cart_id: 84)
+2025-12-08 10:40:03 - Cart::add() - DELETE: \n2025-12-08 10:40:04 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:40:04 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:40:04 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:40:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 85
+2025-12-08 10:40:04 - Cart::add() - Verification query result: FOUND (cart_id: 85)
+2025-12-08 10:40:04 - Cart::add() - DELETE: \n2025-12-08 10:40:04 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:40:04 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:40:04 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:40:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 86
+2025-12-08 10:40:04 - Cart::add() - Verification query result: FOUND (cart_id: 86)
+2025-12-08 10:40:04 - Cart::add() - DELETE: \n2025-12-08 10:40:04 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:40:04 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:40:04 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:40:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 87
+2025-12-08 10:40:04 - Cart::add() - Verification query result: FOUND (cart_id: 87)
+2025-12-08 10:40:04 - Cart::add() - DELETE: \n2025-12-08 10:40:04 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:40:04 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:40:04 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:40:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 88
+2025-12-08 10:40:04 - Cart::add() - Verification query result: FOUND (cart_id: 88)
+2025-12-08 10:40:04 - Cart::add() - DELETE: \n2025-12-08 10:47:54 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:47:54 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:47:54 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:47:54 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 89
+2025-12-08 10:47:54 - Cart::add() - Verification query result: FOUND (cart_id: 89)
+2025-12-08 10:47:55 - Cart::getProducts() - Removing cart_id: 89 | product_id: 19 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:47:55 - Cart::add() - DELETE: \n2025-12-08 10:47:55 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:47:55 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:47:55 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:47:55 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 90
+2025-12-08 10:47:55 - Cart::add() - Verification query result: FOUND (cart_id: 90)
+2025-12-08 10:47:56 - Cart::getProducts() - Removing cart_id: 90 | product_id: 19 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:47:56 - Cart::add() - DELETE: \n2025-12-08 10:47:56 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:47:56 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:47:56 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:47:56 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 91
+2025-12-08 10:47:56 - Cart::add() - Verification query result: FOUND (cart_id: 91)
+2025-12-08 10:47:57 - Cart::getProducts() - Removing cart_id: 91 | product_id: 19 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:47:57 - Cart::add() - DELETE: \n2025-12-08 10:47:57 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:47:57 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:47:57 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:47:57 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 92
+2025-12-08 10:47:57 - Cart::add() - Verification query result: FOUND (cart_id: 92)
+2025-12-08 10:47:57 - Cart::getProducts() - Removing cart_id: 92 | product_id: 19 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:47:57 - Cart::add() - DELETE: \n2025-12-08 10:47:57 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:47:57 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:47:57 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:47:57 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 93
+2025-12-08 10:47:57 - Cart::add() - Verification query result: FOUND (cart_id: 93)
+2025-12-08 10:47:58 - Cart::getProducts() - Removing cart_id: 93 | product_id: 19 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:47:58 - Cart::add() - DELETE: \n2025-12-08 10:47:58 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:47:58 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:47:58 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:47:58 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 94
+2025-12-08 10:47:58 - Cart::add() - Verification query result: FOUND (cart_id: 94)
+2025-12-08 10:47:58 - Cart::getProducts() - Removing cart_id: 94 | product_id: 19 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:47:58 - Cart::add() - DELETE: \n2025-12-08 10:47:58 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:47:58 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:47:58 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:47:58 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 95
+2025-12-08 10:47:58 - Cart::add() - Verification query result: FOUND (cart_id: 95)
+2025-12-08 10:47:58 - Cart::getProducts() - Removing cart_id: 95 | product_id: 19 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:47:58 - Cart::add() - DELETE: \n2025-12-08 10:47:58 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:47:58 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:47:58 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:47:58 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 96
+2025-12-08 10:47:58 - Cart::add() - Verification query result: FOUND (cart_id: 96)
+2025-12-08 10:47:59 - Cart::getProducts() - Removing cart_id: 96 | product_id: 19 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:47:59 - Cart::add() - DELETE: \n2025-12-08 10:47:59 - Cart::add() CALLED with product_id: 19, quantity: 1
+2025-12-08 10:47:59 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:47:59 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '19', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:47:59 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 97
+2025-12-08 10:47:59 - Cart::add() - Verification query result: FOUND (cart_id: 97)
+2025-12-08 10:48:01 - Cart::getProducts() - Removing cart_id: 97 | product_id: 19 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:01 - Cart::add() - DELETE: \n2025-12-08 10:48:03 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:03 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:03 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:03 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 98
+2025-12-08 10:48:03 - Cart::add() - Verification query result: FOUND (cart_id: 98)
+2025-12-08 10:48:04 - Cart::getProducts() - Removing cart_id: 98 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:04 - Cart::add() - DELETE: \n2025-12-08 10:48:04 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:04 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:04 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 99
+2025-12-08 10:48:04 - Cart::add() - Verification query result: FOUND (cart_id: 99)
+2025-12-08 10:48:05 - Cart::getProducts() - Removing cart_id: 99 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:05 - Cart::add() - DELETE: \n2025-12-08 10:48:05 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:05 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:05 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:05 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 100
+2025-12-08 10:48:05 - Cart::add() - Verification query result: FOUND (cart_id: 100)
+2025-12-08 10:48:07 - Cart::getProducts() - Removing cart_id: 100 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:07 - Cart::add() - DELETE: \n2025-12-08 10:48:25 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:25 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:25 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:25 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 101
+2025-12-08 10:48:25 - Cart::add() - Verification query result: FOUND (cart_id: 101)
+2025-12-08 10:48:26 - Cart::getProducts() - Removing cart_id: 101 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:26 - Cart::add() - DELETE: \n2025-12-08 10:48:26 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:26 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:26 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:26 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 102
+2025-12-08 10:48:26 - Cart::add() - Verification query result: FOUND (cart_id: 102)
+2025-12-08 10:48:27 - Cart::getProducts() - Removing cart_id: 102 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:27 - Cart::add() - DELETE: \n2025-12-08 10:48:27 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:27 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:27 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 103
+2025-12-08 10:48:27 - Cart::add() - Verification query result: FOUND (cart_id: 103)
+2025-12-08 10:48:27 - Cart::getProducts() - Removing cart_id: 103 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:27 - Cart::add() - DELETE: \n2025-12-08 10:48:27 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:27 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:27 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 104
+2025-12-08 10:48:27 - Cart::add() - Verification query result: FOUND (cart_id: 104)
+2025-12-08 10:48:27 - Cart::getProducts() - Removing cart_id: 104 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:27 - Cart::add() - DELETE: \n2025-12-08 10:48:27 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:27 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:27 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 105
+2025-12-08 10:48:27 - Cart::add() - Verification query result: FOUND (cart_id: 105)
+2025-12-08 10:48:27 - Cart::getProducts() - Removing cart_id: 105 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:27 - Cart::add() - DELETE: \n2025-12-08 10:48:27 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:27 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:27 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 106
+2025-12-08 10:48:27 - Cart::add() - Verification query result: FOUND (cart_id: 106)
+2025-12-08 10:48:27 - Cart::getProducts() - Removing cart_id: 106 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:27 - Cart::add() - DELETE: \n2025-12-08 10:48:27 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:27 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:27 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 107
+2025-12-08 10:48:27 - Cart::add() - Verification query result: FOUND (cart_id: 107)
+2025-12-08 10:48:27 - Cart::getProducts() - Removing cart_id: 107 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:27 - Cart::add() - DELETE: \n2025-12-08 10:48:27 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:27 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:27 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:27 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 108
+2025-12-08 10:48:27 - Cart::add() - Verification query result: FOUND (cart_id: 108)
+2025-12-08 10:48:28 - Cart::getProducts() - Removing cart_id: 108 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:28 - Cart::add() - DELETE: \n2025-12-08 10:48:28 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:28 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:28 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:28 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 109
+2025-12-08 10:48:28 - Cart::add() - Verification query result: FOUND (cart_id: 109)
+2025-12-08 10:48:41 - Cart::getProducts() - Removing cart_id: 109 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:41 - Cart::add() - DELETE: \n2025-12-08 10:48:41 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:41 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:41 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:41 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 110
+2025-12-08 10:48:41 - Cart::add() - Verification query result: FOUND (cart_id: 110)
+2025-12-08 10:48:46 - Cart::getProducts() - Removing cart_id: 110 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:48:46 - Cart::add() - DELETE: \n2025-12-08 10:48:54 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:48:54 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:48:54 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:48:54 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 111
+2025-12-08 10:48:54 - Cart::add() - Verification query result: FOUND (cart_id: 111)
+2025-12-08 10:49:04 - Cart::getProducts() - Removing cart_id: 111 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:49:04 - Cart::add() - DELETE: \n2025-12-08 10:49:04 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:49:04 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:49:04 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:49:04 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 112
+2025-12-08 10:49:04 - Cart::add() - Verification query result: FOUND (cart_id: 112)
+2025-12-08 10:49:05 - Cart::getProducts() - Removing cart_id: 112 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:49:05 - Cart::add() - DELETE: \n2025-12-08 10:49:05 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:49:05 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:49:05 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:49:05 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 113
+2025-12-08 10:49:05 - Cart::add() - Verification query result: FOUND (cart_id: 113)
+2025-12-08 10:49:05 - Cart::getProducts() - Removing cart_id: 113 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:49:05 - Cart::add() - DELETE: \n2025-12-08 10:49:06 - Cart::add() CALLED with product_id: 18, quantity: 1
+2025-12-08 10:49:06 - Cart::add() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:49:06 - Cart::add() - Before INSERT. SQL: INSERT INTO `oc_cart` SET `store_id` = '0', `customer_id` = '0', `session_id` = 'df093b59fd88d5f48cf67698e7', `product_id` = '18', `subscription_plan_id` = '0', `option` = '[]', `quantity` = '1', `override` = '[]', `date_added` = NOW()
+2025-12-08 10:49:06 - Cart::add() - After INSERT. Result: true | Affected: 1 | Last ID: 114
+2025-12-08 10:49:06 - Cart::add() - Verification query result: FOUND (cart_id: 114)
+2025-12-08 10:49:07 - Cart::getProducts() - Removing cart_id: 114 | product_id: 18 | product_query->num_rows: 0 | cart quantity: 1
+2025-12-08 10:49:07 - Cart::add() - DELETE: \n2025-12-08 10:59:40 - Cart::index() CALLED - Opening cart page
+2025-12-08 10:59:40 - Cart::getProducts() CALLED
+2025-12-08 10:59:40 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 10:59:40 - Cart::getProducts() - First query found: 1 items (store_id: 0)
+2025-12-08 10:59:40 - Cart::getProducts() - Processing cart_id: 122, product_id: 17, quantity: 6
+2025-12-08 10:59:40 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 10:59:40 - Cart::getProducts() - First product query found: 0 rows
+2025-12-08 10:59:40 - Cart::getProducts() - Second product query (without store_id) found: 0 rows
+2025-12-08 10:59:40 - Cart::getProducts() - Product FAILED validation - REMOVING cart_id: 122 | product_id: 17 | product_query->num_rows: 0 | cart quantity: 6
+2025-12-08 10:59:40 - Cart::remove() CALLED - cart_id: 122
+2025-12-08 10:59:40 - Cart::remove() - DELETE affected rows: 1
+2025-12-08 10:59:40 - Cart::getProducts() - Final data count: 0
+2025-12-08 10:59:40 - Cart::index() - getProducts() returned 0 products
+2025-12-08 11:04:00 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:04:00 - Cart::getProducts() CALLED
+2025-12-08 11:04:00 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:04:00 - Cart::getProducts() - First query found: 0 items (store_id: 0)
+2025-12-08 11:04:00 - Cart::getProducts() - Second query (without store_id) found: 0 items
+2025-12-08 11:04:00 - Cart::getProducts() - Final data count: 0
+2025-12-08 11:04:00 - Cart::index() - getProducts() returned 0 products
+2025-12-08 11:04:49 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:04:49 - Cart::getProducts() CALLED
+2025-12-08 11:04:49 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:04:49 - Cart::getProducts() - First query found: 1 items (store_id: 0)
+2025-12-08 11:04:49 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:04:49 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:04:49 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:04:49 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:04:49 - Cart::getProducts() - Final data count: 1
+2025-12-08 11:04:49 - Cart::index() - getProducts() returned 1 products
+2025-12-08 11:04:54 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:04:54 - Cart::getProducts() CALLED
+2025-12-08 11:04:54 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:04:54 - Cart::getProducts() - First query found: 1 items (store_id: 0)
+2025-12-08 11:04:54 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:04:54 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:04:54 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:04:54 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:04:54 - Cart::getProducts() - Final data count: 1
+2025-12-08 11:04:54 - Cart::index() - getProducts() returned 1 products
+2025-12-08 11:05:05 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:05:05 - Cart::getProducts() CALLED
+2025-12-08 11:05:05 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:05:05 - Cart::getProducts() - First query found: 1 items (store_id: 0)
+2025-12-08 11:05:05 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:05:05 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:05:05 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:05:05 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:05:05 - Cart::getProducts() - Final data count: 1
+2025-12-08 11:05:05 - Cart::index() - getProducts() returned 1 products
+2025-12-08 11:05:10 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:05:10 - Cart::getProducts() CALLED
+2025-12-08 11:05:10 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:05:10 - Cart::getProducts() - First query found: 1 items (store_id: 0)
+2025-12-08 11:05:10 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:05:10 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:05:10 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:05:10 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:05:10 - Cart::getProducts() - Final data count: 1
+2025-12-08 11:05:10 - Cart::index() - getProducts() returned 1 products
+2025-12-08 11:05:11 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:05:11 - Cart::getProducts() CALLED
+2025-12-08 11:05:11 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:05:11 - Cart::getProducts() - First query found: 1 items (store_id: 0)
+2025-12-08 11:05:11 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:05:11 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:05:11 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:05:11 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:05:11 - Cart::getProducts() - Final data count: 1
+2025-12-08 11:05:11 - Cart::index() - getProducts() returned 1 products
+2025-12-08 11:05:19 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:05:19 - Cart::getProducts() CALLED
+2025-12-08 11:05:19 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:05:19 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:05:19 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:05:19 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:05:19 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:05:19 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:05:19 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:05:19 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:05:19 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:05:19 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:05:19 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:05:19 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:07:28 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:28 - Cart::getProducts() CALLED
+2025-12-08 11:07:28 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:28 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:28 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:28 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:29 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:29 - Cart::getProducts() CALLED
+2025-12-08 11:07:29 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:29 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:29 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:29 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:29 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:29 - Cart::getProducts() CALLED
+2025-12-08 11:07:29 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:29 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:29 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:29 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:30 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:30 - Cart::getProducts() CALLED
+2025-12-08 11:07:30 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:30 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:30 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:30 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:30 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:30 - Cart::getProducts() CALLED
+2025-12-08 11:07:30 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:30 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:30 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:30 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:31 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:31 - Cart::getProducts() CALLED
+2025-12-08 11:07:31 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:31 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:31 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:31 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:31 - Cart::getProducts() CALLED
+2025-12-08 11:07:31 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:31 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:31 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:31 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:31 - Cart::getProducts() CALLED
+2025-12-08 11:07:31 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:31 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:31 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:31 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:31 - Cart::getProducts() CALLED
+2025-12-08 11:07:31 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:31 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:31 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:32 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:32 - Cart::getProducts() CALLED
+2025-12-08 11:07:32 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:32 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:32 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:32 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:32 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:32 - Cart::getProducts() CALLED
+2025-12-08 11:07:32 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:32 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:32 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:32 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:35 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:35 - Cart::getProducts() CALLED
+2025-12-08 11:07:35 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:35 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:35 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:35 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:36 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:36 - Cart::getProducts() CALLED
+2025-12-08 11:07:36 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:36 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:36 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:36 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:36 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:36 - Cart::getProducts() CALLED
+2025-12-08 11:07:36 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:36 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:36 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:36 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:37 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:37 - Cart::getProducts() CALLED
+2025-12-08 11:07:37 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:37 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:37 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:37 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:37 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:37 - Cart::getProducts() CALLED
+2025-12-08 11:07:37 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:37 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:37 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:37 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:37 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:37 - Cart::getProducts() CALLED
+2025-12-08 11:07:37 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:37 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:37 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:37 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:37 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:37 - Cart::getProducts() CALLED
+2025-12-08 11:07:37 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:37 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:37 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:37 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:37 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:37 - Cart::getProducts() CALLED
+2025-12-08 11:07:37 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:37 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:37 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:37 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:45 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:45 - Cart::getProducts() CALLED
+2025-12-08 11:07:45 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:45 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:45 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:45 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:46 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:46 - Cart::getProducts() CALLED
+2025-12-08 11:07:46 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:46 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:46 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:46 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:07:46 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:07:46 - Cart::getProducts() CALLED
+2025-12-08 11:07:46 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:07:46 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:07:46 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:07:46 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:13 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:13 - Cart::getProducts() CALLED
+2025-12-08 11:08:13 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:13 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:13 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:13 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:13 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:13 - Cart::getProducts() CALLED
+2025-12-08 11:08:13 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:13 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:13 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:13 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:14 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:14 - Cart::getProducts() CALLED
+2025-12-08 11:08:14 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:14 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:14 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:14 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:14 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:14 - Cart::getProducts() CALLED
+2025-12-08 11:08:14 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:14 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:14 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:14 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:14 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:14 - Cart::getProducts() CALLED
+2025-12-08 11:08:14 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:14 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:14 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:14 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:14 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:14 - Cart::getProducts() CALLED
+2025-12-08 11:08:14 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:14 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:14 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:14 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:30 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:30 - Cart::getProducts() CALLED
+2025-12-08 11:08:30 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:30 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:30 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:30 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:31 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:31 - Cart::getProducts() CALLED
+2025-12-08 11:08:31 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:31 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:31 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:32 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:32 - Cart::getProducts() CALLED
+2025-12-08 11:08:32 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:32 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:32 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:32 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:32 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:32 - Cart::getProducts() CALLED
+2025-12-08 11:08:32 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:32 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:32 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:32 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:50 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:50 - Cart::getProducts() CALLED
+2025-12-08 11:08:50 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:50 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:50 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:50 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:50 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:50 - Cart::getProducts() CALLED
+2025-12-08 11:08:50 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:50 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:50 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:50 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:51 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:51 - Cart::getProducts() CALLED
+2025-12-08 11:08:51 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:51 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:51 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:51 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:51 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:51 - Cart::getProducts() CALLED
+2025-12-08 11:08:51 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:51 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:51 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:51 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:52 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:52 - Cart::getProducts() CALLED
+2025-12-08 11:08:52 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:52 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:52 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:52 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:08:53 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:08:53 - Cart::getProducts() CALLED
+2025-12-08 11:08:53 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:08:53 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:08:53 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:08:53 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:10:13 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:10:13 - Cart::getProducts() CALLED
+2025-12-08 11:10:13 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:10:13 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:10:13 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:10:13 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:10:14 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:10:14 - Cart::getProducts() CALLED
+2025-12-08 11:10:14 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:10:14 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:10:14 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:10:14 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:10:14 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:10:14 - Cart::getProducts() CALLED
+2025-12-08 11:10:14 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:10:14 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:10:14 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:10:14 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:10:36 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:10:36 - Cart::getProducts() CALLED
+2025-12-08 11:10:36 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:10:36 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:10:36 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:10:36 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:40 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:15:40 - Cart::getProducts() CALLED
+2025-12-08 11:15:40 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:15:40 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:15:40 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:15:40 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:40 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:40 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:40 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:15:40 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:40 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:15:40 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:40 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:40 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:40 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:15:40 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:40 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:15:40 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:15:40 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:40 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:15:42 - Cart::getProducts() CALLED
+2025-12-08 11:15:42 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:15:42 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:15:42 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:15:42 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:42 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:42 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:42 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:15:42 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:15:42 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:42 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:42 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:42 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:15:42 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:15:42 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:15:42 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:15:42 - Cart::getProducts() CALLED
+2025-12-08 11:15:42 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:15:42 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:15:42 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:15:42 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:42 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:42 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:42 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:15:42 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:15:42 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:42 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:42 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:42 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:15:42 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:15:42 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:15:42 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:15:42 - Cart::getProducts() CALLED
+2025-12-08 11:15:42 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:15:42 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:15:42 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:15:42 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:42 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:42 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:42 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:15:42 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:15:42 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:42 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:42 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:42 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:15:42 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:15:42 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:15:42 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:42 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:43 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:15:43 - Cart::getProducts() CALLED
+2025-12-08 11:15:43 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:15:43 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:15:43 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:15:43 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:43 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:43 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:43 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:15:43 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:43 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:15:43 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:43 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:43 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:43 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:15:43 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:43 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:15:43 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:15:43 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:43 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:43 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:15:43 - Cart::getProducts() CALLED
+2025-12-08 11:15:43 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:15:43 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:15:43 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:15:43 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:43 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:43 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:43 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:15:43 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:43 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:15:43 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:15:43 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:15:43 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:15:43 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:15:43 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:15:43 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:15:43 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:15:43 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:15:43 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:16:51 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:16:51 - Cart::getProducts() CALLED
+2025-12-08 11:16:51 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:16:51 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:16:51 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:16:51 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:16:51 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:16:51 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:16:51 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:16:51 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:16:51 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:16:51 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:16:51 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:16:51 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:16:51 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:16:51 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:16:51 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:16:51 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:16:51 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:16:51 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:16:56 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:16:56 - Cart::getProducts() CALLED
+2025-12-08 11:16:56 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:16:56 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:16:56 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:16:56 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:16:56 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:16:56 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:16:56 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:16:56 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:16:56 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:16:56 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:16:56 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:16:56 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:16:56 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:16:56 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:16:56 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:16:56 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:16:56 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:16:56 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:21:25 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:21:25 - Cart::getProducts() CALLED
+2025-12-08 11:21:25 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:21:25 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:21:25 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:21:25 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:21:25 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:21:25 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:21:25 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:21:25 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:21:25 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:21:25 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:21:25 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:21:25 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:21:25 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:21:25 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:21:25 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:21:25 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:21:25 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:21:25 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:21:25 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:21:25 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:21:26 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:21:26 - Cart::getProducts() CALLED
+2025-12-08 11:21:26 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:21:26 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:21:26 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:21:26 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:21:26 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:21:26 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:21:26 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:21:26 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:21:26 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:21:26 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:21:26 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:21:26 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:21:26 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:21:26 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:21:26 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:21:26 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:21:26 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:21:26 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:21:26 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:21:26 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:21:30 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:21:30 - Cart::getProducts() CALLED
+2025-12-08 11:21:30 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:21:30 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:21:30 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:21:30 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:21:30 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:21:30 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:21:30 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:21:30 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:21:30 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:21:30 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:21:30 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:21:30 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:21:30 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:21:30 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:21:30 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:21:30 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:21:30 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:21:30 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:21:30 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:21:30 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:23:21 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:23:21 - Cart::getProducts() CALLED
+2025-12-08 11:23:21 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:23:21 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:23:21 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:23:21 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:23:21 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:23:21 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:23:21 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:23:21 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:23:21 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:23:21 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:23:21 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:23:21 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:23:21 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:23:21 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:23:21 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:23:21 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:23:21 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:23:21 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:23:21 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:23:21 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:25:12 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:25:12 - Cart::getProducts() CALLED
+2025-12-08 11:25:12 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:25:12 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:25:12 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:25:12 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:12 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:12 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:12 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:25:12 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:12 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:25:12 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:12 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:12 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:12 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:25:12 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:12 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:25:12 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:25:12 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:12 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:25:12 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:12 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:25:12 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:25:12 - Cart::getProducts() CALLED
+2025-12-08 11:25:12 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:25:12 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:25:12 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:25:12 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:12 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:12 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:12 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:25:12 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:12 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:25:12 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:12 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:12 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:12 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:25:12 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:12 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:25:12 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:25:12 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:12 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:25:12 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:12 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:25:13 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:25:13 - Cart::getProducts() CALLED
+2025-12-08 11:25:13 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:25:13 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:25:13 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:25:13 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:13 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:13 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:13 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:25:13 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:13 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:25:13 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:13 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:13 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:13 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:25:13 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:13 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:25:13 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:25:13 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:13 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:25:13 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:13 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:25:13 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:25:13 - Cart::getProducts() CALLED
+2025-12-08 11:25:13 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:25:13 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:25:13 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:25:13 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:13 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:13 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:13 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:25:13 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:13 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:25:13 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:13 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:13 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:13 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:25:13 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:13 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:25:13 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:25:13 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:13 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:25:13 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:13 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:25:30 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:25:30 - Cart::getProducts() CALLED
+2025-12-08 11:25:30 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:25:30 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:25:30 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:25:30 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:30 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:30 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:30 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:25:30 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:30 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:25:30 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:30 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:30 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:30 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:25:30 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:30 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:25:30 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:25:30 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:30 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:25:30 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:30 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:25:31 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:25:31 - Cart::getProducts() CALLED
+2025-12-08 11:25:31 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:25:31 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:25:31 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:25:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:31 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:31 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:31 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:25:31 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:31 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:25:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:31 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:31 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:31 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:25:31 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:31 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:25:31 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:25:31 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:31 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:25:31 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:31 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:25:32 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:25:32 - Cart::getProducts() CALLED
+2025-12-08 11:25:32 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:25:32 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:25:32 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:25:32 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:32 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:32 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:32 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:25:32 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:32 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:25:32 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:25:32 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:25:32 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:25:32 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:25:32 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:32 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:25:32 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:25:32 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:25:32 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:25:32 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:25:32 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:28:49 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:28:49 - Cart::getProducts() CALLED
+2025-12-08 11:28:49 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:28:49 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:28:49 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:28:49 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:28:49 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:28:49 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:28:49 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:28:49 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:28:49 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:28:49 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:28:49 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:28:49 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:28:49 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:28:49 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:28:49 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:28:49 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:28:49 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:28:49 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:28:49 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:28:49 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:28:50 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:28:50 - Cart::getProducts() CALLED
+2025-12-08 11:28:50 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:28:50 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:28:50 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:28:50 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:28:50 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:28:50 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:28:50 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:28:50 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:28:50 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:28:50 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:28:50 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:28:50 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:28:50 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:28:50 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:28:50 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:28:50 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:28:50 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:28:50 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:28:50 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:28:50 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:29:49 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:29:49 - Cart::getProducts() CALLED
+2025-12-08 11:29:49 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:29:49 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:29:49 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:29:49 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:29:49 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:29:49 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:29:49 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:29:49 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:29:49 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:29:49 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:29:49 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:29:49 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:29:49 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:29:49 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:29:49 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:29:49 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:29:49 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:29:49 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:29:49 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:29:49 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:29:50 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:29:50 - Cart::getProducts() CALLED
+2025-12-08 11:29:50 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:29:50 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:29:50 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:29:50 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:29:50 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:29:50 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:29:50 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:29:50 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:29:50 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:29:50 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:29:50 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:29:50 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:29:50 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:29:50 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:29:50 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:29:50 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:29:50 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:29:50 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:29:50 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:29:50 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:30:04 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:30:04 - Cart::getProducts() CALLED
+2025-12-08 11:30:04 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:30:04 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:30:04 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:30:04 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:30:04 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:30:04 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:30:04 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:30:04 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:30:04 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:30:04 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:30:04 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:30:04 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:30:04 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:30:04 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:30:04 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:30:04 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:30:04 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:30:04 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:30:04 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:30:04 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:30:47 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:30:47 - Cart::getProducts() CALLED
+2025-12-08 11:30:47 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:30:47 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:30:47 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:30:47 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:30:47 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:30:47 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:30:47 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:30:47 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:30:47 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:30:47 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:30:47 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:30:47 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:30:47 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:30:47 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:30:47 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:30:47 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:30:47 - Cart::index() - Product: cart_id=124, price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:30:47 - Cart::index() - Preparing cart item: cart_id=124, product_id=19
+2025-12-08 11:30:47 - Cart::index() - Product: cart_id=123, price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:30:47 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:30:50 - Cart::getProducts() CALLED
+2025-12-08 11:30:50 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:30:50 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:30:50 - Cart::getProducts() - Processing cart_id: 124, product_id: 19, quantity: 5
+2025-12-08 11:30:50 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:30:50 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:30:50 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:30:50 - Cart::getProducts() - base_price: 69.9, option_price: 0, final price: 69.9
+2025-12-08 11:30:50 - Cart::getProducts() - Adding product to data: price=69.9, quantity=5, total=349.5, image=catalog/products/battery-default.png
+2025-12-08 11:30:50 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 4
+2025-12-08 11:30:50 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:30:50 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:30:50 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:30:50 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:30:50 - Cart::getProducts() - Adding product to data: price=36.5, quantity=4, total=146, image=catalog/products/battery-default.png
+2025-12-08 11:30:50 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:31:01 - Cart::remove() CALLED - cart_id: 124
+2025-12-08 11:31:01 - Cart::remove() - DELETE affected rows: 1
+2025-12-08 11:31:30 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:31:30 - Cart::getProducts() CALLED
+2025-12-08 11:31:30 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:31:30 - Cart::getProducts() - First query found: 1 items (store_id: 0)
+2025-12-08 11:31:30 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 10
+2025-12-08 11:31:30 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:31:30 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:31:30 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:31:30 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:31:30 - Cart::getProducts() - Adding product to data: price=36.5, quantity=10, total=365, image=catalog/products/battery-default.png
+2025-12-08 11:31:30 - Cart::getProducts() - Final data count: 1
+2025-12-08 11:31:30 - Cart::index() - getProducts() returned 1 products
+2025-12-08 11:31:30 - Cart::index() - Product: cart_id=123, price=36.5, quantity=10, total=365, image=catalog/products/battery-default.png
+2025-12-08 11:31:30 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:31:39 - Cart::getProducts() CALLED
+2025-12-08 11:31:39 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:31:39 - Cart::getProducts() - First query found: 1 items (store_id: 0)
+2025-12-08 11:31:39 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 10
+2025-12-08 11:31:39 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:31:39 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:31:39 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:31:39 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:31:39 - Cart::getProducts() - Adding product to data: price=36.5, quantity=10, total=365, image=catalog/products/battery-default.png
+2025-12-08 11:31:39 - Cart::getProducts() - Final data count: 1
+2025-12-08 11:31:47 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:31:47 - Cart::getProducts() CALLED
+2025-12-08 11:31:47 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:31:47 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:31:47 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 6
+2025-12-08 11:31:47 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:31:47 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:31:47 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:31:47 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:31:47 - Cart::getProducts() - Adding product to data: price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:31:47 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 11
+2025-12-08 11:31:47 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:31:47 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:31:47 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:31:47 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:31:47 - Cart::getProducts() - Adding product to data: price=36.5, quantity=11, total=401.5, image=catalog/products/battery-default.png
+2025-12-08 11:31:47 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:31:47 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:31:47 - Cart::index() - Product: cart_id=125, price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:31:47 - Cart::index() - Preparing cart item: cart_id=125, product_id=16
+2025-12-08 11:31:47 - Cart::index() - Product: cart_id=123, price=36.5, quantity=11, total=401.5, image=catalog/products/battery-default.png
+2025-12-08 11:31:47 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:32:08 - Cart::getProducts() CALLED
+2025-12-08 11:32:08 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:32:08 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:32:08 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 6
+2025-12-08 11:32:08 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:08 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:08 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:08 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:32:08 - Cart::getProducts() - Adding product to data: price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:32:08 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 11
+2025-12-08 11:32:08 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:08 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:08 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:08 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:32:08 - Cart::getProducts() - Adding product to data: price=36.5, quantity=11, total=401.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:08 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:32:11 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:32:11 - Cart::getProducts() CALLED
+2025-12-08 11:32:11 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:32:11 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:32:11 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 7
+2025-12-08 11:32:11 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:11 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:11 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:11 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:32:11 - Cart::getProducts() - Adding product to data: price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:32:11 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 11
+2025-12-08 11:32:11 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:11 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:11 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:11 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:32:11 - Cart::getProducts() - Adding product to data: price=36.5, quantity=11, total=401.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:11 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:32:11 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:32:11 - Cart::index() - Product: cart_id=125, price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:32:11 - Cart::index() - Preparing cart item: cart_id=125, product_id=16
+2025-12-08 11:32:11 - Cart::index() - Product: cart_id=123, price=36.5, quantity=11, total=401.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:11 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:32:17 - Cart::getProducts() CALLED
+2025-12-08 11:32:17 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:32:17 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:32:17 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 7
+2025-12-08 11:32:17 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:17 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:17 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:17 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:32:17 - Cart::getProducts() - Adding product to data: price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:32:17 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 11
+2025-12-08 11:32:17 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:17 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:17 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:17 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:32:17 - Cart::getProducts() - Adding product to data: price=36.5, quantity=11, total=401.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:17 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:32:19 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:32:19 - Cart::getProducts() CALLED
+2025-12-08 11:32:19 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:32:19 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:32:19 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 7
+2025-12-08 11:32:19 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:19 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:19 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:19 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:32:19 - Cart::getProducts() - Adding product to data: price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:32:19 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 10
+2025-12-08 11:32:19 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:19 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:19 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:19 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:32:19 - Cart::getProducts() - Adding product to data: price=36.5, quantity=10, total=365, image=catalog/products/battery-default.png
+2025-12-08 11:32:19 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:32:19 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:32:19 - Cart::index() - Product: cart_id=125, price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:32:19 - Cart::index() - Preparing cart item: cart_id=125, product_id=16
+2025-12-08 11:32:19 - Cart::index() - Product: cart_id=123, price=36.5, quantity=10, total=365, image=catalog/products/battery-default.png
+2025-12-08 11:32:19 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:32:20 - Cart::getProducts() CALLED
+2025-12-08 11:32:20 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:32:20 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:32:20 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 7
+2025-12-08 11:32:20 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:20 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:20 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:20 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:32:20 - Cart::getProducts() - Adding product to data: price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:32:20 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 10
+2025-12-08 11:32:20 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:20 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:20 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:20 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:32:20 - Cart::getProducts() - Adding product to data: price=36.5, quantity=10, total=365, image=catalog/products/battery-default.png
+2025-12-08 11:32:20 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:32:22 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:32:22 - Cart::getProducts() CALLED
+2025-12-08 11:32:22 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:32:22 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:32:22 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 7
+2025-12-08 11:32:22 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:22 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:22 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:22 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:32:22 - Cart::getProducts() - Adding product to data: price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:32:22 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 9
+2025-12-08 11:32:22 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:22 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:22 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:22 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:32:22 - Cart::getProducts() - Adding product to data: price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:22 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:32:22 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:32:22 - Cart::index() - Product: cart_id=125, price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:32:22 - Cart::index() - Preparing cart item: cart_id=125, product_id=16
+2025-12-08 11:32:22 - Cart::index() - Product: cart_id=123, price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:22 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:32:31 - Cart::getProducts() CALLED
+2025-12-08 11:32:31 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:32:31 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:32:31 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 7
+2025-12-08 11:32:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:31 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:31 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:31 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:32:31 - Cart::getProducts() - Adding product to data: price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:32:31 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 9
+2025-12-08 11:32:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:31 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:31 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:31 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:32:31 - Cart::getProducts() - Adding product to data: price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:31 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:32:52 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:32:52 - Cart::getProducts() CALLED
+2025-12-08 11:32:52 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:32:52 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:32:52 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 6
+2025-12-08 11:32:52 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:52 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:52 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:52 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:32:52 - Cart::getProducts() - Adding product to data: price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:32:52 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 9
+2025-12-08 11:32:52 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:52 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:52 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:52 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:32:52 - Cart::getProducts() - Adding product to data: price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:52 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:32:52 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:32:52 - Cart::index() - Product: cart_id=125, price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:32:52 - Cart::index() - Preparing cart item: cart_id=125, product_id=16
+2025-12-08 11:32:52 - Cart::index() - Product: cart_id=123, price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:52 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:32:53 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:32:53 - Cart::getProducts() CALLED
+2025-12-08 11:32:53 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:32:53 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:32:53 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 6
+2025-12-08 11:32:53 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:53 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:53 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:53 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:32:53 - Cart::getProducts() - Adding product to data: price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:32:53 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 9
+2025-12-08 11:32:53 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:32:53 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:32:53 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:32:53 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:32:53 - Cart::getProducts() - Adding product to data: price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:53 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:32:53 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:32:53 - Cart::index() - Product: cart_id=125, price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:32:53 - Cart::index() - Preparing cart item: cart_id=125, product_id=16
+2025-12-08 11:32:53 - Cart::index() - Product: cart_id=123, price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:32:53 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:34:19 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:34:19 - Cart::getProducts() CALLED
+2025-12-08 11:34:19 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:34:19 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:34:19 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 6
+2025-12-08 11:34:19 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:34:19 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:34:19 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:34:19 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:34:19 - Cart::getProducts() - Adding product to data: price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:34:19 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 9
+2025-12-08 11:34:19 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:34:19 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:34:19 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:34:19 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:34:19 - Cart::getProducts() - Adding product to data: price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:34:19 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:34:19 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:34:19 - Cart::index() - Product: cart_id=125, price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:34:19 - Cart::index() - Preparing cart item: cart_id=125, product_id=16
+2025-12-08 11:34:19 - Cart::index() - Product: cart_id=123, price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:34:19 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:34:22 - Cart::getProducts() CALLED
+2025-12-08 11:34:22 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:34:22 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:34:22 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 6
+2025-12-08 11:34:22 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:34:22 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:34:22 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:34:22 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:34:22 - Cart::getProducts() - Adding product to data: price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:34:22 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 9
+2025-12-08 11:34:22 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:34:22 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:34:22 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:34:22 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:34:22 - Cart::getProducts() - Adding product to data: price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:34:22 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:34:24 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:34:24 - Cart::getProducts() CALLED
+2025-12-08 11:34:24 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:34:24 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:34:24 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 7
+2025-12-08 11:34:24 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:34:24 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:34:24 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:34:24 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:34:24 - Cart::getProducts() - Adding product to data: price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:34:24 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 9
+2025-12-08 11:34:24 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:34:24 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:34:24 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:34:24 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:34:24 - Cart::getProducts() - Adding product to data: price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:34:24 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:34:24 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:34:24 - Cart::index() - Product: cart_id=125, price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:34:24 - Cart::index() - Preparing cart item: cart_id=125, product_id=16
+2025-12-08 11:34:24 - Cart::index() - Product: cart_id=123, price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:34:24 - Cart::index() - Preparing cart item: cart_id=123, product_id=20
+2025-12-08 11:34:27 - Cart::getProducts() CALLED
+2025-12-08 11:34:27 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:34:27 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:34:27 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 7
+2025-12-08 11:34:27 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:34:27 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:34:27 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:34:27 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:34:27 - Cart::getProducts() - Adding product to data: price=129.99, quantity=7, total=909.93, image=catalog/products/battery-default.png
+2025-12-08 11:34:27 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 9
+2025-12-08 11:34:27 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:34:27 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:34:27 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:34:27 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:34:27 - Cart::getProducts() - Adding product to data: price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:34:27 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:34:31 - Cart::index() CALLED - Opening cart page
+2025-12-08 11:34:31 - Cart::getProducts() CALLED
+2025-12-08 11:34:31 - Cart::getProducts() - session_id: df093b59fd88d5f48cf67698e7, customer_id: 0, store_id: 0
+2025-12-08 11:34:31 - Cart::getProducts() - First query found: 2 items (store_id: 0)
+2025-12-08 11:34:31 - Cart::getProducts() - Processing cart_id: 125, product_id: 16, quantity: 6
+2025-12-08 11:34:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:34:31 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:34:31 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:34:31 - Cart::getProducts() - base_price: 129.99, option_price: 0, final price: 129.99
+2025-12-08 11:34:31 - Cart::getProducts() - Adding product to data: price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:34:31 - Cart::getProducts() - Processing cart_id: 123, product_id: 20, quantity: 9
+2025-12-08 11:34:31 - Cart::getProducts() - cart_store_id: 0, language_id: 0
+2025-12-08 11:34:31 - Cart::getProducts() - Product query found: 1 rows
+2025-12-08 11:34:31 - Cart::getProducts() - Product PASSED validation, adding to data array
+2025-12-08 11:34:31 - Cart::getProducts() - base_price: 36.5, option_price: 0, final price: 36.5
+2025-12-08 11:34:31 - Cart::getProducts() - Adding product to data: price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:34:31 - Cart::getProducts() - Final data count: 2
+2025-12-08 11:34:31 - Cart::index() - getProducts() returned 2 products
+2025-12-08 11:34:31 - Cart::index() - Product: cart_id=125, price=129.99, quantity=6, total=779.94, image=catalog/products/battery-default.png
+2025-12-08 11:34:31 - Cart::index() - Preparing cart item: cart_id=125, product_id=16
+2025-12-08 11:34:31 - Cart::index() - Product: cart_id=123, price=36.5, quantity=9, total=328.5, image=catalog/products/battery-default.png
+2025-12-08 11:34:31 - Cart::index() - Preparing cart item: cart_id=123, product_id=20

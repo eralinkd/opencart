@@ -98,8 +98,12 @@ class Home extends \Opencart\System\Engine\Controller {
 
 			if ($currency) {
 				$price_formatted = $currency->format((float)$row['price'], $currency_code);
+				// Fallback if currency format returns empty (currency not found in DB)
+				if (empty($price_formatted)) {
+					$price_formatted = '$' . number_format((float)$row['price'], 2);
+				}
 			} else {
-				$price_formatted = $currency_code . ' ' . number_format((float)$row['price'], 2);
+				$price_formatted = '$' . number_format((float)$row['price'], 2);
 			}
 
 			$product_url = $this->url->link('product/product', 'product_id=' . (int)$row['product_id']);

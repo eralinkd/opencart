@@ -81,6 +81,20 @@ class Header extends \Opencart\System\Engine\Controller {
 		$data['server'] = HTTP_SERVER;
 		$data['profile_url'] = $this->url->link('account/general');
 		$data['cart_url'] = $this->url->link('cart/cart');
+		$data['info_links'] = [
+			[
+				'label' => 'About Us',
+				'href'  => '#'
+			],
+			[
+				'label' => 'Shipping & Payment',
+				'href'  => '#'
+			],
+			[
+				'label' => 'Contacts',
+				'href'  => '#'
+			],
+		];
 
 		
 		$data['UIButton'] = $this->load->view('common/components/ui/Button', []);

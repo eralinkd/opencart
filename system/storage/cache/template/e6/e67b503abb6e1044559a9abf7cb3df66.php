@@ -133,49 +133,67 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
 \t\t</div>
 \t</div>
 \t<div class=\"info block\">
-\t\t<p class=\"text-20\">Key Features</p>
+\t\t";
+        // line 47
+        if (CoreExtension::getAttribute($this->env, $this->source, ($context["product"] ?? null), "custom_fields", [], "any", false, false, false, 47)) {
+            // line 48
+            yield "\t\t<p class=\"text-20\">Key Features</p>
 \t\t<div class=\"divider\"></div>
 \t\t<ul class=\"list\">
-\t\t\t<li>
-\t\t\t\t<span class=\"key\">Brand</span><span class=\"value\">RadioMaster</span>
+\t\t\t";
+            // line 51
+            $context['_parent'] = $context;
+            $context['_seq'] = CoreExtension::ensureTraversable(CoreExtension::getAttribute($this->env, $this->source, ($context["product"] ?? null), "custom_fields", [], "any", false, false, false, 51));
+            foreach ($context['_seq'] as $context["_key"] => $context["field"]) {
+                // line 52
+                yield "\t\t\t<li>
+\t\t\t\t<span class=\"key\">";
+                // line 53
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["field"], "key", [], "any", false, false, false, 53);
+                yield "</span><span class=\"value\">";
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["field"], "value", [], "any", false, false, false, 53);
+                yield "</span>
 \t\t\t</li>
-\t\t\t<li>
-\t\t\t\t<span class=\"key\">Brand</span><span class=\"value\">RadioMaster</span>
-\t\t\t</li>
-\t\t\t<li>
-\t\t\t\t<span class=\"key\">Brand</span><span class=\"value\">RadioMaster</span>
-\t\t\t</li>
-\t\t\t<li>
-\t\t\t\t<span class=\"key\">Brand</span><span class=\"value\">RadioMaster</span>
-\t\t\t</li>
-\t\t</ul>
-\t\t<p class=\"text-20\">Description</p>
+\t\t\t";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_key'], $context['field'], $context['_parent']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 56
+            yield "\t\t</ul>
+\t\t";
+        }
+        // line 58
+        yield "\t\t<p class=\"text-20\">Description</p>
 \t\t<div class=\"divider\"></div>
 \t\t<p class=\"text-16\">
 \t\t\t";
-        // line 66
-        yield CoreExtension::getAttribute($this->env, $this->source, ($context["product"] ?? null), "description", [], "any", false, false, false, 66);
+        // line 61
+        yield CoreExtension::getAttribute($this->env, $this->source, ($context["product"] ?? null), "description", [], "any", false, false, false, 61);
         yield "
 \t\t</p>
 \t</div>
 \t<div class=\"payment\">
 \t\t<div class=\"price block\">
 \t\t\t<p class=\"text-32\">";
-        // line 71
-        yield CoreExtension::getAttribute($this->env, $this->source, ($context["product"] ?? null), "price_formatted", [], "any", false, false, false, 71);
+        // line 66
+        yield CoreExtension::getAttribute($this->env, $this->source, ($context["product"] ?? null), "price_formatted", [], "any", false, false, false, 66);
         yield " uah</p>
 \t\t\t<p class=\"text-16 availability\">";
-        // line 72
-        if ((CoreExtension::getAttribute($this->env, $this->source, ($context["product"] ?? null), "stock_text", [], "any", false, false, false, 72) > 0)) {
+        // line 67
+        if ((CoreExtension::getAttribute($this->env, $this->source, ($context["product"] ?? null), "stock_text", [], "any", false, false, false, 67) > 0)) {
             yield "In Stock";
         } else {
             yield "Out of Stock";
         }
         yield "</p>
-\t\t\t<ui-button class=\"add-to-cart\">
+\t\t\t<ui-button class=\"add-to-cart\" data-product-id=\"";
+        // line 68
+        yield CoreExtension::getAttribute($this->env, $this->source, ($context["product"] ?? null), "product_id", [], "any", false, false, false, 68);
+        yield "\">
 \t\t\t\t<img slot=\"icon\" style=\"display: block; width: 32px; height: 32px; object-fit: contain\"
 \t\t\t\t\tsrc=\"";
-        // line 75
+        // line 70
         yield ($context["server"] ?? null);
         yield "image/icons/cart.svg\" alt=\"Cart\" />
 \t\t\t\t<span slot=\"text\">Add to cart </span>
@@ -185,19 +203,19 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
 \t\t\t<p class=\"text-20\">Payment Methods</p>
 \t\t\t<div class=\"list\">
 \t\t\t\t<img class=\"item\" src=\"";
-        // line 82
+        // line 77
         yield ($context["server"] ?? null);
         yield "image/product/visa.png\" alt=\"Visa\">
 \t\t\t\t<img class=\"item\" src=\"";
-        // line 83
+        // line 78
         yield ($context["server"] ?? null);
         yield "image/product/apple-pay.png\" alt=\"Apple Pay\">
 \t\t\t\t<img class=\"item\" src=\"";
-        // line 84
+        // line 79
         yield ($context["server"] ?? null);
         yield "image/product/mastercard.png\" alt=\"Mastercard\">
 \t\t\t\t<img class=\"item\" src=\"";
-        // line 85
+        // line 80
         yield ($context["server"] ?? null);
         yield "image/product/google-pay.png\" alt=\"Google Pay\">
 \t\t\t</div>
@@ -210,44 +228,44 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
 \t<div class=\"swiper products-swiper\">
 \t\t<div class=\"swiper-wrapper\">
 \t\t\t";
-        // line 95
+        // line 90
         if (($context["battery_products"] ?? null)) {
-            // line 96
+            // line 91
             yield "\t\t\t";
             $context['_parent'] = $context;
             $context['_seq'] = CoreExtension::ensureTraversable(($context["battery_products"] ?? null));
             foreach ($context['_seq'] as $context["_key"] => $context["product"]) {
-                // line 97
+                // line 92
                 yield "\t\t\t<div class=\"swiper-slide\">
 \t\t\t\t<div class=\"product-card\" data-product-url=\"";
-                // line 98
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "url_raw", [], "any", false, false, false, 98);
+                // line 93
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "url_raw", [], "any", false, false, false, 93);
                 yield "\">
 \t\t\t\t\t<div class=\"product-image\">
 \t\t\t\t\t\t<img src=\"";
-                // line 100
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "image", [], "any", false, false, false, 100);
+                // line 95
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "image", [], "any", false, false, false, 95);
                 yield "\" alt=\"";
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 100);
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 95);
                 yield "\">
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"product-info\">
 \t\t\t\t\t\t<p class=\"availability text-16\">";
-                // line 103
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "availability", [], "any", false, false, false, 103);
+                // line 98
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "availability", [], "any", false, false, false, 98);
                 yield "</p>
 \t\t\t\t\t\t<h4 class=\"product-title\">";
-                // line 104
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 104);
+                // line 99
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 99);
                 yield "</h4>
 \t\t\t\t\t</div>
 \t\t\t\t\t<p class=\"text-16\">Model: ";
-                // line 106
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "model", [], "any", false, false, false, 106);
+                // line 101
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "model", [], "any", false, false, false, 101);
                 yield "</p>
 \t\t\t\t\t<p class=\"product-price text-32\">\$";
-                // line 107
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "price_formatted", [], "any", false, false, false, 107);
+                // line 102
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "price_formatted", [], "any", false, false, false, 102);
                 yield "</p>
 \t\t\t\t\t<ui-button-secondary class=\"product-button\">
 \t\t\t\t\t\t<span slot=\"text\">View product</span>
@@ -259,10 +277,10 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_key'], $context['product'], $context['_parent']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 114
+            // line 109
             yield "\t\t\t";
         } else {
-            // line 115
+            // line 110
             yield "\t\t\t<div class=\"swiper-slide\">
 \t\t\t\t<div class=\"product-card\">
 \t\t\t\t\t<div class=\"product-info\">
@@ -272,7 +290,7 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
 \t\t\t</div>
 \t\t\t";
         }
-        // line 123
+        // line 118
         yield "\t\t</div>
 \t\t<div class=\"swiper-pagination\"></div>
 \t</div>
@@ -280,7 +298,7 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
 
 
 ";
-        // line 205
+        // line 200
         yield "
 <script>
 \tfunction initProductsSwiper() {
@@ -329,10 +347,80 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
 \t\t\twindow.location.href = card.getAttribute('data-product-url');
 \t\t}
 \t});
+
+\t// Add to cart functionality
+\tdocument.addEventListener('DOMContentLoaded', function() {
+\t\tconst addToCartBtn = document.querySelector('.add-to-cart');
+\t\tif (addToCartBtn) {
+\t\t\taddToCartBtn.addEventListener('click', function(e) {
+\t\t\t\te.preventDefault();
+\t\t\t\t
+\t\t\t\tconst productId = ";
+        // line 256
+        yield CoreExtension::getAttribute($this->env, $this->source, ($context["product"] ?? null), "product_id", [], "any", false, false, false, 256);
+        yield ";
+\t\t\t\tconst addToCartUrl = '";
+        // line 257
+        yield ($context["url_cart_add"] ?? null);
+        yield "';
+\t\t\t\t
+\t\t\t\tif (!addToCartUrl) {
+\t\t\t\t\tconsole.error('Cart add URL not available');
+\t\t\t\t\talert('Cart functionality is not available');
+\t\t\t\t\treturn;
+\t\t\t\t}
+
+\t\t\t\t// Disable button during request
+\t\t\t\tconst originalText = addToCartBtn.querySelector('span[slot=\"text\"]')?.textContent || 'Add to cart';
+\t\t\t\tconst buttonText = addToCartBtn.querySelector('span[slot=\"text\"]');
+\t\t\t\tif (buttonText) {
+\t\t\t\t\tbuttonText.textContent = 'Adding...';
+\t\t\t\t}
+\t\t\t\taddToCartBtn.disabled = true;
+
+\t\t\t\tconst formData = new FormData();
+\t\t\t\tformData.append('product_id', productId);
+\t\t\t\tformData.append('quantity', 1);
+
+\t\t\t\tfetch(addToCartUrl, {
+\t\t\t\t\tmethod: 'POST',
+\t\t\t\t\tbody: formData
+\t\t\t\t})
+\t\t\t\t.then(response => response.json())
+\t\t\t\t.then(data => {
+\t\t\t\t\tif (data.success) {
+\t\t\t\t\t\tif (buttonText) {
+\t\t\t\t\t\t\tbuttonText.textContent = 'Added!';
+\t\t\t\t\t\t\tsetTimeout(() => {
+\t\t\t\t\t\t\t\tbuttonText.textContent = originalText;
+\t\t\t\t\t\t\t}, 2000);
+\t\t\t\t\t\t}
+
+\t\t\t\t\t\tconsole.log('Product added to cart:', data);
+\t\t\t\t\t} else if (data.error) {
+\t\t\t\t\t\talert(data.error);
+\t\t\t\t\t\tif (buttonText) {
+\t\t\t\t\t\t\tbuttonText.textContent = originalText;
+\t\t\t\t\t\t}
+\t\t\t\t\t}
+\t\t\t\t})
+\t\t\t\t.catch(error => {
+\t\t\t\t\tconsole.error('Error adding to cart:', error);
+\t\t\t\t\talert('Error adding product to cart');
+\t\t\t\t\tif (buttonText) {
+\t\t\t\t\t\tbuttonText.textContent = originalText;
+\t\t\t\t\t}
+\t\t\t\t})
+\t\t\t\t.finally(() => {
+\t\t\t\t\taddToCartBtn.disabled = false;
+\t\t\t\t});
+\t\t\t});
+\t\t}
+\t});
 </script>
 
 ";
-        // line 255
+        // line 314
         yield ($context["footer"] ?? null);
         yield from [];
     }
@@ -358,7 +446,7 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  336 => 255,  284 => 205,  276 => 123,  266 => 115,  263 => 114,  250 => 107,  246 => 106,  241 => 104,  237 => 103,  229 => 100,  224 => 98,  221 => 97,  216 => 96,  214 => 95,  201 => 85,  197 => 84,  193 => 83,  189 => 82,  179 => 75,  169 => 72,  165 => 71,  157 => 66,  130 => 42,  124 => 41,  119 => 39,  113 => 38,  108 => 36,  101 => 35,  94 => 26,  87 => 24,  82 => 22,  71 => 14,  66 => 11,  59 => 8,  55 => 7,  53 => 6,  51 => 5,  49 => 4,  47 => 3,  42 => 1,);
+        return array (  424 => 314,  364 => 257,  360 => 256,  302 => 200,  294 => 118,  284 => 110,  281 => 109,  268 => 102,  264 => 101,  259 => 99,  255 => 98,  247 => 95,  242 => 93,  239 => 92,  234 => 91,  232 => 90,  219 => 80,  215 => 79,  211 => 78,  207 => 77,  197 => 70,  192 => 68,  184 => 67,  180 => 66,  172 => 61,  167 => 58,  163 => 56,  152 => 53,  149 => 52,  145 => 51,  140 => 48,  138 => 47,  130 => 42,  124 => 41,  119 => 39,  113 => 38,  108 => 36,  101 => 35,  94 => 26,  87 => 24,  82 => 22,  71 => 14,  66 => 11,  59 => 8,  55 => 7,  53 => 6,  51 => 5,  49 => 4,  47 => 3,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -409,22 +497,17 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
 \t\t</div>
 \t</div>
 \t<div class=\"info block\">
+\t\t{% if product.custom_fields %}
 \t\t<p class=\"text-20\">Key Features</p>
 \t\t<div class=\"divider\"></div>
 \t\t<ul class=\"list\">
+\t\t\t{% for field in product.custom_fields %}
 \t\t\t<li>
-\t\t\t\t<span class=\"key\">Brand</span><span class=\"value\">RadioMaster</span>
+\t\t\t\t<span class=\"key\">{{ field.key }}</span><span class=\"value\">{{ field.value }}</span>
 \t\t\t</li>
-\t\t\t<li>
-\t\t\t\t<span class=\"key\">Brand</span><span class=\"value\">RadioMaster</span>
-\t\t\t</li>
-\t\t\t<li>
-\t\t\t\t<span class=\"key\">Brand</span><span class=\"value\">RadioMaster</span>
-\t\t\t</li>
-\t\t\t<li>
-\t\t\t\t<span class=\"key\">Brand</span><span class=\"value\">RadioMaster</span>
-\t\t\t</li>
+\t\t\t{% endfor %}
 \t\t</ul>
+\t\t{% endif %}
 \t\t<p class=\"text-20\">Description</p>
 \t\t<div class=\"divider\"></div>
 \t\t<p class=\"text-16\">
@@ -435,7 +518,7 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
 \t\t<div class=\"price block\">
 \t\t\t<p class=\"text-32\">{{ product.price_formatted }} uah</p>
 \t\t\t<p class=\"text-16 availability\">{% if product.stock_text > 0 %}In Stock{% else %}Out of Stock{% endif %}</p>
-\t\t\t<ui-button class=\"add-to-cart\">
+\t\t\t<ui-button class=\"add-to-cart\" data-product-id=\"{{ product.product_id }}\">
 \t\t\t\t<img slot=\"icon\" style=\"display: block; width: 32px; height: 32px; object-fit: contain\"
 \t\t\t\t\tsrc=\"{{ server }}image/icons/cart.svg\" alt=\"Cart\" />
 \t\t\t\t<span slot=\"text\">Add to cart </span>
@@ -613,6 +696,70 @@ class __TwigTemplate_9bff4839d072225e7981122a54f75ba9 extends Template
 \t\tconst card = event.target.closest('.product-card[data-product-url]');
 \t\tif (card) {
 \t\t\twindow.location.href = card.getAttribute('data-product-url');
+\t\t}
+\t});
+
+\t// Add to cart functionality
+\tdocument.addEventListener('DOMContentLoaded', function() {
+\t\tconst addToCartBtn = document.querySelector('.add-to-cart');
+\t\tif (addToCartBtn) {
+\t\t\taddToCartBtn.addEventListener('click', function(e) {
+\t\t\t\te.preventDefault();
+\t\t\t\t
+\t\t\t\tconst productId = {{ product.product_id }};
+\t\t\t\tconst addToCartUrl = '{{ url_cart_add }}';
+\t\t\t\t
+\t\t\t\tif (!addToCartUrl) {
+\t\t\t\t\tconsole.error('Cart add URL not available');
+\t\t\t\t\talert('Cart functionality is not available');
+\t\t\t\t\treturn;
+\t\t\t\t}
+
+\t\t\t\t// Disable button during request
+\t\t\t\tconst originalText = addToCartBtn.querySelector('span[slot=\"text\"]')?.textContent || 'Add to cart';
+\t\t\t\tconst buttonText = addToCartBtn.querySelector('span[slot=\"text\"]');
+\t\t\t\tif (buttonText) {
+\t\t\t\t\tbuttonText.textContent = 'Adding...';
+\t\t\t\t}
+\t\t\t\taddToCartBtn.disabled = true;
+
+\t\t\t\tconst formData = new FormData();
+\t\t\t\tformData.append('product_id', productId);
+\t\t\t\tformData.append('quantity', 1);
+
+\t\t\t\tfetch(addToCartUrl, {
+\t\t\t\t\tmethod: 'POST',
+\t\t\t\t\tbody: formData
+\t\t\t\t})
+\t\t\t\t.then(response => response.json())
+\t\t\t\t.then(data => {
+\t\t\t\t\tif (data.success) {
+\t\t\t\t\t\tif (buttonText) {
+\t\t\t\t\t\t\tbuttonText.textContent = 'Added!';
+\t\t\t\t\t\t\tsetTimeout(() => {
+\t\t\t\t\t\t\t\tbuttonText.textContent = originalText;
+\t\t\t\t\t\t\t}, 2000);
+\t\t\t\t\t\t}
+
+\t\t\t\t\t\tconsole.log('Product added to cart:', data);
+\t\t\t\t\t} else if (data.error) {
+\t\t\t\t\t\talert(data.error);
+\t\t\t\t\t\tif (buttonText) {
+\t\t\t\t\t\t\tbuttonText.textContent = originalText;
+\t\t\t\t\t\t}
+\t\t\t\t\t}
+\t\t\t\t})
+\t\t\t\t.catch(error => {
+\t\t\t\t\tconsole.error('Error adding to cart:', error);
+\t\t\t\t\talert('Error adding product to cart');
+\t\t\t\t\tif (buttonText) {
+\t\t\t\t\t\tbuttonText.textContent = originalText;
+\t\t\t\t\t}
+\t\t\t\t})
+\t\t\t\t.finally(() => {
+\t\t\t\t\taddToCartBtn.disabled = false;
+\t\t\t\t});
+\t\t\t});
 \t\t}
 \t});
 </script>

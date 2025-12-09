@@ -50,24 +50,12 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
         yield "image/home/banner.png\" alt=\"Hero\">
 \t\t<div class=\"decor\"></div>
 \t\t<h1 class=\"text-white\">Drone parts built for any load</h1>
-\t\t<a href=\"";
-        // line 8
-        yield ($context["catalog_link"] ?? null);
-        yield "\" class=\"hero-cta\" data-oc-router=\"link\">
-\t\t\t<ui-button>
-\t\t\t\t<img slot=\"icon\" style=\"display: block; width: 100%; height: 100%; object-fit: contain;\"
-\t\t\t\t\tsrc=\"";
-        // line 11
-        yield ($context["server"] ?? null);
-        yield "image/icons/arrow-top-right.svg\" alt=\"Arrow Right\">
-\t\t\t\t<span slot=\"text\">See catalog
-\t\t\t\t</span>
-\t\t\t</ui-button>
-\t\t</a>
-\t</div>
+\t\t";
+        // line 16
+        yield "\t</div>
 </div>
 
-<div class=\"container products\">
+<div class=\"container products\" id=\"batteries\">
 \t<h3 class=\"products-title\">Batteries</h3>
 \t<div class=\"swiper products-swiper\">
 \t\t<div class=\"swiper-wrapper\">
@@ -85,31 +73,35 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
                 // line 26
                 yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "url_raw", [], "any", false, false, false, 26);
                 yield "\">
+\t\t\t\t\t<div class=\"wishlist-icon\"><img src=\"";
+                // line 27
+                yield ($context["server"] ?? null);
+                yield "image/icons/heart-yellow.svg\" alt=\"add to wishlist\"></div>
 \t\t\t\t\t<div class=\"product-image\">
 \t\t\t\t\t\t<img src=\"";
-                // line 28
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "image", [], "any", false, false, false, 28);
+                // line 29
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "image", [], "any", false, false, false, 29);
                 yield "\" alt=\"";
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 28);
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 29);
                 yield "\">
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"product-info\">
 \t\t\t\t\t\t<p class=\"availability text-16\">";
-                // line 31
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "availability", [], "any", false, false, false, 31);
+                // line 32
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "availability", [], "any", false, false, false, 32);
                 yield "</p>
 \t\t\t\t\t\t<h4 class=\"product-title\">";
-                // line 32
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 32);
+                // line 33
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 33);
                 yield "</h4>
 \t\t\t\t\t</div>
 \t\t\t\t\t<p class=\"text-16\">Model: ";
-                // line 34
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "model", [], "any", false, false, false, 34);
+                // line 35
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "model", [], "any", false, false, false, 35);
                 yield "</p>
 \t\t\t\t\t<p class=\"product-price text-32\">\$";
-                // line 35
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "price_formatted", [], "any", false, false, false, 35);
+                // line 36
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "price_formatted", [], "any", false, false, false, 36);
                 yield "</p>
 \t\t\t\t\t<ui-button-secondary class=\"product-button\">
 \t\t\t\t\t\t<span slot=\"text\">View product</span>
@@ -121,10 +113,10 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_key'], $context['product'], $context['_parent']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 42
+            // line 43
             yield "\t\t\t";
         } else {
-            // line 43
+            // line 44
             yield "\t\t\t<div class=\"swiper-slide\">
 \t\t\t\t<div class=\"product-card\">
 \t\t\t\t\t<div class=\"product-info\">
@@ -134,7 +126,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t\t</div>
 \t\t\t";
         }
-        // line 51
+        // line 52
         yield "\t\t</div>
 \t\t<div class=\"swiper-pagination\"></div>
 \t</div>
@@ -145,7 +137,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t<div class=\"grid\">
 \t\t<div class=\"item\">
 \t\t\t<div class=\"icon\"><img src=\"";
-        // line 60
+        // line 61
         yield ($context["server"] ?? null);
         yield "image/home/whyus/icon1.svg\" alt=\"Icon\"></div>
 \t\t\t<p class=\"text-20\">Our team of enthusiasts will help you choose the right part
@@ -153,7 +145,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t</div>
 \t\t<div class=\"item\">
 \t\t\t<div class=\"icon\"><img src=\"";
-        // line 65
+        // line 66
         yield ($context["server"] ?? null);
         yield "image/home/whyus/icon2.svg\" alt=\"Icon\"></div>
 \t\t\t<p class=\"text-20\">Verified batteries and controllers for stable flight
@@ -161,7 +153,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t</div>
 \t\t<div class=\"item\">
 \t\t\t<div class=\"icon\"><img src=\"";
-        // line 70
+        // line 71
         yield ($context["server"] ?? null);
         yield "image/home/whyus/icon3.svg\" alt=\"Icon\"></div>
 \t\t\t<p class=\"text-20\">Fast shipping and money-back guarantee
@@ -170,49 +162,53 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t</div>
 </div>
 
-<div class=\"container products\">
+<div class=\"container products\" id=\"controllers\">
 \t<h3 class=\"products-title\">Controllers</h3>
 \t<div class=\"swiper products-swiper\">
 \t\t<div class=\"swiper-wrapper\">
 \t\t\t";
-        // line 81
+        // line 82
         if (($context["controller_products"] ?? null)) {
-            // line 82
+            // line 83
             yield "\t\t\t";
             $context['_parent'] = $context;
             $context['_seq'] = CoreExtension::ensureTraversable(($context["controller_products"] ?? null));
             foreach ($context['_seq'] as $context["_key"] => $context["product"]) {
-                // line 83
+                // line 84
                 yield "\t\t\t<div class=\"swiper-slide\">
 \t\t\t\t<div class=\"product-card\" data-product-url=\"";
-                // line 84
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "url_raw", [], "any", false, false, false, 84);
+                // line 85
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "url_raw", [], "any", false, false, false, 85);
                 yield "\">
+\t\t\t\t\t<div class=\"wishlist-icon\"><img src=\"";
+                // line 86
+                yield ($context["server"] ?? null);
+                yield "image/icons/heart-yellow.svg\" alt=\"add to wishlist\"></div>
 \t\t\t\t\t<div class=\"product-image\">
 \t\t\t\t\t\t<img src=\"";
-                // line 86
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "image", [], "any", false, false, false, 86);
+                // line 88
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "image", [], "any", false, false, false, 88);
                 yield "\" alt=\"";
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 86);
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 88);
                 yield "\">
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"product-info\">
 \t\t\t\t\t\t<p class=\"availability text-16\">";
-                // line 89
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "availability", [], "any", false, false, false, 89);
+                // line 91
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "availability", [], "any", false, false, false, 91);
                 yield "</p>
 \t\t\t\t\t\t<h4 class=\"product-title\">";
-                // line 90
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 90);
+                // line 92
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 92);
                 yield "</h4>
 \t\t\t\t\t</div>
 \t\t\t\t\t<p class=\"text-16\">Model: ";
-                // line 92
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "model", [], "any", false, false, false, 92);
+                // line 94
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "model", [], "any", false, false, false, 94);
                 yield "</p>
 \t\t\t\t\t<p class=\"product-price text-32\">\$";
-                // line 93
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "price_formatted", [], "any", false, false, false, 93);
+                // line 95
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["product"], "price_formatted", [], "any", false, false, false, 95);
                 yield "</p>
 \t\t\t\t\t<ui-button-secondary class=\"product-button\">
 \t\t\t\t\t\t<span slot=\"text\">View product</span>
@@ -224,10 +220,10 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_key'], $context['product'], $context['_parent']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 100
+            // line 102
             yield "\t\t\t";
         } else {
-            // line 101
+            // line 103
             yield "\t\t\t<div class=\"swiper-slide\">
 \t\t\t\t<div class=\"product-card\">
 \t\t\t\t\t<div class=\"product-info\">
@@ -237,7 +233,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t\t</div>
 \t\t\t";
         }
-        // line 109
+        // line 111
         yield "\t\t</div>
 \t\t<div class=\"swiper-pagination\"></div>
 \t</div>
@@ -245,7 +241,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 
 <div class=\"container wide reliability-drones\">
 \t<img class=\"image\" src=\"";
-        // line 115
+        // line 117
         yield ($context["server"] ?? null);
         yield "image/home/reabilitydrones.png\" alt=\"bg\">
 \t<div class=\"text\">
@@ -254,16 +250,9 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t\t<p class=\"text-40\">Reliability for Your Drones</p>
 \t\t\t<p class=\"text-24\">We provide proven solutions for heavy-duty use. Our team of enthusiasts tests every component
 \t\t\t\tto ensure your drone always performs reliably.</p>
-\t\t\t<ui-button is-white>
-\t\t\t\t<img slot=\"icon\" style=\"display: block; width: 100%; height: 100%; object-fit: contain; filter: invert(1);\"
-\t\t\t\t\tsrc=\"";
-        // line 124
-        yield ($context["server"] ?? null);
-        yield "image/icons/arrow-top-right.svg\" alt=\"Arrow Right\">
-\t\t\t\t<span slot=\"text\">See catalog
-\t\t\t\t</span>
-\t\t\t</ui-button>
-\t\t</div>
+\t\t\t";
+        // line 130
+        yield "\t\t</div>
 \t</div>
 </div>
 
@@ -274,7 +263,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t\treturn;
 \t\t}
 
-\t\tconst productsSwiper = new Swiper('.products-swiper', {
+\t\tnew Swiper('.products-swiper', {
 \t\t\tslidesPerView: 3.5,
 \t\t\tspaceBetween: 24,
 \t\t\tloop: false,
@@ -302,10 +291,33 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t});
 \t}
 
-\tif (document.readyState === 'loading') {
-\t\tdocument.addEventListener('DOMContentLoaded', initProductsSwiper);
-\t} else {
+\tfunction initWishlistIcons() {
+\t\tconst wishlistIcons = document.querySelectorAll('.products .wishlist-icon');
+
+\t\twishlistIcons.forEach((icon) => {
+\t\t\ticon.addEventListener('click', (event) => {
+\t\t\t\tevent.preventDefault();
+\t\t\t\tevent.stopPropagation();
+
+\t\t\t\tconst heart = icon.querySelector('img');
+\t\t\t\tif (heart) {
+\t\t\t\t\theart.classList.toggle('active');
+\t\t\t\t}
+
+\t\t\t\ticon.classList.toggle('is-active');
+\t\t\t});
+\t\t});
+\t}
+
+\tfunction initHomePage() {
 \t\tinitProductsSwiper();
+\t\tinitWishlistIcons();
+\t}
+
+\tif (document.readyState === 'loading') {
+\t\tdocument.addEventListener('DOMContentLoaded', initHomePage);
+\t} else {
+\t\tinitHomePage();
 \t}
 
 \tdocument.addEventListener('click', function (event) {
@@ -317,7 +329,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 </script>
 
 ";
-        // line 181
+        // line 206
         yield ($context["footer"] ?? null);
         yield from [];
     }
@@ -343,7 +355,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  321 => 181,  261 => 124,  249 => 115,  241 => 109,  231 => 101,  228 => 100,  215 => 93,  211 => 92,  206 => 90,  202 => 89,  194 => 86,  189 => 84,  186 => 83,  181 => 82,  179 => 81,  165 => 70,  157 => 65,  149 => 60,  138 => 51,  128 => 43,  125 => 42,  112 => 35,  108 => 34,  103 => 32,  99 => 31,  91 => 28,  86 => 26,  83 => 25,  78 => 24,  76 => 23,  61 => 11,  55 => 8,  49 => 5,  42 => 1,);
+        return array (  333 => 206,  255 => 130,  245 => 117,  237 => 111,  227 => 103,  224 => 102,  211 => 95,  207 => 94,  202 => 92,  198 => 91,  190 => 88,  185 => 86,  181 => 85,  178 => 84,  173 => 83,  171 => 82,  157 => 71,  149 => 66,  141 => 61,  130 => 52,  120 => 44,  117 => 43,  104 => 36,  100 => 35,  95 => 33,  91 => 32,  83 => 29,  78 => 27,  74 => 26,  71 => 25,  66 => 24,  64 => 23,  55 => 16,  49 => 5,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -355,18 +367,18 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t<img class=\"image\" src=\"{{ server }}image/home/banner.png\" alt=\"Hero\">
 \t\t<div class=\"decor\"></div>
 \t\t<h1 class=\"text-white\">Drone parts built for any load</h1>
-\t\t<a href=\"{{ catalog_link }}\" class=\"hero-cta\" data-oc-router=\"link\">
+\t\t{# <a href=\"{{ catalog_link }}\" class=\"hero-cta\" data-oc-router=\"link\">
 \t\t\t<ui-button>
 \t\t\t\t<img slot=\"icon\" style=\"display: block; width: 100%; height: 100%; object-fit: contain;\"
 \t\t\t\t\tsrc=\"{{ server }}image/icons/arrow-top-right.svg\" alt=\"Arrow Right\">
 \t\t\t\t<span slot=\"text\">See catalog
 \t\t\t\t</span>
 \t\t\t</ui-button>
-\t\t</a>
+\t\t</a> #}
 \t</div>
 </div>
 
-<div class=\"container products\">
+<div class=\"container products\" id=\"batteries\">
 \t<h3 class=\"products-title\">Batteries</h3>
 \t<div class=\"swiper products-swiper\">
 \t\t<div class=\"swiper-wrapper\">
@@ -374,6 +386,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t\t{% for product in battery_products %}
 \t\t\t<div class=\"swiper-slide\">
 \t\t\t\t<div class=\"product-card\" data-product-url=\"{{ product.url_raw }}\">
+\t\t\t\t\t<div class=\"wishlist-icon\"><img src=\"{{ server }}image/icons/heart-yellow.svg\" alt=\"add to wishlist\"></div>
 \t\t\t\t\t<div class=\"product-image\">
 \t\t\t\t\t\t<img src=\"{{ product.image }}\" alt=\"{{ product.name }}\">
 \t\t\t\t\t</div>
@@ -424,7 +437,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t</div>
 </div>
 
-<div class=\"container products\">
+<div class=\"container products\" id=\"controllers\">
 \t<h3 class=\"products-title\">Controllers</h3>
 \t<div class=\"swiper products-swiper\">
 \t\t<div class=\"swiper-wrapper\">
@@ -432,6 +445,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t\t{% for product in controller_products %}
 \t\t\t<div class=\"swiper-slide\">
 \t\t\t\t<div class=\"product-card\" data-product-url=\"{{ product.url_raw }}\">
+\t\t\t\t\t<div class=\"wishlist-icon\"><img src=\"{{ server }}image/icons/heart-yellow.svg\" alt=\"add to wishlist\"></div>
 \t\t\t\t\t<div class=\"product-image\">
 \t\t\t\t\t\t<img src=\"{{ product.image }}\" alt=\"{{ product.name }}\">
 \t\t\t\t\t</div>
@@ -469,12 +483,12 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t\t<p class=\"text-40\">Reliability for Your Drones</p>
 \t\t\t<p class=\"text-24\">We provide proven solutions for heavy-duty use. Our team of enthusiasts tests every component
 \t\t\t\tto ensure your drone always performs reliably.</p>
-\t\t\t<ui-button is-white>
+\t\t\t{# <ui-button is-white>
 \t\t\t\t<img slot=\"icon\" style=\"display: block; width: 100%; height: 100%; object-fit: contain; filter: invert(1);\"
 \t\t\t\t\tsrc=\"{{ server }}image/icons/arrow-top-right.svg\" alt=\"Arrow Right\">
 \t\t\t\t<span slot=\"text\">See catalog
 \t\t\t\t</span>
-\t\t\t</ui-button>
+\t\t\t</ui-button> #}
 \t\t</div>
 \t</div>
 </div>
@@ -486,7 +500,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t\treturn;
 \t\t}
 
-\t\tconst productsSwiper = new Swiper('.products-swiper', {
+\t\tnew Swiper('.products-swiper', {
 \t\t\tslidesPerView: 3.5,
 \t\t\tspaceBetween: 24,
 \t\t\tloop: false,
@@ -514,10 +528,33 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
 \t\t});
 \t}
 
-\tif (document.readyState === 'loading') {
-\t\tdocument.addEventListener('DOMContentLoaded', initProductsSwiper);
-\t} else {
+\tfunction initWishlistIcons() {
+\t\tconst wishlistIcons = document.querySelectorAll('.products .wishlist-icon');
+
+\t\twishlistIcons.forEach((icon) => {
+\t\t\ticon.addEventListener('click', (event) => {
+\t\t\t\tevent.preventDefault();
+\t\t\t\tevent.stopPropagation();
+
+\t\t\t\tconst heart = icon.querySelector('img');
+\t\t\t\tif (heart) {
+\t\t\t\t\theart.classList.toggle('active');
+\t\t\t\t}
+
+\t\t\t\ticon.classList.toggle('is-active');
+\t\t\t});
+\t\t});
+\t}
+
+\tfunction initHomePage() {
 \t\tinitProductsSwiper();
+\t\tinitWishlistIcons();
+\t}
+
+\tif (document.readyState === 'loading') {
+\t\tdocument.addEventListener('DOMContentLoaded', initHomePage);
+\t} else {
+\t\tinitHomePage();
 \t}
 
 \tdocument.addEventListener('click', function (event) {

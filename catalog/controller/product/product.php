@@ -23,20 +23,21 @@ class Product extends \Opencart\System\Engine\Controller {
 		$description_text = strip_tags($product['description']);
 		$this->document->setDescription(substr($description_text, 0, 155));
 
-		$currency_code = $this->config->get('config_currency');
-		if ($this->registry->has('session')) {
-			$session = $this->registry->get('session');
-			if (!empty($session->data['currency'])) {
-				$currency_code = $session->data['currency'];
-			}
-		}
-
 		$currency = $this->registry->has('currency') ? $this->registry->get('currency') : null;
-		$price_formatted = $currency ? $currency->format((float)$product['price'], $currency_code) : $currency_code . ' ' . number_format((float)$product['price'], 2);
+		if ($currency) {
+			$price_formatted = number_format((float)$product['price'], 2);
+			if (empty($price_formatted)) {
+				$price_formatted = number_format((float)$product['price'], 2);
+			}
+		} else {
+			$price_formatted = number_format((float)$product['price'], 2);
+		}
 
 		$data = [];
 		$data['server'] = HTTP_SERVER;
 		$product_images = $this->getProductImages($product['product_id'], $product['image_full']);
+
+		$custom_fields = $this->getCustomFields($product['product_id']);
 
 		$data['product'] = [
 			'product_id'      => $product['product_id'],
@@ -48,14 +49,14 @@ class Product extends \Opencart\System\Engine\Controller {
 			'availability'    => $product['quantity'] > 0 ? 'In stock' : 'Out of stock',
 			'stock_text'      => $product['quantity'] > 0 ? $product['quantity'] . ' units available' : 'Backorder available',
 			'category'        => $product['category_name'],
-			'highlights'      => $this->buildHighlights($product),
-			'specs'           => $this->buildSpecs($product)
+			'custom_fields'   => $custom_fields
 		];
 
 		$data['product_images'] = $product_images;
 		$data['related_products'] = $this->getRelatedProducts($product['category_id'], $product['product_id']);
-				$data['battery_products'] = $this->getProductsByCategoryName('Batteries', 5);
+		$data['battery_products'] = $this->getProductsByCategoryName('Batteries', 5);
 
+		$data['url_cart_add'] = $this->url->link('cart/cart.add', '', true);
 
 		$data['header'] = $this->load->controller('common/header');
 		$data['footer'] = $this->load->controller('common/footer');
@@ -126,24 +127,6 @@ class Product extends \Opencart\System\Engine\Controller {
 		return $this->getProduct((int)$query->row['product_id']);
 	}
 
-	protected function buildHighlights(array $product): array {
-		$highlights = [];
-		$highlights[] = 'Model ' . ($product['model'] ?: 'N/A');
-		$highlights[] = $product['quantity'] > 0 ? 'Ships within 24h' : 'Production lead time 3-5 days';
-		$highlights[] = 'Category: ' . $product['category_name'];
-
-		return $highlights;
-	}
-
-	protected function buildSpecs(array $product): array {
-		return [
-			['label' => 'SKU', 'value' => 'SKY-' . str_pad((string)$product['product_id'], 4, '0', STR_PAD_LEFT)],
-			['label' => 'Model', 'value' => $product['model'] ?: '—'],
-			['label' => 'Category', 'value' => $product['category_name']],
-			['label' => 'Availability', 'value' => $product['quantity'] > 0 ? 'In stock' : 'Backorder'],
-		];
-	}
-
 	protected function getRelatedProducts(int $category_id, int $exclude_id): array {
 		$language_id = (int)$this->config->get('config_language_id');
 		$currency_code = $this->config->get('config_currency');
@@ -171,7 +154,7 @@ class Product extends \Opencart\System\Engine\Controller {
 
 		foreach ($query->rows as $row) {
 			$imagePath = $row['image'] ?: 'catalog/products/controller-default.png';
-			$price_formatted = $currency ? $currency->format((float)$row['price'], $currency_code) : $currency_code . ' ' . number_format((float)$row['price'], 2);
+			$price_formatted = number_format((float)$row['price'], 2);
 			$items[] = [
 				'product_id' => (int)$row['product_id'],
 				'name'       => $row['name'],
@@ -183,14 +166,6 @@ class Product extends \Opencart\System\Engine\Controller {
 		return $items;
 	}
 
-	/**
-	 * Получаем все изображения продукта (главное + из product_image)
-	 *
-	 * @param int    $product_id
-	 * @param string $main_image
-	 *
-	 * @return array<int, string>
-	 */
 	protected function getProductImages(int $product_id, string $main_image): array {
 		$images = [];
 
@@ -213,18 +188,9 @@ class Product extends \Opencart\System\Engine\Controller {
 			$images[] = rtrim(HTTP_SERVER, '/') . '/image/' . ltrim($row['image'], '/');
 		}
 
-		// Удаляем дубликаты и переиндексируем
 		return array_values(array_unique($images));
 	}
 
-		/**
-	 * Fetch products for the homepage slider by category name
-	 *
-	 * @param string $categoryName
-	 * @param int    $limit
-	 *
-	 * @return array<int, array<string, mixed>>
-	 */
 	protected function getProductsByCategoryName(string $categoryName, int $limit = 5): array {
 		$language_id = (int)$this->config->get('config_language_id') ?: 1;
 		$category_id = $this->getCategoryIdByName($categoryName);
@@ -268,11 +234,15 @@ class Product extends \Opencart\System\Engine\Controller {
 			$imagePath = $row['image'] ?: $fallback;
 			$imageUrl = rtrim(HTTP_SERVER, '/') . '/image/' . ltrim($imagePath, '/');
 
-			if ($currency) {
-				$price_formatted = $currency->format((float)$row['price'], $currency_code);
-			} else {
-				$price_formatted = $currency_code . ' ' . number_format((float)$row['price'], 2);
-			}
+            $currency = $this->registry->has('currency') ? $this->registry->get('currency') : null;
+            if ($currency) {
+                $price_formatted = number_format((float)$row['price'], 2);
+                if (empty($price_formatted)) {
+                    $price_formatted = number_format((float)$row['price'], 2);
+                }
+            } else {
+                $price_formatted = number_format((float)$row['price'], 2);
+            }
 
 			$product_url = $this->url->link('product/product', 'product_id=' . (int)$row['product_id']);
 			$product_url_raw = $this->url->link('product/product', 'product_id=' . (int)$row['product_id'], true);
@@ -294,13 +264,6 @@ class Product extends \Opencart\System\Engine\Controller {
 		return $products;
 	}
 
-
-		/**
-	 * Resolve category id by name
-	 *
-	 * @param string $categoryName
-	 * @return int|null
-	 */
 	protected function getCategoryIdByName(string $categoryName): ?int {
 		$language_id = (int)$this->config->get('config_language_id') ?: 1;
 
@@ -317,6 +280,25 @@ class Product extends \Opencart\System\Engine\Controller {
 		}
 
 		return null;
+	}
+
+	protected function getCustomFields(int $product_id): array {
+		$query = $this->db->query("
+			SELECT field_key, field_value 
+			FROM `" . DB_PREFIX . "product_custom_field` 
+			WHERE product_id = '" . (int)$product_id . "' 
+			ORDER BY sort_order ASC, field_key ASC
+		");
+
+		$custom_fields = [];
+		foreach ($query->rows as $row) {
+			$custom_fields[] = [
+				'key'   => $row['field_key'],
+				'value' => $row['field_value']
+			];
+		}
+
+		return $custom_fields;
 	}
 
 }
